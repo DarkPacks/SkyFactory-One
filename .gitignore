@@ -1,0 +1,17 @@
+# Dev mods
+src/config/tellme.*
+src/config/tellme/*
+src/config/worldstripper-common.toml
+
+# Client configs
+# These are ones we feel the user should be customizing, not us.
+src/config/jei/bookmarks.ini
+
+# Journeymap
+# Configs/etc in journeymap that are not necessary to be version controlled
+src/journeymap/data/*
+src/journeymap/server/*
+src/journeymap/journeymap.log
+
+# Mod Junk
+src/config/byg/README.txt
