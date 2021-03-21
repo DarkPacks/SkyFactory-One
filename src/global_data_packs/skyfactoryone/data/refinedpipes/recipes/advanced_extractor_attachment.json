@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "QDQ",
+    "DPD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "P": {
+      "item": "refinedpipes:improved_extractor_attachment"
+    }
+  },
+  "result": {
+    "item": "refinedpipes:advanced_extractor_attachment"
+  }
+}

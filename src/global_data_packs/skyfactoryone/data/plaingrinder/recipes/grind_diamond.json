@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/diamond"
+  },
+  "result": {
+    "item": "thermal:diamond_dust",
+    "count": 1
+  }
+}

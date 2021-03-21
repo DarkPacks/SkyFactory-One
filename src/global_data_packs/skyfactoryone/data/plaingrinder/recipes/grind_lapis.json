@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/lapis"
+  },
+  "result": {
+    "item": "thermal:lapis_dust",
+    "count": 1
+  }
+}

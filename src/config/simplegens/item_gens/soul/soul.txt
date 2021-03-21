@@ -1,0 +1,6 @@
+┏╸ma:soul
+┃┏╸bo:enabled
+┃┣> Variable Type: java.lang.Boolean
+┃┣> Default: true
+┃┗╸
+┗╸

@@ -1,0 +1,16 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crumbs:cobbled_diorite_slab"
+    },
+    {
+      "item": "crumbs:cobbled_diorite_slab"
+    }
+  ],
+  "result":{
+    "item": "crumbs:cobbled_diorite",
+    "count": 1
+  }
+}

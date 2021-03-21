@@ -1,0 +1,15 @@
+{
+  "x": -180,
+  "y": -42,
+  "width": 98,
+  "height": 20,
+  "langKey": "fml.menu.mods",
+  "action": "OPEN_GUI",
+  "data": "MODS",
+  "u": 0,
+  "v": 0,
+  "hoverU": 0,
+  "hoverV": 20,
+      "anchor": "MIDDLE_RIGHT",
+  "texture": "packmenu:textures/gui/shortbutton.png"
+}

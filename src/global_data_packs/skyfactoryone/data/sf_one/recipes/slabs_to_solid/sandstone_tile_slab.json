@@ -1,0 +1,16 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crumbs:sandstone_tile_slab"
+    },
+    {
+      "item": "crumbs:sandstone_tile_slab"
+    }
+  ],
+  "result":{
+    "item": "crumbs:sandstone_tile",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ti ",
+    " t ",
+    " t "
+  ],
+  "key": {
+    "t": {
+      "item": "minecraft:stick"
+    },
+    "i": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "plaingrinder:handle",
+    "count": 1
+  }
+}

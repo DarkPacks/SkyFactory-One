@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "pipez:improved_upgrade"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "tconstruct:molten_lead",
+    "amount": 288
+  },
+  "result": "pipez:advanced_upgrade",
+  "cooling_time": 65
+}

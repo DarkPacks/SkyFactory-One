@@ -1,0 +1,18 @@
+
+#General settings
+[plaingrinder]
+	#
+	#How many stages (player uses) trigger a recipe. Each stage is one cardinal direction, meaning 4 stages is one full rotation
+	#Range: 1 ~ 444
+	stagesPerRecipe = 20
+	#
+	#True means automation is allowed as normal; false will disable the capabilities so hoppers, cables, pipes will not connect
+	allowAutomation = false
+	#
+	#How many ticks must be in between two player interactions; this is the cooldown in between spins at maximum speed (20 ticks in one second)
+	#Range: 1 ~ 80
+	timerCooldown = 7
+	#
+	#Can the handle break if its used too many times while the input is empty
+	breakableHandle = true
+

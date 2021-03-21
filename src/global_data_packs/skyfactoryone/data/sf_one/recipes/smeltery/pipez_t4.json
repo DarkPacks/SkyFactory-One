@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "pipez:advanced_upgrade"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "tconstruct:molten_invar",
+    "amount": 288
+  },
+  "result": "pipez:ultimate_upgrade",
+  "cooling_time": 65
+}

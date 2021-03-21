@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ingots/iron"
+  },
+  "result": {
+    "item": "thermal:iron_dust",
+    "count": 1
+  }
+}

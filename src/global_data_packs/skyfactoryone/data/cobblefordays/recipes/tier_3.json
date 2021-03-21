@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RZR",
+    "WGL",
+    "DBD"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    },
+    "G": {
+      "tag": "forge:glass/colorless"
+    },
+    "R": {
+      "tag": "forge:storage_blocks/iron"
+    },
+    "D": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "minecraft:redstone_block"
+    },
+    "Z": {
+      "item": "compressium:cobblestone_4"
+    }
+  },
+  "result": {
+    "item": "cobblefordays:tier_3"
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crumbs:acacia_tile_slab"
+    },
+    {
+      "item": "crumbs:acacia_tile_slab"
+    }
+  ],
+  "result":{
+    "item": "crumbs:acacia_tile",
+    "count": 1
+  }
+}

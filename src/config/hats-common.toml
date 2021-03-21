@@ -1,0 +1,6 @@
+
+#These options are general options that don't fit any other category.
+[general]
+	#(Not currently used, defaults to on currently) Should we attempt to fix hats made in the older versions of Tabula?
+	attemptToFixOldHats = true
+

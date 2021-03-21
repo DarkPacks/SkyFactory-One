@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "minecraft:sand"
+  },
+  "result": [
+    {
+      "item": "exnihilosequentia:dust",
+      "chance": 1.0
+    }
+  ]
+}

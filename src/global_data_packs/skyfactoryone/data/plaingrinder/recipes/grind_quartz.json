@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/quartz"
+  },
+  "result": {
+    "item": "minecraft:quartz",
+    "count": 2
+  }
+}

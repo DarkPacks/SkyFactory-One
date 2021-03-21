@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "crumbs:spruce_crafting_table",
+      "required": false
+    },
+    {
+      "id": "crumbs:birch_crafting_table",
+      "required": false
+    },
+    {
+      "id": "crumbs:jungle_crafting_table",
+      "required": false
+    },
+    {
+      "id": "crumbs:acacia_crafting_table",
+      "required": false
+    },
+    {
+      "id": "crumbs:dark_oak_crafting_table",
+      "required": false
+    },
+    {
+      "id": "crumbs:crimson_crafting_table",
+      "required": false
+    },
+    {
+      "id": "crumbs:warped_crafting_table",
+      "required": false
+    },
+    {
+      "id": "tconstruct:crafting_station",
+      "required": false
+    },
+    {
+      "id": "minecraft:crafting_table",
+      "required": false
+    }
+  ]
+}

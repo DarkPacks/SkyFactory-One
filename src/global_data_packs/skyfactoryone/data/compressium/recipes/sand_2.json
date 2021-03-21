@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "compressium:sand_1"
+    }
+  },
+  "result": {
+    "item": "compressium:sand_2"
+  }
+}

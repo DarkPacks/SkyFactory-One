@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "plaingrinder:dust_quartz"
+  },
+  "result": "minecraft:quartz",
+  "experience": 1.0,
+  "cookingtime": 200
+}

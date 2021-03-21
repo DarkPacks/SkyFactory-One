@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "pipez:basic_upgrade"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "tconstruct:molten_gold",
+    "amount": 288
+  },
+  "result": "pipez:improved_upgrade",
+  "cooling_time": 65
+}

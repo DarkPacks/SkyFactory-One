@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/tin"
+  },
+  "result": {
+    "item": "thermal:tin_dust",
+    "count": 2
+  }
+}

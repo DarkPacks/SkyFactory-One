@@ -1,0 +1,16 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crumbs:jungle_tile_slab"
+    },
+    {
+      "item": "crumbs:jungle_tile_slab"
+    }
+  ],
+  "result":{
+    "item": "crumbs:jungle_tile",
+    "count": 1
+  }
+}

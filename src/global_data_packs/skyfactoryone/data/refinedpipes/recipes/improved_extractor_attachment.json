@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "III",
+    "IPI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:gold_ingot"
+    },
+    "P": {
+      "item": "refinedpipes:basic_extractor_attachment"
+    }
+  },
+  "result": {
+    "item": "refinedpipes:improved_extractor_attachment"
+  }
+}

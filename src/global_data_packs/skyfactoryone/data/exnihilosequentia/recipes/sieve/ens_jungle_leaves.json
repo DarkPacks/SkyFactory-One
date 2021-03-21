@@ -1,0 +1,15 @@
+{
+  "type": "exnihilosequentia:sieve",
+  "rolls": [
+    {
+      "chance": 0.025,
+      "mesh": "string"
+    }
+  ],
+  "input": {
+    "item": "minecraft:jungle_leaves"
+  },
+  "result": {
+    "item": "minecraft:jungle_sapling"
+  }
+}

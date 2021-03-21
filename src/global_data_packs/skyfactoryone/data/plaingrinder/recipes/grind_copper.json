@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/copper"
+  },
+  "result": {
+    "item": "thermal:copper_dust",
+    "count": 2
+  }
+}

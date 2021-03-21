@@ -1,0 +1,6 @@
+
+#Server configuration
+[server]
+	#A list of item registry names that are not allowed in ender bags.  Format is modid:name.
+	blacklist = ["ender_bags:white_bag", "ender_bags:orange_bag", "ender_bags:magenta_bag", "ender_bags:light_blue_bag", "ender_bags:yellow_bag", "ender_bags:lime_bag", "ender_bags:pink_bag", "ender_bags:gray_bag", "ender_bags:light_gray_bag", "ender_bags:cyan_bag", "ender_bags:purple_bag", "ender_bags:blue_bag", "ender_bags:brown_bag", "ender_bags:green_bag", "ender_bags:red_bag", "ender_bags:black_bag"]
+

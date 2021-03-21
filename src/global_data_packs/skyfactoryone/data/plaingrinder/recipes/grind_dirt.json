@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "minecraft:coarse_dirt"
+  },
+  "result": {
+    "item": "minecraft:dirt",
+    "count": 1
+  }
+}

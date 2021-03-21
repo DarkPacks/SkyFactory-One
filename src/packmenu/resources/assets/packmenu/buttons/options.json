@@ -1,0 +1,15 @@
+{
+  "x": -180,
+  "y": -17,
+  "width": 98,
+  "height": 20,
+  "langKey": "menu.options",
+  "action": "OPEN_GUI",
+  "data": "OPTIONS",
+  "u": 0,
+  "v": 0,
+  "hoverU": 0,
+  "hoverV": 20,
+    "anchor": "MIDDLE_RIGHT",
+  "texture": "packmenu:textures/gui/shortbutton.png"
+}

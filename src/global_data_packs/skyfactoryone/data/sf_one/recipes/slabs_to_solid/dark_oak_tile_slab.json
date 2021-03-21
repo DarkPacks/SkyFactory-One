@@ -1,0 +1,16 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crumbs:dark_oak_tile_slab"
+    },
+    {
+      "item": "crumbs:dark_oak_tile_slab"
+    }
+  ],
+  "result":{
+    "item": "crumbs:dark_oak_tile",
+    "count": 1
+  }
+}

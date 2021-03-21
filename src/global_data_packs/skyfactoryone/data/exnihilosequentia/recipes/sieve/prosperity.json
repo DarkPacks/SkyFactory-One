@@ -1,0 +1,15 @@
+{
+  "type": "exnihilosequentia:sieve",
+  "rolls": [
+    {
+      "chance": 0.08,
+      "mesh": "string"
+    }
+  ],
+  "input": {
+    "tag": "minecraft:sand"
+  },
+  "result": {
+    "item": "mysticalagriculture:prosperity_shard"
+  }
+}

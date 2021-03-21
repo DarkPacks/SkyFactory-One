@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:andesite"
+    }
+  },
+  "result": {
+    "item": "exnihilosequentia:pebble_andesite",
+    "count": 4
+  }
+}

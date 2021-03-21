@@ -1,0 +1,16 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:gravel"
+  },
+  "result": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "exnihilosequentia:dust",
+      "chance": 0.2
+    }
+  ],
+  "experience": 0.5
+}

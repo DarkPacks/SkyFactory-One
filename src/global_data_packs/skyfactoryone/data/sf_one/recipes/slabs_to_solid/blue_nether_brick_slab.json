@@ -1,0 +1,16 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crumbs:blue_nether_brick_slab"
+    },
+    {
+      "item": "crumbs:blue_nether_brick_slab"
+    }
+  ],
+  "result":{
+    "item": "crumbs:blue_nether_bricks",
+    "count": 1
+  }
+}

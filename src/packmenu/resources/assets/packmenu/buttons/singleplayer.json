@@ -1,0 +1,15 @@
+{
+  "x": -180,
+  "y": -92,
+  "width": 98,
+  "height": 20,
+  "langKey": "menu.singleplayer",
+  "u": 0,
+  "v": 0,
+  "hoverU": 0,
+  "hoverV": 20,
+  "anchor": "MIDDLE_RIGHT",
+  "action": "OPEN_GUI",
+  "data": "SINGLEPLAYER",
+  "texture": "packmenu:textures/gui/shortbutton.png"
+}

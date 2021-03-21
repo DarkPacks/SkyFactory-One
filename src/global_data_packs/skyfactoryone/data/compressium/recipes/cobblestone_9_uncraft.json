@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressium:cobblestone_9"
+    }
+  ],
+  "result": {
+    "item": "compressium:cobblestone_8",
+    "count": 9
+  }
+}

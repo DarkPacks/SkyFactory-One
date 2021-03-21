@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:granite"
+    }
+  },
+  "result": {
+    "item": "exnihilosequentia:pebble_granite",
+    "count": 4
+  }
+}

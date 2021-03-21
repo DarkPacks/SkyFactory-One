@@ -1,0 +1,17 @@
+{
+  "x": -205,
+  "y": 8,
+  "width": 20,
+  "height": 20,
+  "u": 0,
+  "v": 0,
+  "anchor": "MIDDLE_RIGHT",
+  "hoverU": 0,
+  "hoverV": 20,
+  "texWidth": 20,
+  "texHeight": 40,
+  "widgets": false,
+  "action": "OPEN_GUI",
+  "texture": "packmenu:textures/gui/lang.png",
+  "data": "LANGUAGE"
+}

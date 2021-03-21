@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "cucumber:enabled",
+      "item": "pickletweaks:reinforced_watering_can"
+    }
+  ],
+  "pattern": [
+    " BD",
+    "DWD",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "W": {
+      "item": "mysticalagriculture:watering_can"
+    },
+    "B": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "item": "pickletweaks:reinforced_watering_can"
+  }
+}

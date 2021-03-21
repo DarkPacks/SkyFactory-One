@@ -1,0 +1,14 @@
+{
+  "x": -180,
+  "y": 8,
+  "width": 98,
+  "height": 20,
+  "langKey": "menu.quit",
+  "action": "QUIT",
+  "u": 0,
+  "v": 0,
+  "hoverU": 0,
+  "hoverV": 20,
+  "anchor": "MIDDLE_RIGHT",
+  "texture": "packmenu:textures/gui/shortbutton.png"
+}

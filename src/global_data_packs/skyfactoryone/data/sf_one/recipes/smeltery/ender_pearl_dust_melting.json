@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "thermal:ender_pearl_dust"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_ender",
+    "amount": 250
+  },
+  "temperature": 1000,
+  "time": 133
+}

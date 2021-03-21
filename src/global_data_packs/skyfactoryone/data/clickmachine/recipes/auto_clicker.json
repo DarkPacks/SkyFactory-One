@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    "tpt",
+    " r "
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:chest"
+    },
+    "p": {
+      "item": "minecraft:piston"
+    },
+    "t": {
+      "item": "thermal:tin_ingot"
+    },
+    "r": {
+      "item": "thermal:redstone_servo"
+    }
+  },
+  "result": {
+    "item": "clickmachine:auto_clicker"
+  }
+}

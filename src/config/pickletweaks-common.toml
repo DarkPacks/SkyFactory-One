@@ -1,0 +1,74 @@
+
+#Disable and configure tweaks.
+[Tweaks]
+	#Tools and weapons that should be ineffective.
+	#Ex: ["minecraft:stone_pickaxe", "minecraft:stone_sword"]
+	uselessTools = []
+	#Enabled tools not breaking?
+	toolBreaking = true
+
+#Crafting grid tool repair configuration options.
+["Grid Repair"]
+	#Makes it so shovels need 50% less material to repair.
+	cheapShovel = true
+	#How much material should be required to fully repair a tool.
+	#Range: 1 ~ 8
+	cost = 4
+	#Crafting grid repair removes all non-curse enchantments.
+	stripEnchantments = false
+	#Should default repair materials be disabled? Doing this makes it so ONLY the custom materials work.
+	disableDefaults = false
+	#Tools that should not be repairable in the crafting grid.
+	#Ex: ["minecraft:stone_pickaxe", "minecraft:stone_sword"]
+	blacklist = []
+	#Here you can specify custom repair materials for tools.
+	#Ex: ["minecraft:stone_shovel=minecraft:stick"]
+	#You can use tags for materials by doing tag:<tag-id>.
+	#Ex: ["minecraft:stone_shovel=tag:forge:ingots/iron"]
+	#You can specify how effective the material is by appending @<multiplier>
+	#Ex: ["minecraft:stone_shovel=minecraft:stick@0.5"]
+	overrides = ["exnihilosequentia:crook_wood=minecraft:stick@1", "exnihilosequentia:crook_wood=tag:minecraft:planks@2", "exnihilosequentia:crook_stone=exnihilosequentia:pebble_stone@1", "exnihilosequentia:crook_andesite=exnihilosequentia:pebble_andesite@1", "exnihilosequentia:crook_granite=exnihilosequentia:pebble_granite@1", "exnihilosequentia:crook_diorite=exnihilosequentia:pebble_diorite@1", "exnihilosequentia:crook_gold=minecraft:gold_nugget@1", "exnihilosequentia:crook_iron=minecraft:iron_nugget@1", "exnihilosequentia:crook_diamond=minecraft:diamond@1", "exnihilosequentia:crook_bone=minecraft:bone@1", "exnihilosequentia:crook_stone=minecraft:cobblestone@4", "exnihilosequentia:crook_andesite=minecraft:andesite@4", "exnihilosequentia:crook_granite=minecraft:granite@4", "exnihilosequentia:crook_diorite=minecraft:diorite@4", "exnihilosequentia:hammer_wood=tag:minecraft:planks@2", "exnihilosequentia:hammer_stone=tag:forge:cobblestone@2", "exnihilosequentia:hammer_iron=minecraft:iron_ingot@2", "exnihilosequentia:hammer_diamond=minecraft:diamond@2", "exnihilosequentia:hammer_netherite=minecraft:netherite_ingot@2", "exnihilosequentia:hammer_gold=minecraft:gold_ingot@2"]
+	#Should Crafting Grid Tool Repairing be enabled?
+	enabled = true
+	#Enabling this makes it so custom repair materials override the default ones for the tools specified.
+	overrideMode = true
+
+#General configuration options.
+[General]
+	#The effective radius of the Magnet.
+	#Range: 1.0 ~ 16.0
+	magnetRange = 7.0
+
+#Disable features.
+[Features]
+	#Enable Sickles?
+	sickles = false
+	#Dark Glass enabled?
+	darkGlass = true
+	#Enable Emerald tools and armor?
+	emeraldGear = false
+	#Colored Cobblestone enabled?
+	coloredCobblestone = true
+	#Watering Can enabled?
+	wateringCan = true
+	#Enable Paxels?
+	paxels = true
+	#Enable Night Vision Goggles?
+	nightVisionGoggles = true
+	#Enable Magnet?
+	magnet = true
+	#Coal and Charcoal Piece enabled?
+	coalPiece = true
+	#Enable Scythes?
+	scythes = false
+	#Enable Flint tools and armor?
+	flintGear = false
+	#Enable right click crop harvesting?
+	rightClickHarvest = true
+	#Smooth Glowstone enabled?
+	smoothGlowstone = true
+	#Diamond and Emerald Apples enabled?
+	apples = true
+	#Enable Meshes?
+	meshes = false
+

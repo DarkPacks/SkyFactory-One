@@ -1,0 +1,16 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crumbs:cobbled_andesite_slab"
+    },
+    {
+      "item": "crumbs:cobbled_andesite_slab"
+    }
+  ],
+  "result":{
+    "item": "crumbs:cobbled_andesite",
+    "count": 1
+  }
+}

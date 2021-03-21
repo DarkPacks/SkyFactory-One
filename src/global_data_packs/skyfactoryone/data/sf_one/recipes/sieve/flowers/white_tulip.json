@@ -1,0 +1,16 @@
+
+{
+  "type": "exnihilosequentia:sieve",
+  "rolls": [
+    {
+      "chance": 0.1,
+      "mesh": "string"
+    }
+  ],
+  "input": {
+    "item": "minecraft:coarse_dirt"
+  },
+  "result": {
+    "item": "minecraft:white_tulip"
+  }
+}

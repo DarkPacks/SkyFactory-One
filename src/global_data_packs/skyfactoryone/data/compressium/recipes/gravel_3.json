@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "compressium:gravel_2"
+    }
+  },
+  "result": {
+    "item": "compressium:gravel_3"
+  }
+}

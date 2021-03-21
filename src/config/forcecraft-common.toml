@@ -1,0 +1,15 @@
+
+#General settings
+[general]
+	#Print in Log when Time Torch is placed and by who. [Default: true]
+	timeTorchLogging = true
+	#The max amount of food stacks stored in the baconator [Default: 4]
+	#Range: > 1
+	baconatorMaxStacks = 4
+	#Enable Force Tree generation. [Default: true]
+	generateForceTree = true
+	#Enable Force Ore generation. [Default: true]
+	generateForceOre = true
+	#Enable Time Torch. [Default: true]
+	timeTorchEnabled = true
+

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "plaingrinder:dust_emerald"
+  },
+  "result": "minecraft:emerald",
+  "experience": 1.0,
+  "cookingtime": 200
+}

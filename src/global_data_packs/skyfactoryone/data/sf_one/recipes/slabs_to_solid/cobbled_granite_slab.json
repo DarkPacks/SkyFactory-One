@@ -1,0 +1,16 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crumbs:cobbled_granite_slab"
+    },
+    {
+      "item": "crumbs:cobbled_granite_slab"
+    }
+  ],
+  "result":{
+    "item": "crumbs:cobbled_granite",
+    "count": 1
+  }
+}
