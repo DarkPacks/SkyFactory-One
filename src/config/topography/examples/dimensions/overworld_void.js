@@ -17,7 +17,7 @@ function buildChunkGenerator(seed, biomeRegistry, dimensionSettingsRegistry) {
 	);
 	var biomes = BiomeHelper.withoutBiomes(BiomeHelper.withoutTypes(BiomeHelper.forOverworld(), biomeTypesToRemove), biomesToRemove);
 	
-	var biomeProvider = new MultiBiomeProvider(biomes, seed, 6, biomeRegistry);
+	var biomeProvider = new MultiBiomeProvider(biomes, seed, 3, biomeRegistry);
 	
 	return new ChunkGeneratorVoid(biomeProvider, function() {
 		return RegistryHelper.get(dimensionSettingsRegistry, "minecraft:overworld");
