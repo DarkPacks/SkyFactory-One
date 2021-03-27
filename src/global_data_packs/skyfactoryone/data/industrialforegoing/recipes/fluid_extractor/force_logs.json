@@ -1,0 +1,10 @@
+{
+  "input": {
+    "item": "forcecraft:force_log"
+  },
+  "result": "minecraft:air",
+  "breakChance": 0.005,
+  "output": "{FluidName:\"industrialforegoing:latex\",Amount:6}",
+  "defaultRecipe": false,
+  "type": "industrialforegoing:fluid_extractor"
+}

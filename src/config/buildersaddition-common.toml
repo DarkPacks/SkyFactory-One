@@ -20,5 +20,5 @@
 	#Enable MIDI client sound.
 	midi_sound_enable = true
 	#Enable MIDI input.
-	midi_input_enable = false
+	midi_input_enable = true
 

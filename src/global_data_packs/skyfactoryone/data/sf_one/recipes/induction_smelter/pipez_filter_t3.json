@@ -1,0 +1,27 @@
+{
+  "type": "thermal:smelter",
+  "input": [
+    {
+      "value": [
+        {
+          "tag": "forge:ingots/lead"
+        },
+        {
+          "tag": "forge:dusts/lead"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "item": "pipez:improved_upgrade",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "pipez:advanced_upgrade",
+      "count": 1
+    }
+  ],
+  "energy": 800
+}

@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_statue",
+  "fuel": {"raw:item": "statues:pufferfish_small_statue"},
+  "energy": 64000
+}

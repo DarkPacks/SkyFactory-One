@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_tnt",
+  "fuel": {"raw:item": "minecraft:tnt"},
+  "energy": 384000
+}

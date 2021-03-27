@@ -1,3 +1,6 @@
 {
-  "bo:enabled": true
+  "bo:enabled": true,
+  "in:fe_per_tick:[-2147483648~2147483647]": 80,
+  "lo:fe_buffer_size:[-9223372036854775808~9223372036854775807]": 100000,
+  "in:modifier_slot_count:[-2147483648~2147483647]": 0
 }

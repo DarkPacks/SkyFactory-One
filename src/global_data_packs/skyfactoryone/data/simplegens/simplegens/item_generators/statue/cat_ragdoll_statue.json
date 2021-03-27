@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_statue",
+  "fuel": {
+    "raw:item": "statues:cat_ragdoll_statue"
+  },
+  "energy": 64000
+}

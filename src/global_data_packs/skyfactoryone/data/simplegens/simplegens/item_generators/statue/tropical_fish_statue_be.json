@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_statue",
+  "fuel": {"raw:item": "statues:tropical_fish_be"},
+  "energy": 64000
+}

@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_statue",
+  "fuel": {"raw:item": "statues:sheep_statue_orange"},
+  "energy": 64000
+}

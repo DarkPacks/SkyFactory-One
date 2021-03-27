@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_statue",
+  "fuel": {"raw:item": "minecraft:furnace"},
+  "energy": 64000
+}

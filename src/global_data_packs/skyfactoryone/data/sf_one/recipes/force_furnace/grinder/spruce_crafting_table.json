@@ -1,0 +1,14 @@
+{
+  "type": "forcecraft:grinding",
+  "ingredient": {
+    "item": "crumbs:spruce_crafting_table"
+  },
+  "results": [
+      {
+        "item": "minecraft:spruce_planks",
+        "count": 4
+      }
+  ],
+  "experience": 0.1,
+  "processtime": 400
+}

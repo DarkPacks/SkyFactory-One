@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_tnt",
+  "fuel": {
+    "raw:item": "slabmachines:tnt_slab"
+  },
+  "energy": 192000
+}

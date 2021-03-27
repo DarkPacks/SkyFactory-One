@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_tnt",
+  "fuel": {
+    "raw:item": "thermal:lightning_grenade"
+  },
+  "energy": 84000
+}

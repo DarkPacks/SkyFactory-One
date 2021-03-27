@@ -1,13 +1,6 @@
 
 #Everything to do with gameplay
 [gameplay]
-	#If true, requires slimeballs in the vanilla slimeblock recipe to match in color, otherwise gives a pink slimeblock
-	requireSlimeballsToMatchInVanillaRecipe = true
-	#Number of nuggets produced when an ore block is melted in the smeltery. 9 nuggets would give 1 ingot
-	#Range: 1 ~ 45
-	smelteryNuggetsPerOre = 18
-	#Add a recipe that allows you to craft a piece of flint using 3 gravel
-	addGravelToFlintRecipe = true
 	#If true all material variants of the different parts will be listed in creative. Set to false to only have the first found material for all parts (usually wood).
 	listAllPartMaterials = true
 	#Set this to false to disable new players spawning with the Tinkers' Book.
@@ -18,11 +11,6 @@
 	craftingStationBlacklist = []
 	#Pattern and Part chests keep their inventory when harvested.
 	chestsKeepInventory = true
-	#If true, all recipes will be added even if the modules required are disabled.
-	registerAllRecipes = false
-	#Number of nuggets produced when an ore block is melted in the melter. 9 would give 1 ingot
-	#Range: 1 ~ 45
-	melterNuggetsPerOre = 9
 
 #Everything to do with world generation
 [worldgen]
@@ -36,4 +24,17 @@
 	veinCountCobalt = 20
 	#Approx Ores per Chunk
 	veinCountCopper = 20
+
+#Options related to recipes, limited options as a datapack allows most recipes to be modified
+[recipes]
+	#Number of nuggets produced when an ore block is melted in the smeltery. 9 nuggets would give 1 ingot
+	#Range: 1 ~ 45
+	smelteryNuggetsPerOre = 18
+	#Makes the recipe to alloy netherite in the smeltery only cost 2 gold per netherite ingot. If false uses the vanilla rate of 4 gold per ingot. Disable if there are crafting duplications.
+	cheaperNetheriteAlloy = true
+	#Add a recipe that allows you to craft a piece of flint using 3 gravel
+	addGravelToFlintRecipe = true
+	#Number of nuggets produced when an ore block is melted in the melter. 9 would give 1 ingot
+	#Range: 1 ~ 45
+	melterNuggetsPerOre = 12
 

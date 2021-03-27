@@ -12,4 +12,7 @@
 	generateForceOre = true
 	#Enable Time Torch. [Default: true]
 	timeTorchEnabled = true
+	#An additional list of tile entities the Force Furnace can NOT insert into [Syntax: modid:tile_name]
+	#Examples: "minecraft:shulker_box" would it stop inserting into shulkers
+	furnaceOutputBlacklist = [""]
 

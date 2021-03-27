@@ -9,6 +9,8 @@
 	growthAcceleratorCooldown = 10
 	#Should the Ender Dragon drop essence when killed with an essence weapon?
 	dragonDropsEssence = true
+	#Should right clicking on Farmland with an Essence create Essence Farmland?
+	essenceFarmlandConversion = true
 	#Should the Wither drop essence when killed with an essence weapon?
 	witherDropsEssence = true
 	#Should crops have a chance of dropping a second seed when harvested?

@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_statue",
+  "fuel": {"raw:item": "statues:totem_of_undying_statue"},
+  "energy": 64000
+}

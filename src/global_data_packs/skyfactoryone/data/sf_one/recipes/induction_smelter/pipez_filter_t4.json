@@ -1,0 +1,33 @@
+
+
+
+
+
+
+{
+  "type": "thermal:smelter",
+  "input": [
+    {
+      "value": [
+        {
+          "tag": "forge:ingots/invar"
+        },
+        {
+          "tag": "forge:dusts/invar"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "item": "pipez:advanced_upgrade",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "pipez:ultimate_upgrade",
+      "count": 1
+    }
+  ],
+  "energy": 800
+}

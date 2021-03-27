@@ -1,0 +1,21 @@
+┏╸ma:statue
+┃┏╸bo:enabled
+┃┣> Variable Type: java.lang.Boolean
+┃┣> Default: true
+┃┗╸
+┃┏╸in:fe_per_tick
+┃┣> Variable Type: java.lang.Integer
+┃┣> Default: 80
+┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┗╸
+┃┏╸lo:fe_buffer_size
+┃┣> Variable Type: java.lang.Long
+┃┣> Default: 100000
+┃┣> label.valkyrielib.requirements: [-9223372036854775808~9223372036854775807]
+┃┗╸
+┃┏╸in:modifier_slot_count
+┃┣> Variable Type: java.lang.Integer
+┃┣> Default: 0
+┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┗╸
+┗╸
