@@ -111,6 +111,47 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 			*/
 		}
 	}
+}).class)
+.registerEventHandler("CheckSpawn", Java.extend(Consumer, {//Registers a Forge event handler of type "CheckSpawn" 
+	accept: function(event) {
+		var Result = Java.type("net.minecraftforge.eventbus.api.Event.Result");
+		
+		//Restrict all water creatures to spawning in 2 deep full water blocks
+		var restrictToTwoBlocksWater = Java.to(
+			[
+				"minecraft:dolphin",
+				"minecraft:squid",
+				"minecraft:salmon",
+				"minecraft:cod",
+				"minecraft:tropical_fish",
+				"minecraft:pufferfish"
+			],
+			"java.lang.String[]"
+		);
+		
+		if (WorldHelper.test(event.getWorld(), "minecraft:overworld")) {
+			for (i = 0; i < restrictToTwoBlocksWater.length; i++) {
+				if (EntityHelper.test(event.getEntityLiving(), restrictToTwoBlocksWater[i])) {
+					//Allow squid in bubble columns
+					if (WorldHelper.getState(event.getWorld(), event.getX(), event.getY(), event.getZ()) != BlockHelper.getState("minecraft:bubble_column")) {
+						return;
+					}
+					//Block spawns which aren't in water
+					if (WorldHelper.getState(event.getWorld(), event.getX(), event.getY(), event.getZ()) != BlockHelper.getState("minecraft:water")) {
+						event.setResult(Result.DENY);
+						return;
+					}
+					//Block spawns which do not have water either above or blow
+					if (WorldHelper.getState(event.getWorld(), event.getX(), event.getY() - 1, event.getZ()) != BlockHelper.getState("minecraft:water")
+							&& WorldHelper.getState(event.getWorld(), event.getX(), event.getY() + 1, event.getZ()) != BlockHelper.getState("minecraft:water")) {
+						event.setResult(Result.DENY);
+						return;
+					}
+					return;
+				}
+			}
+		}
+	}
 }).class);
 
 registerPreset("skylands", "Skylands", "examples/images/Basic_Tree", "Overworld with skylands generation")//Registers preset
