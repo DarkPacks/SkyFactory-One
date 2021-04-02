@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "ibi",
+    "sss"
+  ],
+  "key": {
+    "c": {
+      "tag": "curios:statue"
+    },
+    "b": {
+      "item": "minecraft:blast_furnace"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "s": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "simplegens:simple_statue",
+    "count": 1
+  }
+}

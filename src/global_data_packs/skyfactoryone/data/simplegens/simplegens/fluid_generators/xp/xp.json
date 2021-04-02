@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_xp",
+  "fuel": {"raw:fluid_tag": "forge:experience", "selector": "all"},
+  "energy": 10
+}

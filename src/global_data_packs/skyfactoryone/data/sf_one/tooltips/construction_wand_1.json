@@ -1,0 +1,11 @@
+{
+  "items": [
+    "constructionwand:stone_wand"
+  ],
+  "tooltips": [
+    {
+      "text": "It's like a Builder's Wand!",
+      "color": "#ecbf00"
+    }
+  ]
+}

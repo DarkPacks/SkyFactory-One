@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_culinary",
+  "fuel": {
+    "raw:item": "mob_grinding_utils:solid_xp_baby"
+  },
+  "energy": 32000
+}

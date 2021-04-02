@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "ibi",
+    "sss"
+  ],
+  "key": {
+    "c": {
+      "item": "mob_grinding_utils:solid_xp_baby"
+    },
+    "b": {
+      "item": "minecraft:blast_furnace"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "s": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "simplegens:simple_xp",
+    "count": 1
+  }
+}

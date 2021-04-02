@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_turbine",
+  "fuel": {"raw:fluid_tag": "forge:steam"},
+  "energy": 2
+}

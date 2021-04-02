@@ -3,6 +3,7 @@
     {
       "name": "1x2",
       "depth": -1,
+      "reverse": 0,
       "reticle": 12,
       "stride": 0,
       "elevation": 0,
@@ -17,6 +18,7 @@
     {
       "name": "3x3",
       "depth": -1,
+      "reverse": 0,
       "reticle": 12,
       "stride": 0,
       "elevation": 0,
@@ -31,6 +33,7 @@
     {
       "name": "5x5",
       "depth": -1,
+      "reverse": 0,
       "reticle": 12,
       "stride": 0,
       "elevation": 0,
@@ -45,6 +48,7 @@
     {
       "name": "Stairs Up",
       "depth": -1,
+      "reverse": 0,
       "reticle": 12,
       "stride": 1,
       "elevation": 1,
@@ -59,6 +63,7 @@
     {
       "name": "Stairs Down",
       "depth": -1,
+      "reverse": 0,
       "reticle": 12,
       "stride": 1,
       "elevation": -1,

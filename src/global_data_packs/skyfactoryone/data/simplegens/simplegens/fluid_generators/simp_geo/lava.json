@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_geothermal",
+  "fuel": {"raw:fluid_tag": "minecraft:lava"},
+  "energy": 120
+}

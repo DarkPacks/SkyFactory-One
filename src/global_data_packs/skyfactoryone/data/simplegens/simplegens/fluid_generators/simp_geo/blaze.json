@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_geothermal",
+  "fuel": {
+    "raw:fluid": "tconstruct:molten_blaze"
+  },
+  "energy": 240
+}

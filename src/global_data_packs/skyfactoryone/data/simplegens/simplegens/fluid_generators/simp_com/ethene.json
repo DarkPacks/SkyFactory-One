@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_fluid_combustion",
+  "fuel": {"raw:fluid_tag": "forge:ethene"},
+  "energy": 140
+}

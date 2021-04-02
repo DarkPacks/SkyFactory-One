@@ -1,87 +1,99 @@
 #Welcome To Sky Factory One!
-Hello and thank you for trying out Sky Factory, a modded Sky Block mod pack! Before you go any further, rest assured that yes you ARE actually supposed to have spawned in the void on top of a tree sitting on a single piece of dirt. Don't panic! The mods in this pack will allow you to get all the resources you need to build yourself an amazing world! Read on for more info about how to play this pack, who put it together, and for a list of goals for you to accomplish!
+#Hello and thank you for trying out Sky Factory, a Sky Block modpack! The mods in this pack will allow you to get all the resources you need to build yourself an amazing world! Read on for more gameplay tips and a list of goals for you to accomplish!
 
-#How To Use This Book|===================
-Use the arrows at the bottom left and bottom right of this book to navigate between pages. In the Challenges section of the book you will notice boxes next to each challenge in the list. Simply check the box to indicate that you have completed that challenge. Careful though, they get harder as you go along! Also, don't forget to craft yourself an Achievement Stand to store this book in!
+#--== How To Use This Book ==--
+#Use the arrows at the bottom left and bottom right of this book to navigate between pages. This book contains a challenge section. You do not have to complete the challenges, they are provided to give you ideas on what to do. Once you complete a challenge, click on the box to check it off. Also, don't forget to craft yourself an Achievement Stand to store this book in!
 
-#Where Do I Start?|===============
-Here's a quick early game breakdown: make Crooks to get extra drops from leaves. Make barrels to compost saplings and other organic stuff to make more dirt, and to capture rain water. Infest leaves with silkworms to get string. Make a sieve and sift soft materials to get resources. "Stones" can be crafted into Cobblestone. Make a hammer to hammer cobble, gravel and sand. Once it rains put dust into a barrel full of water to make clay. Cook an unfired crucible in a furnace and place it over top of a heat source such as a torch
-(and later, lava or fire). Fill the crucible with cobble and it will melt into lava. Use water and lava to make a cobble generator. Once you have the cobble gen it becomes a lot more like a standard modded Minecraft play, and you can use the challenges later in this book  to give yourself direction. Also when you are waiting for trees to grow, try twerking! No, I'm not kidding. Spamming shift, or running around saplings makes them grow faster
+#--== Where Do I Start? ==--
+#Here's a quick early game breakdown: make Crooks to get extra drops from leaves. Make barrels to compost saplings and other organic stuff to make more dirt, and to capture rain water. Infest leaves with silkworms to get string. Make a sieve and sift soft materials to get resources. "Stones" can be crafted into Cobblestone. Make a hammer to hammer cobble, gravel and sand. Once it rains put dust into a barrel full of water to make clay. Cook an unfired crucible in a furnace and place it over top of a heat source such as a torch
+#(and later, lava or fire). Fill the crucible with cobble and it will melt into lava. Use water and lava to make a cobble generator. Once you have the cobble gen it becomes a lot more like a standard modded Minecraft play, and you can use the challenges later in this book  to give yourself direction. Also when you are waiting for trees to grow, try twerking! No, I'm not kidding. Spamming shift, or running around saplings makes them grow faster
 
-#A Note About Biomes|==============
-Barrels fill with water just fine when it snows so there is nothing wrong with spawning in a snow biome such as Taiga. It does not rain in desert so barrels will not fill with water, but that is still a fine place to spawn  because of an alternate way of getting water. Look up the crafting recipe for a water bucket in NEI to see that. Oceans will spawn monsters but will not spawn passive animals, and Mushroom biomes spawn only Mooshrooms and no monsters
-Because of that, Ocean and Mooshroom are both viable places to spawn in, it will just add to the challenge and force you to travel if you want to complete all the challenges.| |As a bonus, a viewer managed to spawn in a mushroom biome in a Sky Factory world! Here's the seed if you'd like it
-
-
-#Credits|=======
+#A Note About Biomes
+#It does not rain in every biome but you can still make water using the Wooden Crucibles (Ex Compressum). Simply fill them with leaves or saplings to produce water. Passive and enemy mobs should spawn in every biome.
 
 
-#The Challenges|=============
-#You can't ever "beat" the pack, but I've provided a list of challenges designed to help you progress, and give direction to your play. Don't worry if you don't know how to do some of them, have fun with the process of searching for answers. You'll learn at lot and have some fun too!
+
+
+#Credits
+#My name is Darkosto. I stream on twitch.
+
+
+#The Challenges
+#You can't ever "beat" the pack, but I've provided a list of challenges designed to help you progress, and give direction to your play. Don't worry if you don't know how to do some of them, have fun with the process of searching for answers. You'll learn a lot and have some fun too!
 #They are divided into tiers of difficulty, and you do NOT have to do them in order!
 
-
+#
 #---=== Tier 1 ===---
 Build a cobblestone generator
 Build an automated cobblestone generator
 Infest a tree with Silkworms
 Craft a Sieve
-Collect rainwater in an Oak Barrel
+Collect rainwater in a Wooden Barrel or create water using a Wooden Crucible
 Build a proper house
 Make an ink farm
 Build a second layer to your island, below the level you started from
 Make a slime farm
 Build a trophy room
-Open 10 Lucky Blocks
+Open 10 Chance Cubes
 Transmit power wirelessly
 Turn pink into power
 Create power from three different fuels
 Store a liquid in a container other than a bucket
-Automate a farm with a Harvester and a Planter
-Use Autonomous Activators to automate a Sieve
+Automate a farm with a Gatherer and a Sower
+Use a Click Machine or Item User to automate a Sieve
 Use a Turtle to automate something
-Use a Transition Plane to farm something
+Use a Destructor to farm something
 Create a Pigman based gold farm
-Store 1 Million cobblestone in Deep Storage
+Store 1 Million cobblestone in Black Hole Unit
 Create three different types of experience farms
 Using Crucibles, create an automatically collected infinite lava farm
-Fly (suicide, aka Void sandwiches, while tasty, do not count as flight)
+Fly, you fool! (jumping into the void is not flying!)
 Create a village large enough to spawn Iron Golems
 Collect 5 Blaze Spawners from the Nether
-Fill a DirtChest 9000 to maximum capacity (be sure to read the book!)
-Listen to Vintage Jazz using a Radio from Open Blocks
-Wear a Monocle
+Fill a DirtChest 9000 to maximum capacity
+Listen to Pigstep (DMCA???)
+Wear a Monocle (Find a replacement for this)
 Take a cookie from a Cookie Jar
-Measure the length of your base with a Tape Measure
-In your trophy room use holders such as Item Frames, Armor Stands, or Drying Racks, etc. to display the following items (in no particular order):|- each color of wool|- a Walrus|- Full sets of armor from 8 different materials|- 20 different seeds from Magic Crops|- 20 unique Force Flasks filled with animals or mobs
+Measure the length of your base with a Tape Measure (Find a replacement for this)
+
+#In your trophy room use holders such as Item Frames or Armor Stands, etc. to display the following items (in no particular order) 
+Each color of wool
+Full sets of armor from 8 different materials
+20 different seeds from Magic Crops
+20 unique Force Flasks filled with animals or mobs
 
 
 #---=== Tier 2 ===---
 Make an automated bacon farm
-Use an AE Assembler to auto-craft a 64k storage drive
+Use a Refined Storage Crafter to auto-craft a 64k Storage Disk
 Go to the Deep Dark
-Activate a Division Sigil and create a Builder's Wand
-Open 64 Lucky Blocks
+Craft an Infinity Construction Wand
+Open 64 Chance Cubes
 Equip 10 Heart Canisters
-Make an Unbreakable Tinkers Construct Pickaxe
+Make an Unbreakable Tinkers Construct Pickaxe (cannot currently do but will later)
 Kill a Wither
 Kill the Ender Dragon
-Duplicate an Enchanted Book using a Typesetting Table and a Printing Press
-Access your ME Network remotely using a Wireless Access Terminal
-Access your ME Network remotely using an Ender IO
-In your trophy room display the following items (in no particular order)- A Treasure Core|- One of each of the monster heads|- A Player Head|- 20 unique Open Blocks Trophies|- A full set of Manyullyn Tinkers Construct Tools|- One each of Single, Double, Triple, Quadruple, Quintuple, Sextuple, Septuple, and Octuple Compressed Cobblestone.
+Upgrade your Enchantment Table for level 40 Enchants
+Access your Refined Storage Network remotely using a Wireless Grid
+Entangle 2 blocks together
+
+#In your trophy room display the following items (in no particular order)- 
+A Treasure Core 
+One of each of the monster heads
+A Player Head
+20 unique Open Blocks Trophies
+A full set of Manyullyn Tinkers Construct Tools
+One each of Single, Double, Triple, Quadruple, Quintuple, Sextuple, Septuple, and Octuple Compressed Cobblestone
 
 
 #---=== Tier 3 ===---
-Fill a Deep Storage Unit to max capacity.
+Fill a Black Hole Unit to max capacity
 Automatically craft an Octuple Compressed Cobblestone in less than 1 hour
 Fill a 64k Fluid Storage drive with a liquid other than water
 Increase Cobblestone production to faster than 10,000 Cobble per second
-Use AE Spatial Storage to transport a Fortress from the Deep Dark to the Overworld
-Store yourself in Spacial Storage and use a Rod of Return to come home
-Use a Singularity to access your ME network from another dimension.
-Kill a Wither that spawned out of a Lucky Block
+Use a Network Transmitter and Reciever to access your Refined Storage network from another dimension
+Kill a Wither that spawned out of a Chance Cube
 Kill a Wither in the Deep Dark, The Overworld, The Nether, and The End
-Run a Mining Laser from Minefactory Reloaded at full power
+Run a Mining Laser from Industrial Foregoing at full power
 Fight and kill two bosses at once
 #---===The End===---

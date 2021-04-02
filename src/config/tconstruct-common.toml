@@ -9,8 +9,6 @@
 	listAllToolMaterials = true
 	#Blacklist of registry names for the crafting station to connect to. Mainly for compatibility.
 	craftingStationBlacklist = []
-	#Pattern and Part chests keep their inventory when harvested.
-	chestsKeepInventory = true
 
 #Everything to do with world generation
 [worldgen]
@@ -27,6 +25,8 @@
 
 #Options related to recipes, limited options as a datapack allows most recipes to be modified
 [recipes]
+	#Makes wither skeletons drop necrotic bones
+	witherBoneDrop = true
 	#Number of nuggets produced when an ore block is melted in the smeltery. 9 nuggets would give 1 ingot
 	#Range: 1 ~ 45
 	smelteryNuggetsPerOre = 18
@@ -34,6 +34,8 @@
 	cheaperNetheriteAlloy = true
 	#Add a recipe that allows you to craft a piece of flint using 3 gravel
 	addGravelToFlintRecipe = true
+	#Allows converting wither bones to regular bones
+	witherBoneConversion = true
 	#Number of nuggets produced when an ore block is melted in the melter. 9 would give 1 ingot
 	#Range: 1 ~ 45
 	melterNuggetsPerOre = 12
