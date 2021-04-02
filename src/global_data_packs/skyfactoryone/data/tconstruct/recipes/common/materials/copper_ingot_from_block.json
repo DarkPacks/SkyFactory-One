@@ -1,13 +1,7 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "tconstruct:copper_ingot",
-  "ingredients": [
+  "conditions": [
     {
-      "item": "tconstruct:copper_block"
+      "type": "forge:false"
     }
-  ],
-  "result": {
-    "item": "thermal:copper_ingot",
-    "count": 9
-  }
+  ]
 }

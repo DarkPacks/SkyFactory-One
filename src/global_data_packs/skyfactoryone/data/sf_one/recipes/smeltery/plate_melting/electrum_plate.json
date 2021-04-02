@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "thermal:electrum_plate"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_electrum",
+    "amount": 144
+  },
+  "temperature": 760,
+  "time": 59
+}

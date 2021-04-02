@@ -81,7 +81,7 @@ Entangle 2 blocks together
 A Treasure Core 
 One of each of the monster heads
 A Player Head
-20 unique Open Blocks Trophies
+20 unique Trophies
 A full set of Manyullyn Tinkers Construct Tools
 One each of Single, Double, Triple, Quadruple, Quintuple, Sextuple, Septuple, and Octuple Compressed Cobblestone
 

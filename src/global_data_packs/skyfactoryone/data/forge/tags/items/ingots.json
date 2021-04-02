@@ -1,0 +1,33 @@
+{
+  "replace": true,
+  "values": [
+    "#forge:ingots/bronze",
+    "#forge:ingots/cobalt",
+    "#forge:ingots/constantan",
+    "#forge:ingots/copper",
+    "#forge:ingots/electrum",
+    "#forge:ingots/enderium",
+    "#forge:ingots/force",
+    "#forge:ingots/gold",
+    "#forge:ingots/hepatizon",
+    "#forge:ingots/invar",
+    "#forge:ingots/iron",
+    "#forge:ingots/knightslime",
+    "#forge:ingots/lead",
+    "#forge:ingots/lumium",
+    "#forge:ingots/manyullyn",
+    "#forge:ingots/netherite"
+    "#forge:ingots/nickel",
+    "#forge:ingots/pig_iron",
+    "#forge:ingots/queens_slime",
+    "#forge:ingots/rose_gold",
+    "#forge:ingots/signalum",
+    "#forge:ingots/silicon_bronze",
+    "#forge:ingots/silver",
+    "#forge:ingots/slimesteel",
+    "#forge:ingots/soulsteel",
+    "#forge:ingots/tin",
+    "tconstruct:dried_brick",
+    "tconstruct:seared_brick",
+  ]
+}

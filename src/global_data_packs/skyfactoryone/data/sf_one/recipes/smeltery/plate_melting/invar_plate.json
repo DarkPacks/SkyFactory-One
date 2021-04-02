@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "thermal:invar_plate"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_invar",
+    "amount": 144
+  },
+  "temperature": 900,
+  "time": 63
+}

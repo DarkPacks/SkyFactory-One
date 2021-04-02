@@ -1,0 +1,7 @@
+
+[general]
+	#Wether ghost blocks are shown when you are holding a framed block
+	showGhostBlocks = true
+	#Wether certain framed blocks should show fancy hitboxes
+	fancyHitboxes = true
+

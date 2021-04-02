@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "thermal:silver_plate"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_silver",
+    "amount": 144
+  },
+  "temperature": 790,
+  "time": 60
+}

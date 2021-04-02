@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "thermal:lead_plate"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_lead",
+    "amount": 144
+  },
+  "temperature": 330,
+  "time": 43
+}

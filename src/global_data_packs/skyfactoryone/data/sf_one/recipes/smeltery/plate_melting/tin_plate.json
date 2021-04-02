@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "thermal:tin_plate"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_tin",
+    "amount": 144
+  },
+  "temperature": 225,
+  "time": 39
+}

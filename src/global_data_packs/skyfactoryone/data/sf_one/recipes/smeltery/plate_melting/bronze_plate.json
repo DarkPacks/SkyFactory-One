@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "thermal:bronze_plate"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_bronze",
+    "amount": 144
+  },
+  "temperature": 700,
+  "time": 57
+}

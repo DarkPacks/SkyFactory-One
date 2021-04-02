@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "thermal:nickel_plate"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_nickel",
+    "amount": 144
+  },
+  "temperature": 950,
+  "time": 65
+}

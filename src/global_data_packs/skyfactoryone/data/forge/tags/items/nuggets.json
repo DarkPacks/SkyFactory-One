@@ -1,0 +1,30 @@
+{
+  "replace": true,
+  "values": [
+    "#forge:nuggets/bronze",
+    "#forge:nuggets/cobalt",
+    "#forge:nuggets/constantan",
+    "#forge:nuggets/copper",
+    "#forge:nuggets/electrum",
+    "#forge:nuggets/enderium",
+    "#forge:nuggets/force",
+    "#forge:nuggets/gold",
+    "#forge:nuggets/hepatizon",
+    "#forge:nuggets/invar",
+    "#forge:nuggets/iron",
+    "#forge:nuggets/knightslime",
+    "#forge:nuggets/lead",
+    "#forge:nuggets/lumium",
+    "#forge:nuggets/manyullyn",
+    "#forge:nuggets/nickel",
+    "#forge:nuggets/pig_iron",
+    "#forge:nuggets/queens_slime",
+    "#forge:nuggets/rose_gold",
+    "#forge:nuggets/signalum",
+    "#forge:nuggets/silicon_bronze",
+    "#forge:nuggets/silver",
+    "#forge:nuggets/slimesteel",
+    "#forge:nuggets/soulsteel",
+    "#forge:nuggets/tin"
+  ]
+}

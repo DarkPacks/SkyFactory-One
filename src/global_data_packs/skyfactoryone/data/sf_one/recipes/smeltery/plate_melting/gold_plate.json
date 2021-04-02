@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "thermal:gold_plate"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_gold",
+    "amount": 144
+  },
+  "temperature": 700,
+  "time": 57
+}

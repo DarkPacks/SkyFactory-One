@@ -1,13 +1,7 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "tconstruct:copper_nugget",
-  "ingredients": [
+  "conditions": [
     {
-      "item": "tconstruct:copper_ingot"
+      "type": "forge:false"
     }
-  ],
-  "result": {
-    "item": "thermal:copper_nugget",
-    "count": 9
-  }
+  ]
 }

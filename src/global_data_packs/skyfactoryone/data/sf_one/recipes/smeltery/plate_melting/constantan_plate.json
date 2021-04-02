@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "thermal:constantan_plate"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_constantan",
+    "amount": 144
+  },
+  "temperature": 920,
+  "time": 64
+}
