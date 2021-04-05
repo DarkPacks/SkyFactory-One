@@ -133,7 +133,7 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 			for (i = 0; i < restrictToTwoBlocksWater.length; i++) {
 				if (EntityHelper.test(event.getEntityLiving(), restrictToTwoBlocksWater[i])) {
 					//Allow squid in bubble columns
-					if (WorldHelper.getState(event.getWorld(), event.getX(), event.getY(), event.getZ()) != BlockHelper.getState("minecraft:bubble_column")) {
+					if (WorldHelper.getState(event.getWorld(), event.getX(), event.getY(), event.getZ()) == BlockHelper.getState("minecraft:bubble_column") && EntityHelper.test(event.getEntityLiving(), "minecraft:squid")) {
 						return;
 					}
 					//Block spawns which aren't in water
