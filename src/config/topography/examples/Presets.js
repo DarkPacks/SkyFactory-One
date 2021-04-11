@@ -7,6 +7,7 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 .registerDimension("overworld", "examples/dimensions/overworld_void")//Registers script "overworld_void" to be used for generating dimension "overworld"
 .registerDimension("the_nether", "examples/dimensions/nether_void")//Registers script "nether_void" to be used for generating dimension "nether"
 .registerDimension("the_end", "examples/dimensions/end_void")//Registers script "end_void" to be used for generating dimension "end"
+.registerDimension("topography:dark_deep", "examples/dimensions/dark_deep")
 .registerEventHandler("BiomeLoadingEvent", Java.extend(Consumer, {//Registers a Forge event handler of type "BiomeLoadingEvent" 
 	accept: function(event) {
 		FeatureHelper.clearFeatures(event);//Clears all feature generators
@@ -150,6 +151,15 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 					return;
 				}
 			}
+		}
+	}
+}).class)
+.registerEventHandler("FogColors", Java.extend(Consumer, {
+	accept: function(event) {
+		if (WorldHelper.test(Util.Client.getWorld(), "topography:dark_deep")) {
+			event.setRed(0);
+			event.setGreen(0);
+			event.setBlue(0);
 		}
 	}
 }).class);
