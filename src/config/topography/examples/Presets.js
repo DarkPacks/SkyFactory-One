@@ -111,6 +111,48 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 			vex
 			*/
 		}
+		if (event.getName().toString().equals("topography:dark_deep")) {
+			////           
+			////
+			//Vanilla Ore
+			////
+			////
+			//Coal Ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:coal_ore"), OreHelper.BASE_STONE_OVERWORLD, 20, 14, 180, 255, true, 2);
+			});          
+			//Iron Ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:iron_ore"), OreHelper.BASE_STONE_OVERWORLD, 20, 12, 180, 255, true, 2);
+			});                      
+			//Gold Ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:gold_ore"), OreHelper.BASE_STONE_OVERWORLD, 15, 5, 180, 255, true, 4);
+			});
+			//Lapis Ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:lapis_ore"), OreHelper.BASE_STONE_OVERWORLD, 20, 5, 180, 255, true, 4);
+			});
+			//Diamond Ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:diamond_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 3, 180, 255, true, 4);
+			});
+			//Redstone Ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:redstone_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 6, 180, 255, true, 3);
+			});
+			//Toilet Paper / Emerald Ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:emerald_ore"), OreHelper.BASE_STONE_OVERWORLD, 12, 3, 180, 255, true, 4);
+			});
+		}
 	}
 }).class)
 .registerEventHandler("CheckSpawn", Java.extend(Consumer, {//Registers a Forge event handler of type "CheckSpawn" 
