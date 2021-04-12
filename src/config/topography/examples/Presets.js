@@ -37,7 +37,7 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
         FeatureHelper.removeStructure(event, "woodland_mansion");
         FeatureHelper.removeFeature(event, "void_start_platform");
 
-        if (BiomeHelper.test(event.getName(), BiomeDictionary.Type.OVERWORLD)) {
+        if (BiomeHelper.test(event.getName(), BiomeDictionary.Type.OVERWORLD) || event.getName().toString().equals("topography:infinite_dark")) {
 			var EntityClassification = Java.type("net.minecraft.entity.EntityClassification");
 			var Spawners = Java.type("net.minecraft.world.biome.MobSpawnInfo.Spawners");
 			
