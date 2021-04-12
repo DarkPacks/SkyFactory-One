@@ -297,6 +297,18 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 			event.setBlue(0);
 		}
 	}
+}).class)
+.registerEventHandler("SpecialSpawn", Java.extend(Consumer, {
+	accept: function(event) {
+		var Operation = Java.type("net.minecraft.entity.ai.attributes.AttributeModifier.Operation");
+		var PlayerEntity = Java.type("net.minecraft.entity.player.PlayerEntity");
+		
+		if (WorldHelper.test(event.getWorld(), "topography:infinite_dark") && !(event.getEntity() instanceof PlayerEntity)) {
+			EntityHelper.modifyAttribute(event.getEntity(), "minecraft:generic.attack_damage", "dark_power", 0.2, Operation.MULTIPLY_TOTAL);
+			EntityHelper.modifyAttribute(event.getEntity(), "minecraft:generic.max_health", "dark_resilience", 0.2, Operation.MULTIPLY_TOTAL);
+			EntityHelper.healToMax(event.getEntityLiving());
+		}
+	}
 }).class);
 
 registerPreset("skylands", "Skylands", "examples/images/Basic_Tree", "Overworld with skylands generation")//Registers preset
