@@ -68,7 +68,7 @@ addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:stalagmite", n
 
 
 function buildChunkGenerator(seed, biomeRegistry, dimensionSettingsRegistry) {
-	var biomes = BiomeHelper.forBiomes("topography:dark_deep");
+	var biomes = BiomeHelper.forBiomes("topography:infinite_dark");
 	
 	var biomeProvider = new MultiBiomeProvider(biomes, seed, 6, biomeRegistry);
 	

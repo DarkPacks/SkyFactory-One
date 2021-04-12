@@ -7,7 +7,7 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 .registerDimension("overworld", "examples/dimensions/overworld_void")//Registers script "overworld_void" to be used for generating dimension "overworld"
 .registerDimension("the_nether", "examples/dimensions/nether_void")//Registers script "nether_void" to be used for generating dimension "nether"
 .registerDimension("the_end", "examples/dimensions/end_void")//Registers script "end_void" to be used for generating dimension "end"
-.registerDimension("topography:dark_deep", "examples/dimensions/dark_deep")
+.registerDimension("topography:infinite_dark", "examples/dimensions/infinite_dark")
 .registerEventHandler("BiomeLoadingEvent", Java.extend(Consumer, {//Registers a Forge event handler of type "BiomeLoadingEvent" 
 	accept: function(event) {
 		FeatureHelper.clearFeatures(event);//Clears all feature generators
@@ -111,7 +111,7 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 			vex
 			*/
 		}
-		if (event.getName().toString().equals("topography:dark_deep")) {
+		if (event.getName().toString().equals("topography:infinite_dark")) {
 			////           
 			////
 			//Vanilla Ore
@@ -181,61 +181,66 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 				return OreHelper.buildVerticalOre(BlockHelper.getState("forcecraft:power_ore"), OreHelper.BASE_STONE_OVERWORLD, 18, 10, 40, 60, true, 2);
 			});
 
-        ////
-        ////
-        //Thermal Ores
-        ////
-        ////
-
-        //thermal:apatite_ore Ore
-        OreHelper.addOre(event, function() {
-            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:apatite_ore"), OreHelper.BASE_STONE_OVERWORLD, 18, 8, 27, 60, true, 4);
-        });
-        //thermal:cinnabar_ore Ore
-        OreHelper.addOre(event, function() {
-            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:cinnabar_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 8, 27, 60, true, 4);
-        });
-        //thermal:niter_ore Ore
-        OreHelper.addOre(event, function() {
-            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:niter_ore"), OreHelper.BASE_STONE_OVERWORLD, 11, 8, 20, 60, true, 4);
-        });
-        //thermal:sulfur_ore Ore
-        OreHelper.addOre(event, function() {
-            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:sulfur_ore"), OreHelper.BASE_STONE_OVERWORLD, 11, 8, 20, 60, true, 4);
-        });
-        //thermal:copper_ore Ore
-        OreHelper.addOre(event, function() {
-            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:copper_ore"), OreHelper.BASE_STONE_OVERWORLD, 18, 10, 20, 60, true, 2);
-        });
-        //thermal:tin_ore Ore
-        OreHelper.addOre(event, function() {
-            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:tin_ore"), OreHelper.BASE_STONE_OVERWORLD, 12, 9, 40, 60, true, 2);
-        });
-        //thermal:lead_ore Ore
-        OreHelper.addOre(event, function() {
-            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:lead_ore"), OreHelper.BASE_STONE_OVERWORLD, 10, 8, 30, 60, true, 3);
-        });
-        //thermal:silver_ore Ore
-        OreHelper.addOre(event, function() {
-            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:silver_ore"), OreHelper.BASE_STONE_OVERWORLD, 10, 5, 45, 60, true, 4);
-        });
-        //thermal:nickel_ore Ore
-        OreHelper.addOre(event, function() {
-            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:nickel_ore"), OreHelper.BASE_STONE_OVERWORLD, 16, 10, 40, 60, true, 3);
-        });		
+			////
+			////
+			//Thermal Ores
+			////
+			////
+	
+			//thermal:apatite_ore Ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:apatite_ore"), OreHelper.BASE_STONE_OVERWORLD, 18, 8, 27, 60, true, 4);
+			});
+			//thermal:cinnabar_ore Ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:cinnabar_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 8, 27, 60, true, 4);
+			});
+			//thermal:niter_ore Ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:niter_ore"), OreHelper.BASE_STONE_OVERWORLD, 11, 8, 20, 60, true, 4);
+			});
+			//thermal:sulfur_ore Ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:sulfur_ore"), OreHelper.BASE_STONE_OVERWORLD, 11, 8, 20, 60, true, 4);
+			});
+			//thermal:copper_ore Ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:copper_ore"), OreHelper.BASE_STONE_OVERWORLD, 18, 10, 20, 60, true, 2);
+			});
+			//thermal:tin_ore Ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:tin_ore"), OreHelper.BASE_STONE_OVERWORLD, 12, 9, 40, 60, true, 2);
+			});
+			//thermal:lead_ore Ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:lead_ore"), OreHelper.BASE_STONE_OVERWORLD, 10, 8, 30, 60, true, 3);
+			});
+			//thermal:silver_ore Ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:silver_ore"), OreHelper.BASE_STONE_OVERWORLD, 10, 5, 45, 60, true, 4);
+			});
+			//thermal:nickel_ore Ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:nickel_ore"), OreHelper.BASE_STONE_OVERWORLD, 16, 10, 40, 60, true, 3);
+			});
+			
+			////
+			////
+			//Holes
+			////
+			////
 
             var BlockStateMatchRuleTest = Java.type("net.minecraft.world.gen.feature.template.BlockStateMatchRuleTest");
 
-            //Holes
             OreHelper.addOre(event, function() {
                 //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
                 return OreHelper.buildOre(BlockHelper.getState("minecraft:air"), new BlockStateMatchRuleTest(BlockHelper.getState("minecraft:cobblestone")), 20, 16, 78, 81, true, 2);
@@ -286,7 +291,7 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 }).class)
 .registerEventHandler("FogColors", Java.extend(Consumer, {
 	accept: function(event) {
-		if (WorldHelper.test(Util.Client.getWorld(), "topography:dark_deep")) {
+		if (WorldHelper.test(Util.Client.getWorld(), "topography:infinite_dark")) {
 			event.setRed(0);
 			event.setGreen(0);
 			event.setBlue(0);
