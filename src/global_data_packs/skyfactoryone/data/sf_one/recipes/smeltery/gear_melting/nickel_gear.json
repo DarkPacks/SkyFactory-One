@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "thermal:nickel_gear"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_nickel",
+    "amount": 576
+  },
+  "temperature": 700,
+  "time": 65
+}

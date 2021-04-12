@@ -106,6 +106,8 @@
 	# Item specific configs
 	#####################################################################################
 	[cyclic.items]
+		#Entity ids that cannot be picked up with the Monster all
+		monster_ball_ignore_list = ["minecraft:ender_dragon", "minecraft:wither"]
 
 		#Sack of Holding settings
 		[cyclic.items.tile_transporter]

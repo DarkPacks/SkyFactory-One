@@ -59,7 +59,7 @@ Measure the length of your base with a Tape Measure (Find a replacement for this
 #In your trophy room use holders such as Item Frames or Armor Stands, etc. to display the following items (in no particular order) 
 Each color of wool
 Full sets of armor from 8 different materials
-20 different seeds from Magic Crops
+20 different seeds from Mystical Agriculture
 20 unique Force Flasks filled with animals or mobs
 
 
@@ -89,7 +89,7 @@ One each of Single, Double, Triple, Quadruple, Quintuple, Sextuple, Septuple, an
 #---=== Tier 3 ===---
 Fill a Black Hole Unit to max capacity
 Automatically craft an Octuple Compressed Cobblestone in less than 1 hour
-Fill a 64k Fluid Storage drive with a liquid other than water
+Fill 10 64k Fluid Storage disks each with a unique liquid, excluding water
 Increase Cobblestone production to faster than 10,000 Cobble per second
 Use a Network Transmitter and Reciever to access your Refined Storage network from another dimension
 Kill a Wither that spawned out of a Chance Cube

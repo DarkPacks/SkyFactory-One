@@ -8,5 +8,12 @@
       "item": "exnihilosequentia:dust",
       "chance": 1.0
     }
+  ],
+  "experience": 0.1,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exnihilosequentia"
+    }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "minecraft:andesite"
+  },
+  "result": [
+    {
+      "item": "exnihilosequentia:crushed_andesite"
+    }
+  ],
+  "experience": 0.1,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exnihilosequentia"
+    }
+  ]
+}

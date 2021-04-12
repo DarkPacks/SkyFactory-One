@@ -3,8 +3,9 @@
 	#Number of ticks before showing a tooltip
 	#Range: > 0
 	guiTooltipCooldown = 20
-	#Renders iChunUtil's GUIs (Boxes & Stuff) in a Minecraft Style instead
-	guiStyleMinecraft = false
+	#Renders iChunUtil's GUIs (Boxes & Stuff) in a Minecraft Style instead. 1 = Vanilla Style, 2 = Texture Pack Style
+	#Range: 0 ~ 2
+	guiMinecraftStyle = 2
 	#Default Theme for Boxes & Stuff
 	guiDefaultTheme = "default"
 	#Speed, in ticks, to register a double click
@@ -21,6 +22,8 @@
 [clientOnly]
 	#Override the Options button so pressing Shift when clicking it shows the Mods list.
 	buttonOptionsShiftOpensMods = true
+	#The Minecraft Toast Renderer has a bug where toasts with different heights might overlap. This override fixes it if the renderer is still the default renderer.
+	overrideToastGui = true
 	#Enables (most) Client-Side Easter Eggs for iChun's Mods
 	easterEgg = true
 

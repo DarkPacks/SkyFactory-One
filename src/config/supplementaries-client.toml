@@ -51,7 +51,7 @@
 		#8: savanna, 9: desert
 		#10: snow, 11: ice, 12: iceberg/island
 		#13: mushroom island
-		globe_colors = [["minecraft:overworld", "23658d", "25527d", "1d396d", "2d8a5c", "34a03a", "6ea14b", "89a83d", "b5ba65", "ccd7d5", "83b4c6", "2f83a2", "826e71"]]
+		globe_colors = [["minecraft:overworld", "23658d", "25527d", "1d396d", "2d8a5c", "34a03a", "6ea14b", "89a83d", "b5ba65", "ccd7d5", "83b4c6", "2f83a2", "826e71"], ["minecraft:the_nether", "941818", "7b0000", "6a0400", "16615b", "941818", "ca4e06", "e66410", "f48522", "5a0000", "32333d", "118066", "100c1c"], ["minecraft:the_end", "061914", "000000", "2a0d2a", "000000", "d5da94", "cdc68b", "061914", "2a0d2a", "cdc68b", "000000", "eef6b4", "b286b2"]]
 
 	[blocks.flag]
 		#Range: 0.0 ~ 100.0

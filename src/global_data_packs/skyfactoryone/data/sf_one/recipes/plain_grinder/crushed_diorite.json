@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "minecraft:diorite"
+  },
+  "result": {
+    "item": "exnihilosequentia:crushed_diorite",
+    "count": 1
+  }
+}

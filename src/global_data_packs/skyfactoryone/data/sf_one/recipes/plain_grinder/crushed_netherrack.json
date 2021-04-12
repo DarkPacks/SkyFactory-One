@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "minecraft:netherrack"
+  },
+  "result": {
+    "item": "exnihilosequentia:crushed_netherrack",
+    "count": 1
+  }
+}

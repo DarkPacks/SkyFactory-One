@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "minecraft:granite"
+  },
+  "result": {
+    "item": "exnihilosequentia:crushed_granite",
+    "count": 1
+  }
+}

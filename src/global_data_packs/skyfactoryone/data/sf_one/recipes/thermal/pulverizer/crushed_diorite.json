@@ -1,0 +1,18 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "minecraft:diorite"
+  },
+  "result": [
+    {
+      "item": "exnihilosequentia:crushed_diorite"
+    }
+  ],
+  "experience": 0.1,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exnihilosequentia"
+    }
+  ]
+}

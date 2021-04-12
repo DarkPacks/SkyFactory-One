@@ -26,6 +26,9 @@
 		[modules.agriculture.mob_duplicator]
 			enabled = true
 
+		[modules.agriculture.wither_builder]
+			enabled = true
+
 		[modules.agriculture.mob_slaughter_factory]
 			enabled = true
 
@@ -82,6 +85,9 @@
 			enabled = true
 
 		[modules.core.meat]
+			enabled = true
+
+		[modules.core.ore_meat]
 			enabled = true
 
 		[modules.core.speed_addons]
@@ -186,13 +192,22 @@
 	[modules.resource_production]
 		enabled = true
 
+		[modules.resource_production.washing_factory]
+			enabled = true
+
 		[modules.resource_production.material_stonework_factory]
+			enabled = true
+
+		[modules.resource_production.fluid_sieving_machine]
 			enabled = true
 
 		[modules.resource_production.mechanical_dirt]
 			enabled = true
 
 		[modules.resource_production.block_breaker]
+			enabled = true
+
+		[modules.resource_production.fermentation_station]
 			enabled = true
 
 		[modules.resource_production.marine_fisher]

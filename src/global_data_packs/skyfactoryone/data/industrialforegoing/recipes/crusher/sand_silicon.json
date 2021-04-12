@@ -1,0 +1,9 @@
+{
+  "input": {
+    "tag": "forge:sand"
+  },
+  "output": {
+    "item": "exnihilosequentia:dust"
+  },
+  "type": "industrialforegoing:crusher"
+}

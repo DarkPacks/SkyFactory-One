@@ -120,38 +120,126 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 			//Coal Ore
 			OreHelper.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:coal_ore"), OreHelper.BASE_STONE_OVERWORLD, 20, 14, 180, 255, true, 2);
+				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:coal_ore"), OreHelper.BASE_STONE_OVERWORLD, 20, 14, 35, 60, true, 2);
 			});          
 			//Iron Ore
 			OreHelper.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:iron_ore"), OreHelper.BASE_STONE_OVERWORLD, 20, 12, 180, 255, true, 2);
+				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:iron_ore"), OreHelper.BASE_STONE_OVERWORLD, 22, 12, 45, 60, true, 2);
 			});                      
 			//Gold Ore
 			OreHelper.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:gold_ore"), OreHelper.BASE_STONE_OVERWORLD, 15, 5, 180, 255, true, 4);
+				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:gold_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 5, 1, 35, true, 4);
 			});
 			//Lapis Ore
 			OreHelper.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:lapis_ore"), OreHelper.BASE_STONE_OVERWORLD, 20, 5, 180, 255, true, 4);
+				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:lapis_ore"), OreHelper.BASE_STONE_OVERWORLD, 16, 5, 1, 45, true, 4);
 			});
 			//Diamond Ore
 			OreHelper.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:diamond_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 3, 180, 255, true, 4);
+				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:diamond_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 3, 1, 20, true, 4);
 			});
 			//Redstone Ore
 			OreHelper.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:redstone_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 6, 180, 255, true, 3);
+				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:redstone_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 6, 1, 45, true, 3);
 			});
-			//Toilet Paper / Emerald Ore
+			//Emerald Ore that's better than TP
 			OreHelper.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:emerald_ore"), OreHelper.BASE_STONE_OVERWORLD, 12, 3, 180, 255, true, 4);
+				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:emerald_ore"), OreHelper.BASE_STONE_OVERWORLD, 12, 3, 1, 20, true, 4);
 			});
+
+
+			////
+			////
+			//Modded Ores
+			////
+			////
+
+			//Dimensional Shard
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("rftoolsbase:dimensionalshard_overworld"), OreHelper.BASE_STONE_OVERWORLD, 20, 3, 1, 45, true, 4);
+			});
+			//prosperity_ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("mysticalagriculture:prosperity_ore"), OreHelper.BASE_STONE_OVERWORLD, 12, 3, 1, 45, true, 4);
+			});
+			//inferium_ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("mysticalagriculture:inferium_ore"), OreHelper.BASE_STONE_OVERWORLD, 18, 10, 20, 55, true, 2);
+			});
+        	//power_ore
+			OreHelper.addOre(event, function() {
+				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+				return OreHelper.buildVerticalOre(BlockHelper.getState("forcecraft:power_ore"), OreHelper.BASE_STONE_OVERWORLD, 18, 10, 40, 60, true, 2);
+			});
+
+        ////
+        ////
+        //Thermal Ores
+        ////
+        ////
+
+        //thermal:apatite_ore Ore
+        OreHelper.addOre(event, function() {
+            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:apatite_ore"), OreHelper.BASE_STONE_OVERWORLD, 18, 8, 27, 60, true, 4);
+        });
+        //thermal:cinnabar_ore Ore
+        OreHelper.addOre(event, function() {
+            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:cinnabar_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 8, 27, 60, true, 4);
+        });
+        //thermal:niter_ore Ore
+        OreHelper.addOre(event, function() {
+            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:niter_ore"), OreHelper.BASE_STONE_OVERWORLD, 11, 8, 20, 60, true, 4);
+        });
+        //thermal:sulfur_ore Ore
+        OreHelper.addOre(event, function() {
+            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:sulfur_ore"), OreHelper.BASE_STONE_OVERWORLD, 11, 8, 20, 60, true, 4);
+        });
+        //thermal:copper_ore Ore
+        OreHelper.addOre(event, function() {
+            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:copper_ore"), OreHelper.BASE_STONE_OVERWORLD, 18, 10, 20, 60, true, 2);
+        });
+        //thermal:tin_ore Ore
+        OreHelper.addOre(event, function() {
+            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:tin_ore"), OreHelper.BASE_STONE_OVERWORLD, 12, 9, 40, 60, true, 2);
+        });
+        //thermal:lead_ore Ore
+        OreHelper.addOre(event, function() {
+            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:lead_ore"), OreHelper.BASE_STONE_OVERWORLD, 10, 8, 30, 60, true, 3);
+        });
+        //thermal:silver_ore Ore
+        OreHelper.addOre(event, function() {
+            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:silver_ore"), OreHelper.BASE_STONE_OVERWORLD, 10, 5, 45, 60, true, 4);
+        });
+        //thermal:nickel_ore Ore
+        OreHelper.addOre(event, function() {
+            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+            return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:nickel_ore"), OreHelper.BASE_STONE_OVERWORLD, 16, 10, 40, 60, true, 3);
+        });		
+
+            var BlockStateMatchRuleTest = Java.type("net.minecraft.world.gen.feature.template.BlockStateMatchRuleTest");
+
+            //Holes
+            OreHelper.addOre(event, function() {
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildOre(BlockHelper.getState("minecraft:air"), new BlockStateMatchRuleTest(BlockHelper.getState("minecraft:cobblestone")), 20, 16, 78, 81, true, 2);
+            });
 		}
 	}
 }).class)
@@ -214,4 +302,3 @@ registerPreset("skylands", "Skylands", "examples/images/Basic_Tree", "Overworld 
 		FeatureHelper.removeFeature(event, "void_start_platform");//Removes a strange void biome feature
 	}
 }).class);
-

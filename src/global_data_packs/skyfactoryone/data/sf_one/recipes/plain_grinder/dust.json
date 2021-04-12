@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "minecraft:sand"
+  },
+  "result": {
+    "item": "exnihilosequentia:dust",
+    "count": 1
+  }
+}
