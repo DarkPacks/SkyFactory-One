@@ -15,4 +15,26 @@
 	#An additional list of tile entities the Force Furnace can NOT insert into [Syntax: modid:tile_name]
 	#Examples: "minecraft:shulker_box" would it stop inserting into shulkers
 	furnaceOutputBlacklist = [""]
+	#Enable Chu Chu's to spawn [Default: 1]
+	ChuChuSpawning = true
+	#Chu Chu spawn weight [Default: 100]
+	#Range: > 1
+	ChuChuWeight = 100
+	#Chu Chu Min Group size [Default: 1]
+	#Range: > 1
+	ChuChuMinGroup = 1
+	#Chu Chu Max Group size [Default: 1]
+	#Range: > 1
+	ChuChuMaxGroup = 1
+	#Enable Fairy's to spawn [Default: 1]
+	FairySpawning = true
+	#Fairy spawn weight [Default: 4]
+	#Range: > 1
+	FairyWeight = 4
+	#Fairy Min Group size [Default: 1]
+	#Range: > 1
+	FairyMinGroup = 1
+	#Fairy Max Group size [Default: 1]
+	#Range: > 1
+	FairyMaxGroup = 2
 
