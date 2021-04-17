@@ -3,14 +3,48 @@ setDimensionType(DimensionHelper.typeBuilder().fixedTime(18000).effects("topogra
 
 var NoFeatureConfig = Java.type("net.minecraft.world.gen.feature.NoFeatureConfig");
 var RegionFeatureConfig = Java.type("com.bloodnbonesgaming.topography.common.world.gen.feature.config.RegionFeatureConfig");
+var CircleRegionFeatureConfig = Java.type("com.bloodnbonesgaming.topography.common.world.gen.feature.config.CircleRegionFeatureConfig");
 var StructureFeatureConfig = Java.type("com.bloodnbonesgaming.topography.common.world.gen.feature.config.StructureFeatureConfig");
 var StalactiteFormationConfig = Java.type("com.bloodnbonesgaming.topography.common.world.gen.feature.config.StalactiteFormationConfig");
 var FeatureHelper = Java.type("com.bloodnbonesgaming.topography.common.util.features.FeatureHelper");
+var BlockReplacement = Java.type("com.bloodnbonesgaming.topography.common.world.gen.feature.config.BlockReplacement");
 var COBBLESTONE = BlockHelper.getState("minecraft:cobblestone");
 var DIORITE = BlockHelper.getState("minecraft:diorite");
 var GRANITE = BlockHelper.getState("minecraft:granite");
 var ANDESITE = BlockHelper.getState("minecraft:andesite");
 var GRAVEL = BlockHelper.getState("minecraft:gravel");
+
+//Floor structures
+addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 21, 81, "examples/structures/captainq1")
+.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand) {
+	if (state == BlockHelper.getState("minecraft:red_wool")) {
+		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildRandomSpawner(rand)));
+	}
+	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
+		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
+	}
+	return Util.Block.buildBlockInfo(pos, state, nbt);
+}))));
+addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 22, 81, "examples/structures/captainq2")
+.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand) {
+	if (state == BlockHelper.getState("minecraft:red_wool")) {
+		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildRandomSpawner(rand)));
+	}
+	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
+		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
+	}
+	return Util.Block.buildBlockInfo(pos, state, nbt);
+}))));
+addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 23, 81, "examples/structures/captainq3")
+.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand) {
+	if (state == BlockHelper.getState("minecraft:red_wool")) {
+		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildRandomSpawner(rand)));
+	}
+	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
+		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
+	}
+	return Util.Block.buildBlockInfo(pos, state, nbt);
+}))));
 
 //Columns
 addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:column_formation", new StalactiteFormationConfig(COBBLESTONE, 10, 0, 2, 1, 12, 4, 1)));
@@ -19,7 +53,7 @@ addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:column_formati
 addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:column_formation", new StalactiteFormationConfig(ANDESITE, 10, 0, 2, 1, 12, 4, 1)));
 
 //Void holes
-addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:void_hole", new RegionFeatureConfig(10, 0, 8, 9, 10)));
+addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:void_hole", new CircleRegionFeatureConfig(10, 0, 8, 9, 10)));
 
 //Stalactites
 //Big
@@ -45,6 +79,29 @@ addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:stalactite", n
 addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(GRANITE, 2, 0, 16, 5, 1, 2, 1)));
 addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(ANDESITE, 2, 0, 16, 5, 1, 2, 1)));
 
+//Ceiling structures
+addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 2, 24, 150, "examples/structures/captainq4")
+.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand) {
+	if (state == BlockHelper.getState("minecraft:red_wool")) {
+		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildRandomSpawner(rand)));
+	}
+	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
+		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
+	}
+	return Util.Block.buildBlockInfo(pos, state, nbt);
+}))));
+addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 25, 77, "examples/structures/captainq_chain")
+.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand) {
+	if (state == BlockHelper.getState("minecraft:red_wool")) {
+		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildRandomSpawner(rand)));
+	}
+	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
+		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
+	}
+	return Util.Block.buildBlockInfo(pos, state, nbt);
+}))));
+
+
 //Stalagmites
 //Medium
 addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(COBBLESTONE, 10, 0, 4, 8, 5, 2, 1)));
@@ -65,7 +122,6 @@ addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:stalagmite", n
 addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(DIORITE, 10, 0, 24, 6, 1, 1, 1)));
 addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(GRANITE, 10, 0, 24, 6, 1, 1, 1)));
 addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(ANDESITE, 10, 0, 24, 6, 1, 1, 1)));
-
 
 function buildChunkGenerator(seed, biomeRegistry, dimensionSettingsRegistry) {
 	var biomes = BiomeHelper.forBiomes("topography:infinite_dark");
