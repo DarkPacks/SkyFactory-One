@@ -45,6 +45,22 @@ addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:structure", ne
 	}
 	return Util.Block.buildBlockInfo(pos, state, nbt);
 }))));
+addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 24, 80, "examples/structures/bentley_tower")
+.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand) {
+	if (state == BlockHelper.getState("minecraft:pink_wool")) {
+		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner("minecraft:cave_spider")));
+	}
+	else if (state == BlockHelper.getState("minecraft:cyan_wool")) {
+		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner("minecraft:zombie")));
+	}
+	else if (state == BlockHelper.getState("minecraft:orange_wool")) {
+		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner("minecraft:blaze")));
+	}
+	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
+		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
+	}
+	return Util.Block.buildBlockInfo(pos, state, nbt);
+}))));
 
 //Columns
 addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:column_formation", new StalactiteFormationConfig(COBBLESTONE, 10, 0, 2, 1, 12, 4, 1)));
