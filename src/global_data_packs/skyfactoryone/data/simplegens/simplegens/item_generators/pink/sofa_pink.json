@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_pink",
+  "fuel": {
+    "raw:item": "buildersaddition:sofa_pink"
+  },
+  "energy": 9315
+}

@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "tconstruct:pigiron_nugget",
+  "group": "tconstruct:pig_iron_nugget",
   "ingredients": [
     {
-      "item": "tconstruct:pigiron_ingot"
+      "item": "tconstruct:pig_iron_ingot"
     }
   ],
   "result": {
-    "item": "tconstruct:pigiron_nugget",
+    "item": "tconstruct:pig_iron_nugget",
     "count": 9
   }
 }

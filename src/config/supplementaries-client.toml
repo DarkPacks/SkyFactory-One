@@ -6,7 +6,7 @@
 
 	[blocks.clock_block]
 		#display 24h time format. False for 12h format
-		24h_format = true
+		24h_format = false
 
 	[blocks.pedestal]
 		#enable displayed item spin

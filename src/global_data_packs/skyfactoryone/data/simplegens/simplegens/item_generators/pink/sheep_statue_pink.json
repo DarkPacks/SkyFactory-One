@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_pink",
+  "fuel": {
+    "raw:item": "statues:sheep_statue_pink"
+  },
+  "energy": 9315
+}

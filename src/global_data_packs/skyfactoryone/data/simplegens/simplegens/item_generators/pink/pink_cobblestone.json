@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_pink",
+  "fuel": {
+    "raw:item": "pickletweaks:pink_cobblestone"
+  },
+  "energy": 9315
+}

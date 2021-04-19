@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_pink",
+  "fuel": {"raw:item": "minecraft:pink_banner"},
+  "energy": 9315
+}

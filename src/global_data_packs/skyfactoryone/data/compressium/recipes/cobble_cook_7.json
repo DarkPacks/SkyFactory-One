@@ -1,9 +1,7 @@
 {
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "compressium:cobblestone_7"
-  },
-  "result": "compressium:stone_7",
-  "experience": 53144.1,
-  "cookingtime": 900
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
 }

@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_pink",
+  "fuel": {
+    "raw:item": "ender_bags:pink_bag"
+  },
+  "energy": 9315
+}

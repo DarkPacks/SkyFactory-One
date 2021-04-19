@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_pink",
+  "fuel": {
+    "raw:item": "refinedstorage:pink_crafter"
+  },
+  "energy": 9315
+}

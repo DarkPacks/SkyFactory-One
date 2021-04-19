@@ -10,7 +10,7 @@
 	#The HUD position of a pinned note. Values: top_left, top_right, center_left, center_right, bottom_left, bottom_right
 	pinnedNotePosition = "center_right"
 	#The date format used in timestamps.
-	dateFormat = "M/d/yy h:mm a"
+	dateFormat = "d/M/yy h:mm a"
 	#The maximum percentage of the screen's display height that a pinned note can take up.
 	#Range: 0.05 ~ 1.0
 	pinnedHeightScale = 1.0

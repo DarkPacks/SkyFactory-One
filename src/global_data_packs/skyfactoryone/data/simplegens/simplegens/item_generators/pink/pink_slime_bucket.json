@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_pink",
+  "fuel": {
+    "raw:item": "industrialforegoing:pink_slime_bucket"
+  },
+  "energy": 9315
+}

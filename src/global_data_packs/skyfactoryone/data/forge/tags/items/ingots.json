@@ -16,7 +16,7 @@
     "#forge:ingots/lead",
     "#forge:ingots/lumium",
     "#forge:ingots/manyullyn",
-    "#forge:ingots/netherite"
+    "#forge:ingots/netherite",
     "#forge:ingots/nickel",
     "#forge:ingots/pig_iron",
     "#forge:ingots/queens_slime",
@@ -28,6 +28,6 @@
     "#forge:ingots/soulsteel",
     "#forge:ingots/tin",
     "tconstruct:dried_brick",
-    "tconstruct:seared_brick",
+    "tconstruct:seared_brick"
   ]
 }

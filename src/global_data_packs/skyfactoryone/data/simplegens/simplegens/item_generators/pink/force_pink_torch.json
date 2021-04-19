@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_pink",
+  "fuel": {
+    "raw:item": "forcecraft:force_pink_torch"
+  },
+  "energy": 9315
+}

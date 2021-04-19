@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_pink",
+  "fuel": {
+    "raw:item": "tconstruct:pink_clear_stained_glass"
+  },
+  "energy": 9315
+}

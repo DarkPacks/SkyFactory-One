@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_pink",
+  "fuel": {
+    "raw:item": "buildersplus:pink_quartzstairs"
+  },
+  "energy": 9315
+}

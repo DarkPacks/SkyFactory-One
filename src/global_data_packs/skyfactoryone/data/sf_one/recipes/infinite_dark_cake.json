@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "3n3",
+    "p4t",
+    "3e3"
+  ],
+  "key": {
+    "3": {
+      "item": "compressium:cobblestone_3"
+    },
+    "4": {
+      "item": "compressium:cobblestone_4"
+    },
+    "t": {
+      "item": "mysticalagriculture:tertium_ingot"
+    },
+    "e": {
+      "item": "thermal:enderium_ingot"
+    },
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "p": {
+      "item": "tconstruct:pig_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "telepastries:custom_cake",
+    "count": 1
+  }
+}

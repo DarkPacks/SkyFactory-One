@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_pink",
+  "fuel": {
+    "raw:item": "inspirations:pink_book"
+  },
+  "energy": 9315
+}

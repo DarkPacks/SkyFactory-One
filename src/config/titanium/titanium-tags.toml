@@ -1,5 +1,5 @@
 
 [TagConfig]
 	#A list of mod ids sorted by preference when getting an Item for a tag
-	ITEM_PREFERENCE = ["minecraft", "emendatusenigmatica", "immersiveengineering", "thermal", "create", "mekanism", "jaopca", "kubejs", "appliedenergistics2", "pneumaticcraft", "occultism", "tmechworks", "industrialforegoing", "botania", "quark", "pedestals"]
+	ITEM_PREFERENCE = ["minecraft", "thermal", "industrialforegoing", "tconstruct"]
 
