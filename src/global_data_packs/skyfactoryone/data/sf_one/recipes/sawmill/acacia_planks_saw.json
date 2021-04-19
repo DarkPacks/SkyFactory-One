@@ -1,0 +1,13 @@
+{
+  "type": "thermal:sawmill",
+  "ingredient": {
+    "item": "minecraft:acacia_planks"
+  },
+  "result": [
+    {
+      "item": "crumbs:acacia_tile",
+      "count": 1
+    }
+  ],
+  "energy": 500
+}

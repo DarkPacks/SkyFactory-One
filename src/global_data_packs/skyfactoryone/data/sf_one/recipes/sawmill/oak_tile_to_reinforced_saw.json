@@ -1,0 +1,13 @@
+{
+  "type": "thermal:sawmill",
+  "ingredient": {
+    "item": "crumbs:oak_tile"
+  },
+  "result": [
+    {
+      "item": "crumbs:reinforced_oak_planks",
+      "count": 1
+    }
+  ],
+  "energy": 500
+}

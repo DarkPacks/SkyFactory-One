@@ -1,0 +1,13 @@
+{
+  "type": "thermal:sawmill",
+  "ingredient": {
+    "item": "minecraft:crimson_planks"
+  },
+  "result": [
+    {
+      "item": "crumbs:crimson_tile",
+      "count": 1
+    }
+  ],
+  "energy": 500
+}

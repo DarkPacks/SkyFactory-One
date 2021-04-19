@@ -104,6 +104,17 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 			event.getSpawns().func_242575_a(EntityClassification.MONSTER, new Spawners(ForgeRegistries.ENTITIES.getValue(new ResourceLocation("minecraft:zombie")), 10, 1, 3));
 			event.getSpawns().func_242575_a(EntityClassification.MONSTER, new Spawners(ForgeRegistries.ENTITIES.getValue(new ResourceLocation("minecraft:zombie_villager")), 10, 1, 3));
 			
+
+			//Forcecraft Entities
+			event.getSpawns().func_242575_a(EntityClassification.MONSTER, new Spawners(ForgeRegistries.ENTITIES.getValue(new ResourceLocation("forcecraft:red_chu_chu")), 4, 1, 3));
+			event.getSpawns().func_242575_a(EntityClassification.MONSTER, new Spawners(ForgeRegistries.ENTITIES.getValue(new ResourceLocation("forcecraft:green_chu_chu")), 4, 1, 3));
+			event.getSpawns().func_242575_a(EntityClassification.MONSTER, new Spawners(ForgeRegistries.ENTITIES.getValue(new ResourceLocation("forcecraft:blue_chu_chu")), 4, 1, 3));
+			event.getSpawns().func_242575_a(EntityClassification.MONSTER, new Spawners(ForgeRegistries.ENTITIES.getValue(new ResourceLocation("forcecraft:gold_chu_chu")), 4, 1, 3));
+			event.getSpawns().func_242575_a(EntityClassification.MONSTER, new Spawners(ForgeRegistries.ENTITIES.getValue(new ResourceLocation("forcecraft:creeper_tot")), 2, 1, 3));
+			event.getSpawns().func_242575_a(EntityClassification.MONSTER, new Spawners(ForgeRegistries.ENTITIES.getValue(new ResourceLocation("forcecraft:ender_tot")), 4, 1, 3));
+
+			event.getSpawns().func_242575_a(EntityClassification.CREATURE, new Spawners(ForgeRegistries.ENTITIES.getValue(new ResourceLocation("forcecraft:fairy")), 5, 1, 2));
+
 			/*
 			Entities which aren't added:
 			villager
@@ -303,8 +314,8 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 		var PlayerEntity = Java.type("net.minecraft.entity.player.PlayerEntity");
 		
 		if (WorldHelper.test(event.getWorld(), "topography:infinite_dark") && !(event.getEntity() instanceof PlayerEntity)) {
-			EntityHelper.modifyAttribute(event.getEntity(), "minecraft:generic.attack_damage", "dark_power", 0.2, Operation.MULTIPLY_TOTAL);
-			EntityHelper.modifyAttribute(event.getEntity(), "minecraft:generic.max_health", "dark_resilience", 0.2, Operation.MULTIPLY_TOTAL);
+			EntityHelper.modifyAttribute(event.getEntity(), "minecraft:generic.attack_damage", "dark_power", 1.0, Operation.MULTIPLY_TOTAL);
+			EntityHelper.modifyAttribute(event.getEntity(), "minecraft:generic.max_health", "dark_resilience", 1.0, Operation.MULTIPLY_TOTAL);
 			EntityHelper.healToMax(event.getEntityLiving());
 		}
 	}

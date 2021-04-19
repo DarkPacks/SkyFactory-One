@@ -188,3 +188,9 @@
 	#Range: 0 ~ 5
 	sieveRange = 2
 
+#Pebble Configs
+[pebble]
+	#How much half hearts damage a pebble should do. (Default: 0)
+	#Range: > 0
+	pebbleDamage = 0
+

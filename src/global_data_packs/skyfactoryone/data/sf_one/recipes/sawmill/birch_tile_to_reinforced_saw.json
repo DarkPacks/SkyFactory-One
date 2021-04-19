@@ -1,0 +1,13 @@
+{
+  "type": "thermal:sawmill",
+  "ingredient": {
+    "item": "crumbs:birch_tile"
+  },
+  "result": [
+    {
+      "item": "crumbs:reinforced_birch_planks",
+      "count": 1
+    }
+  ],
+  "energy": 500
+}

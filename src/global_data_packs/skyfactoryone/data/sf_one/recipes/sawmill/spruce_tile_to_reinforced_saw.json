@@ -1,0 +1,13 @@
+{
+  "type": "thermal:sawmill",
+  "ingredient": {
+    "item": "crumbs:spruce_tile"
+  },
+  "result": [
+    {
+      "item": "crumbs:reinforced_spruce_planks",
+      "count": 1
+    }
+  ],
+  "energy": 500
+}

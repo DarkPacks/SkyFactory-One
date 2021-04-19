@@ -1,0 +1,13 @@
+{
+  "type": "thermal:sawmill",
+  "ingredient": {
+    "item": "crumbs:crimson_tile"
+  },
+  "result": [
+    {
+      "item": "crumbs:reinforced_crimson_planks",
+      "count": 1
+    }
+  ],
+  "energy": 500
+}
