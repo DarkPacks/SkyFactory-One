@@ -125,6 +125,14 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 		if (event.getName().toString().equals("topography:infinite_dark")) {
 			////           
 			////
+			//Features
+			////
+			////
+			FeatureHelper.removeFeature(event, "caves");
+			FeatureHelper.removeFeature(event, "ravines");
+			
+			////           
+			////
 			//Vanilla Ore
 			////
 			////
