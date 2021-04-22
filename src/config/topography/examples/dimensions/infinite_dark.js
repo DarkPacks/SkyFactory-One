@@ -14,11 +14,31 @@ var GRANITE = BlockHelper.getState("minecraft:granite");
 var ANDESITE = BlockHelper.getState("minecraft:andesite");
 var GRAVEL = BlockHelper.getState("minecraft:gravel");
 
+var randomSpawnerOptions = [
+	"minecraft:spider",
+	"minecraft:zombie",
+	"minecraft:skeleton",
+	"minecraft:cave_spider",
+	"minecraft:husk",
+	"minecraft:creeper",
+	"minecraft:witch",
+	"minecraft:phantom",
+	"minecraft:evoker",
+	"minecraft:ravager",
+	"minecraft:stray",
+	"minecraft:vindicator",
+	"minecraft:zombie_villager"
+]
+
+function getRandomSpawner(rand) {
+	return randomSpawnerOptions[rand.nextInt(randomSpawnerOptions.length)];
+}
+
 //Floor structures
 addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 21, 81, "examples/structures/captainq1")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand) {
 	if (state == BlockHelper.getState("minecraft:red_wool")) {
-		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildRandomSpawner(rand)));
+		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
 	}
 	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
 		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
@@ -28,7 +48,7 @@ addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:structure", ne
 addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 22, 81, "examples/structures/captainq2")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand) {
 	if (state == BlockHelper.getState("minecraft:red_wool")) {
-		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildRandomSpawner(rand)));
+		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
 	}
 	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
 		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
@@ -38,7 +58,7 @@ addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:structure", ne
 addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 23, 81, "examples/structures/captainq3")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand) {
 	if (state == BlockHelper.getState("minecraft:red_wool")) {
-		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildRandomSpawner(rand)));
+		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
 	}
 	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
 		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
@@ -48,16 +68,23 @@ addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:structure", ne
 addRegionFeature(FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 24, 80, "examples/structures/bentley_tower")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand) {
 	if (state == BlockHelper.getState("minecraft:pink_wool")) {
-		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner("minecraft:cave_spider")));
+		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
 	}
 	else if (state == BlockHelper.getState("minecraft:cyan_wool")) {
-		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner("minecraft:zombie")));
+		if (rand.nextInt(2) == 0) {//Only place 50% of spawners
+			return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:air"), null);
+		} else {
+			return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
+		}
 	}
 	else if (state == BlockHelper.getState("minecraft:orange_wool")) {
-		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner("minecraft:blaze")));
+		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
 	}
 	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
 		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
+	}
+	else if (state == BlockHelper.getState("minecraft:stone_bricks") && rand.nextInt(20) == 0) {
+		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:infested_stone_bricks"), null);
 	}
 	return Util.Block.buildBlockInfo(pos, state, nbt);
 }))));
