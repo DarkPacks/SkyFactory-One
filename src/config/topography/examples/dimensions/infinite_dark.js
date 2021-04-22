@@ -1,5 +1,7 @@
 
-setDimensionType(DimensionHelper.typeBuilder().fixedTime(18000).effects("topography:black").build());
+setDimensionType(DimensionHelper.typeBuilder().fixedTime(18000).effects("topography:black").skylight(false).ceiling(true).build());
+minGamma(0.0);
+maxGamma(0.0);
 
 var NoFeatureConfig = Java.type("net.minecraft.world.gen.feature.NoFeatureConfig");
 var RegionFeatureConfig = Java.type("com.bloodnbonesgaming.topography.common.world.gen.feature.config.RegionFeatureConfig");
