@@ -307,7 +307,7 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 		}
 	}
 }).class)
-.registerEventHandler("FogColors", Java.extend(Consumer, {
+.registerEventHandler("FogColors", EventSide.CLIENT, Java.extend(Consumer, {
 	accept: function(event) {
 		if (WorldHelper.test(Util.Client.getWorld(), "topography:infinite_dark")) {
 			event.setRed(0);
@@ -316,7 +316,7 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 		}
 	}
 }).class)
-.registerEventHandler("SpecialSpawn", Java.extend(Consumer, {
+.registerEventHandler("SpecialSpawn", EventSide.SERVER, Java.extend(Consumer, {
 	accept: function(event) {
 		var Operation = Java.type("net.minecraft.entity.ai.attributes.AttributeModifier.Operation");
 		var PlayerEntity = Java.type("net.minecraft.entity.player.PlayerEntity");
@@ -328,7 +328,7 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 		}
 	}
 }).class)
-.registerEventHandler("LivingUpdateEvent", Java.extend(Consumer, {
+.registerEventHandler("LivingUpdateEvent", EventSide.SERVER, Java.extend(Consumer, {
 	accept: function(event) {
 		var PlayerEntity = Java.type("net.minecraft.entity.player.PlayerEntity");
 		var entity = event.getEntityLiving();
