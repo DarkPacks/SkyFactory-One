@@ -16,7 +16,7 @@
   ],
   "headScaleNoPumpkin": 0.875,
   "forClass": "net.minecraft.entity.passive.SnowGolemEntity",
-  "customClass": "me.ichun.mods.ichunutil.common.head.entity.HeadSnowman",
+  "customClass": "me.ichun.mods.ichunutil.api.common.head.entity.HeadSnowman",
   "modelFieldName": "field_78195_c",
   "eyeOffset": [
     0.0,

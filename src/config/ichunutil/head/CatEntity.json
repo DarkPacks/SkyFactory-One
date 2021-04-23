@@ -27,7 +27,7 @@
     ]
   ],
   "forClass": "net.minecraft.entity.passive.CatEntity",
-  "customClass": "me.ichun.mods.ichunutil.common.head.entity.HeadCat",
+  "customClass": "me.ichun.mods.ichunutil.api.common.head.entity.HeadCat",
   "modelFieldName": "field_78156_g",
   "eyeOffset": [
     0.0,

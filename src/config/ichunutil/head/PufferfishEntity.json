@@ -26,7 +26,7 @@
   "headScaleSmall": 0.375,
   "headScaleMedium": 0.625,
   "forClass": "net.minecraft.entity.passive.fish.PufferfishEntity",
-  "customClass": "me.ichun.mods.ichunutil.common.head.entity.HeadPufferfish",
+  "customClass": "me.ichun.mods.ichunutil.api.common.head.entity.HeadPufferfish",
   "eyeOffset": [
     0.0,
     0.40625,

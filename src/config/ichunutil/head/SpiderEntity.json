@@ -12,7 +12,7 @@
     0.46875
   ],
   "forClass": "net.minecraft.entity.monster.SpiderEntity",
-  "customClass": "me.ichun.mods.ichunutil.common.head.entity.HeadSpider",
+  "customClass": "me.ichun.mods.ichunutil.api.common.head.entity.HeadSpider",
   "modelFieldName": "field_78209_a",
   "eyeOffset": [
     0.0,

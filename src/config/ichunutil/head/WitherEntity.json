@@ -23,7 +23,7 @@
     0.0625
   ],
   "forClass": "net.minecraft.entity.boss.WitherEntity",
-  "customClass": "me.ichun.mods.ichunutil.common.head.entity.HeadWither",
+  "customClass": "me.ichun.mods.ichunutil.api.common.head.entity.HeadWither",
   "modelFieldName": "field_82904_b",
   "isBoss": true,
   "eyeOffset": [

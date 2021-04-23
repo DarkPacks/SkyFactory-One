@@ -10,7 +10,7 @@
     0.8784314
   ],
   "forClass": "net.minecraft.entity.passive.BeeEntity",
-  "customClass": "me.ichun.mods.ichunutil.common.head.entity.HeadBee",
+  "customClass": "me.ichun.mods.ichunutil.api.common.head.entity.HeadBee",
   "modelFieldName": "field_228231_a_",
   "eyeOffset": [
     0.0,

@@ -1,6 +1,6 @@
 {
   "forClass": "net.minecraft.entity.passive.ParrotEntity",
-  "customClass": "me.ichun.mods.ichunutil.common.head.entity.HeadParrot",
+  "customClass": "me.ichun.mods.ichunutil.api.common.head.entity.HeadParrot",
   "modelFieldName": "field_192768_e",
   "eyeOffset": [
     0.0,

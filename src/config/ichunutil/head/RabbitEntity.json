@@ -1,6 +1,6 @@
 {
   "forClass": "net.minecraft.entity.passive.RabbitEntity",
-  "customClass": "me.ichun.mods.ichunutil.common.head.entity.HeadRabbit",
+  "customClass": "me.ichun.mods.ichunutil.api.common.head.entity.HeadRabbit",
   "modelFieldName": "field_178704_h",
   "eyeOffset": [
     0.0,

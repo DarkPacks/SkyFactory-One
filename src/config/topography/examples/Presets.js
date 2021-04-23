@@ -352,12 +352,3 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 		}
 	}
 }).class);
-
-registerPreset("skylands", "Skylands", "examples/images/Basic_Tree", "Overworld with skylands generation")//Registers preset
-.registerDimension("overworld", "examples/dimensions/overworld_skylands")//Registers script "overworld_skylands" to be used for generating dimension "overworld"
-.registerEventHandler("BiomeLoadingEvent", Java.extend(Consumer, {//Registers a Forge event handler of type "BiomeLoadingEvent" 
-	accept: function(event) {
-		FeatureHelper.removeStructure(event, "mineshaft");//Removes mineshafts. They don't generate very well
-		FeatureHelper.removeFeature(event, "void_start_platform");//Removes a strange void biome feature
-	}
-}).class);

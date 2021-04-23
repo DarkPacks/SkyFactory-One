@@ -10,7 +10,7 @@
     0.125
   ],
   "forClass": "net.minecraft.entity.passive.fish.TropicalFishEntity",
-  "customClass": "me.ichun.mods.ichunutil.common.head.entity.HeadTropicalFish",
+  "customClass": "me.ichun.mods.ichunutil.api.common.head.entity.HeadTropicalFish",
   "eyeOffset": [
     0.0,
     0.0,

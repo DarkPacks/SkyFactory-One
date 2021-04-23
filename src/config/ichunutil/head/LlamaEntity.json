@@ -13,7 +13,7 @@
   ],
   "headScaleNormal": 1.0,
   "forClass": "net.minecraft.entity.passive.horse.LlamaEntity",
-  "customClass": "me.ichun.mods.ichunutil.common.head.entity.HeadLlama",
+  "customClass": "me.ichun.mods.ichunutil.api.common.head.entity.HeadLlama",
   "eyeOffset": [
     0.0,
     0.125,

@@ -13,7 +13,7 @@
   ],
   "headScaleNormal": 0.875,
   "forClass": "net.minecraft.entity.passive.horse.AbstractHorseEntity",
-  "customClass": "me.ichun.mods.ichunutil.common.head.entity.HeadHorse",
+  "customClass": "me.ichun.mods.ichunutil.api.common.head.entity.HeadHorse",
   "eyeOffset": [
     0.0,
     0.375,
