@@ -26,7 +26,6 @@ var randomSpawnerOptions = [
 	"minecraft:witch",
 	"minecraft:phantom",
 	"minecraft:evoker",
-	"minecraft:ravager",
 	"minecraft:stray",
 	"minecraft:vindicator",
 	"minecraft:zombie_villager"
