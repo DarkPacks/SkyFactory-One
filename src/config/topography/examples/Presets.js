@@ -337,16 +337,13 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 			if (Util.World.getGameTime(Util.Entity.getWorld(entity)) % 20 == 0) {//Only check every 2 seconds
 				var light = Util.Entity.getLight(entity);
 				
-				if (light < 8) {
+				if (light == 0) {
 					Util.Effect.addPotion(entity, "minecraft:slowness", 40, 1, false, false);//entity, effect, duration, amplification, ambient, particles
 					Util.Effect.addPotion(entity, "minecraft:weakness", 40, 1, false, false);
+					Util.Effect.addPotion(entity, "minecraft:blindness", 40, 0, false, false);
 				} else {
 					Util.Effect.addPotion(entity, "minecraft:speed", 40, 0, false, false);
 					Util.Effect.addPotion(entity, "minecraft:resistance", 40, 0, false, false);
-				}
-				
-				if (light == 0) {
-					Util.Effect.addPotion(entity, "minecraft:blindness", 40, 0, false, false);
 				}
 			}
 		}
