@@ -333,7 +333,7 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 		var PlayerEntity = Java.type("net.minecraft.entity.player.PlayerEntity");
 		var entity = event.getEntityLiving();
 		
-		if (WorldHelper.test(Util.Entity.getWorld(entity), "topography:infinite_dark") && entity instanceof PlayerEntity) {
+		if (WorldHelper.test(Util.Entity.getWorld(entity), "topography:infinite_dark") && entity instanceof PlayerEntity && !Util.Player.getGamemodeName(entity).equals("CREATIVE") && !Util.Player.getGamemodeName(entity).equals("SPECTATOR")) {
 			if (Util.World.getGameTime(Util.Entity.getWorld(entity)) % 20 == 0) {//Only check every 2 seconds
 				var light = Util.Entity.getLight(entity);
 				
