@@ -1,0 +1,11 @@
+{
+  "items": [
+    "minecraft:zombie_head"
+  ],
+  "tooltips": [
+    {
+      "text": "Mob Head",
+      "color": "#ffffff"
+    }
+  ]
+}

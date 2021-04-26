@@ -2,6 +2,10 @@
 #Server side blocks configs
 [blocks]
 
+	[blocks.blackboard]
+		#enable to draw directly on a blackboard using any dye. Gui still only works in black and white
+		colored_blackboard = false
+
 	[blocks.turn_table]
 		#can rotate entities standing on it?
 		rotate_entities = true
@@ -18,6 +22,11 @@
 		cage_allow_all_mobs = false
 		#additional mobs that you'll be able to catch with the added condition that it has to be a baby variant. No need to include the ones already in cage_mobs
 		cage_baby_mobs = ["minecraft:cow", "minecraft:sheep", "minecraft:pig", "alexsmobs:crocodile", "alexsmobs:endergrade", "alexsmobs:gazelle", "alexsmobs:gorilla", "alexsmobs:komodo_dragon", "alexsmobs:raccoon", "alexsmobs:seal", "alexsmobs:warped_toad"]
+
+	[blocks.candle_holder]
+		#candle holder light level
+		#Range: 1 ~ 15
+		light_level = 12
 
 	[blocks.globe]
 		#chanche of finding a globe in a shipwreck treasure chest.
@@ -95,15 +104,6 @@
 		#Range: 0 ~ 1024
 		capacity = 12
 
-	[blocks.blackboard]
-		#enable to draw directly on a blackboard using any dye. Gui still only works in black and white
-		colored_blackboard = false
-
-	[blocks.candle_holder]
-		#candle holder light level
-		#Range: 1 ~ 15
-		light_level = 12
-
 #Configure spawning conditions
 [spawns]
 
@@ -129,13 +129,13 @@
 			#average distance apart in chunks between spawn attempts
 			#Range: 0 ~ 200
 			average_distance = 18
-			#minimum distance apart in chunks between spawn attempts
-			#Range: 0 ~ 200
-			minimum_distance = 9
 			#with this option road signs will display the distance to the structure that they are pointing to
 			show_distance_text = true
 			#list of structure that a sign can point to. Note that they will only spawn in dimensions where vanilla villages can
 			villages = ["minecraft:village", "repurposed_structures:village_badlands", "repurposed_structures:village_dark_oak", "repurposed_structures:village_birch", "repurposed_structures:village_giant_taiga", "repurposed_structures:village_jungle", "repurposed_structures:village_mountains", "repurposed_structures:village_oak", "repurposed_structures:village_swamp", "pokecube:village", "pokecube_legends:village", "pokecube_legends:village/ocean", "valhelsia_structures:castle", "valhelsia_structures:castle_ruin", "valhelsia_structures:small_castle", "valhelsia_structures:tower_ruin"]
+			#minimum distance apart in chunks between spawn attempts
+			#Range: 0 ~ 200
+			minimum_distance = 9
 
 #entities parameters
 [entities]

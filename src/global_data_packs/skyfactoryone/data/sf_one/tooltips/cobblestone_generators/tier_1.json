@@ -1,0 +1,11 @@
+{
+  "items": [
+    "cobblefordays:tier_1"
+  ],
+  "tooltips": [
+    {
+      "text": "Cobblestone Generator",
+      "color": "#ecbf00"
+    }
+  ]
+}

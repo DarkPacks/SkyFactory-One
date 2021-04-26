@@ -1,0 +1,11 @@
+{
+  "items": [
+    "minecraft:wither_skeleton_skull"
+  ],
+  "tooltips": [
+    {
+      "text": "Mob Head",
+      "color": "#ffffff"
+    }
+  ]
+}
