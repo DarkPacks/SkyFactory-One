@@ -37,7 +37,7 @@ function getRandomSpawner(rand) {
 
 //Floor structures
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 21, 81, "examples/structures/captainq1")
-.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand) {
+.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == BlockHelper.getState("minecraft:red_wool")) {
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
 	}
@@ -47,7 +47,7 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 	return Util.Block.buildBlockInfo(pos, state, nbt);
 }))));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 22, 81, "examples/structures/captainq2")
-.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand) {
+.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == BlockHelper.getState("minecraft:red_wool")) {
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
 	}
@@ -57,7 +57,7 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 	return Util.Block.buildBlockInfo(pos, state, nbt);
 }))));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 23, 81, "examples/structures/captainq3")
-.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand) {
+.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == BlockHelper.getState("minecraft:red_wool")) {
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
 	}
@@ -67,7 +67,7 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 	return Util.Block.buildBlockInfo(pos, state, nbt);
 }))));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 24, 80, "examples/structures/bentley_tower")
-.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand) {
+.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == BlockHelper.getState("minecraft:pink_wool")) {
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
 	}
@@ -125,7 +125,7 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 
 //Ceiling structures
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 2, 24, 130, "examples/structures/captainq_hanging_plus_chain")
-.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand) {
+.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == BlockHelper.getState("minecraft:red_wool")) {
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildRandomSpawner(rand)));
 	}
@@ -135,7 +135,7 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 	return Util.Block.buildBlockInfo(pos, state, nbt);
 }))));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 25, 77, "examples/structures/captainq_chain")
-.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand) {
+.addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == BlockHelper.getState("minecraft:red_wool")) {
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildRandomSpawner(rand)));
 	}
