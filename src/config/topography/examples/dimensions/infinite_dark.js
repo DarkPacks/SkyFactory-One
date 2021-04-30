@@ -42,6 +42,10 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
 	}
 	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
+		if (rand.nextInt(5) == 0) {
+			entities.add(Util.Entity.buildEntityInfo(pos2, pos2, Util.Entity.buildNBT("{id:\"artifacts:mimic\"}")));
+			return null;
+		}
 		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
 	}
 	return Util.Block.buildBlockInfo(pos, state, nbt);
@@ -52,6 +56,10 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
 	}
 	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
+		if (rand.nextInt(5) == 0) {
+			entities.add(Util.Entity.buildEntityInfo(pos2, pos2, Util.Entity.buildNBT("{id:\"artifacts:mimic\"}")));
+			return null;
+		}
 		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
 	}
 	return Util.Block.buildBlockInfo(pos, state, nbt);
@@ -62,6 +70,10 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
 	}
 	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
+		if (rand.nextInt(5) == 0) {
+			entities.add(Util.Entity.buildEntityInfo(pos2, pos2, Util.Entity.buildNBT("{id:\"artifacts:mimic\"}")));
+			return null;
+		}
 		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
 	}
 	return Util.Block.buildBlockInfo(pos, state, nbt);
@@ -82,6 +94,10 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
 	}
 	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
+		if (rand.nextInt(5) == 0) {
+			entities.add(Util.Entity.buildEntityInfo(pos2, pos2, Util.Entity.buildNBT("{id:\"artifacts:mimic\"}")));
+			return null;
+		}
 		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
 	}
 	else if (state == BlockHelper.getState("minecraft:stone_bricks") && rand.nextInt(20) == 0) {
