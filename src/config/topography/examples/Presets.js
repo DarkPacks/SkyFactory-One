@@ -10,13 +10,15 @@ registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/N
 .registerDimension("topography:infinite_dark", "examples/dimensions/infinite_dark")
 .registerEventHandler("BiomeLoadingEvent", Java.extend(Consumer, {//Registers a Forge event handler of type "BiomeLoadingEvent" 
 	accept: function(event) {
-		FeatureHelper.clearFeatures(event);//Clears all feature generators
+		if (!BiomeHelper.test(event.getName(), BiomeDictionary.Type.END)) {
+			FeatureHelper.clearFeatures(event);//Clears all feature generators
+		}
 		//FeatureHelper.clearStructures(event);//Clears all structure generators
 
         //event, structure resource location
         FeatureHelper.removeStructure(event, "buried_treasure");
         FeatureHelper.removeStructure(event, "desert_pyramid");
-        FeatureHelper.removeStructure(event, "endcity");
+        //FeatureHelper.removeStructure(event, "endcity");
         //FeatureHelper.removeStructure(event, "bastion_remnant");
         //FeatureHelper.removeStructure(event, "fortress");
         FeatureHelper.removeStructure(event, "fossil");
