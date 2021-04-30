@@ -124,7 +124,7 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(ANDESITE, 2, 0, 16, 5, 1, 2, 1)));
 
 //Ceiling structures
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 2, 24, 150, "examples/structures/captainq4")
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 2, 24, 130, "examples/structures/captainq_hanging_plus_chain")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand) {
 	if (state == BlockHelper.getState("minecraft:red_wool")) {
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildRandomSpawner(rand)));
