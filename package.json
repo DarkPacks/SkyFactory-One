@@ -1,0 +1,27 @@
+{
+  "name": "skyfactory-one",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkPacks/SkyFactory-One.git"
+  },
+  "author": "Darkosto",
+  "bugs": {
+    "url": "https://github.com/DarkPacks/SkyFactory-One/issues"
+  },
+  "homepage": "https://github.com/DarkPacks/SkyFactory-One#readme",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-if": "^3.0.0",
+    "gulp-json-minify": "^1.2.2",
+    "gulp-uglify": "^3.0.2",
+    "json5": "^2.2.0",
+    "through2": "^2.0.5"
+  }
+}

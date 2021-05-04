@@ -1,3 +1,9 @@
+# Node/NPM
+node_modules/
+
+# Build
+dist/
+
 # Dev mods
 src/config/tellme.*
 src/config/tellme/*
