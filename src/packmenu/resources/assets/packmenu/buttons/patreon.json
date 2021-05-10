@@ -1,0 +1,18 @@
+{
+  "x": -205,
+  "y": -42,
+  "width": 20,
+  "height": 20,
+  "u": 0,
+  "v": 0,
+  "anchor": "MIDDLE_RIGHT",
+  "hoverU": 0,
+  "hoverV": 0,
+  "texWidth": 80,
+  "texHeight": 80,
+  "scaleX": 0.25,
+  "scaleY": 0.25,
+  "texture": "packmenu:textures/gui/patreon.png",
+  "action": "NONE",
+  "data": "PATREON"
+}

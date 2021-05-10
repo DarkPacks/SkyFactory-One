@@ -1,0 +1,11 @@
+{
+  "items": [
+    "curios:amulet"
+  ],
+  "tooltips": [
+    {
+      "text": "Adds the Regeneration effect to the player",
+      "color": "#ecbf00"
+    }
+  ]
+}

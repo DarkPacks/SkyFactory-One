@@ -18,7 +18,9 @@
 	barrelNumberOfBuckets = 1
 	#The max temperature a barrel can accept; water is 300 (Default: 300)
 	#Range: > 0
-	woodBarrelMaxTemp = 300
+	woodBarrelMaxTemp = 400
+	#Should Ex Nihilo show any Patricle?
+	showParticles = false
 	#How much fluid rain will fill per iteration (Default: 2)
 	#Range: > 1
 	rainFillAmount = 2
@@ -43,6 +45,12 @@
 		#Number of seconds to transform fluids (Default: 10)
 		#Range: > 1
 		secondsToTransformFluid = 30
+
+#Pebble Configs
+[pebble]
+	#How much half hearts damage a pebble should do. (Default: 0)
+	#Range: > 0
+	pebbleDamage = 1
 
 #Ore Configs
 [ore]
@@ -187,10 +195,4 @@
 	#Defines the radius that a sieve will attempt to activate other sieves (Default: 2)
 	#Range: 0 ~ 5
 	sieveRange = 2
-
-#Pebble Configs
-[pebble]
-	#How much half hearts damage a pebble should do. (Default: 0)
-	#Range: > 0
-	pebbleDamage = 0
 

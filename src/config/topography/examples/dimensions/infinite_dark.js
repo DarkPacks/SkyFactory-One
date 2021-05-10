@@ -117,24 +117,24 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 
 //Stalactites
 //Big
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(COBBLESTONE, 8, 5, 9, 2, 10, 4, 1)));
+//addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(COBBLESTONE, 8, 5, 9, 2, 10, 4, 1)));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(DIORITE, 8, 5, 9, 2, 10, 4, 1)));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(GRANITE, 8, 5, 9, 2, 10, 4, 1)));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(ANDESITE, 8, 5, 9, 2, 10, 4, 1)));
 //Medium
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(COBBLESTONE, 6, 3, 13, 3, 5, 3, 1)));
+//addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(COBBLESTONE, 6, 3, 13, 3, 5, 3, 1)));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(DIORITE, 6, 3, 13, 3, 5, 3, 1)));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(GRANITE, 6, 3, 13, 3, 5, 3, 1)));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(ANDESITE, 6, 3, 13, 3, 5, 3, 1)));
 
 //Small
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(COBBLESTONE, 4, 0, 16, 4, 2, 3, 1)));
+//addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(COBBLESTONE, 4, 0, 16, 4, 2, 3, 1)));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(DIORITE, 4, 0, 16, 4, 2, 3, 1)));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(GRANITE, 4, 0, 16, 4, 2, 3, 1)));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(ANDESITE, 4, 0, 16, 4, 2, 3, 1)));
 
 //Very small
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(COBBLESTONE, 2, 0, 16, 5, 1, 2, 1)));
+//addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(COBBLESTONE, 2, 0, 16, 5, 1, 2, 1)));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(DIORITE, 2, 0, 16, 5, 1, 2, 1)));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(GRANITE, 2, 0, 16, 5, 1, 2, 1)));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(ANDESITE, 2, 0, 16, 5, 1, 2, 1)));
@@ -150,7 +150,7 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 	}
 	return Util.Block.buildBlockInfo(pos, state, nbt);
 }))));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 25, 77, "examples/structures/captainq_chain")
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 4, 25, 77, "examples/structures/captainq_chain")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == BlockHelper.getState("minecraft:red_wool")) {
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildRandomSpawner(rand)));
@@ -164,7 +164,7 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 
 //Stalagmites
 //Medium
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(COBBLESTONE, 10, 0, 4, 8, 5, 2, 1)));
+//addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(COBBLESTONE, 10, 0, 4, 8, 5, 2, 1)));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(DIORITE, 10, 0, 3, 8, 5, 2, 1)));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(GRANITE, 10, 0, 3, 8, 5, 2, 1)));
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(ANDESITE, 10, 0, 3, 8, 5, 2, 1)));

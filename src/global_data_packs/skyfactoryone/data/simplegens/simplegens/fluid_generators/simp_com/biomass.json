@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_fluid_combustion",
+  "fuel": {
+    "raw:fluid": "cyclic:biomass"
+  },
+  "energy": 40
+}

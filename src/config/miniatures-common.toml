@@ -1,0 +1,18 @@
+
+#options relating to miniatures
+[miniatures]
+	#how much armor miniatures should have
+	#Range: 0.0 ~ 1.7976931348623157E308
+	armor_value = 0.0
+	#the maximum health of a miniature
+	#Range: 0.0 ~ 1.7976931348623157E308
+	max_health = 16.0
+	#whether or not miniatures are hostile to players
+	hostile = false
+	#if hostile, the amount of damage an attack from a miniature does [1 = 1 full heart, 0.5 = half a heart]
+	#Range: 0.0 ~ 1.7976931348623157E308
+	attack_damage = 2.0
+	#the base movement speed of a miniature
+	#Range: 0.0 ~ 1.7976931348623157E308
+	movement_speed = 0.3
+

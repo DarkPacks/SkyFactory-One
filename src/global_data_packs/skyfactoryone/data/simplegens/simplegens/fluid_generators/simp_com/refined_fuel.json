@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_fluid_combustion",
+  "fuel": {
+    "raw:fluid": "thermal:refined_fuel"
+  },
+  "energy": 160
+}

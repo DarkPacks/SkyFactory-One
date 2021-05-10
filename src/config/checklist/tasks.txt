@@ -1,29 +1,32 @@
-#Welcome To Sky Factory One!
-#Hello and thank you for trying out Sky Factory, a Sky Block modpack! The mods in this pack will allow you to get all the resources you need to build yourself an amazing world! Read on for more gameplay tips and a list of goals for you to accomplish!
-
+#§5=§6= §0§nSky Factory One§r §6=§5=
+#Hello and thank you for trying out Sky Factory, a Sky Block modpack! \n \nThe mods in this pack will allow you to get all the resources you need to build yourself an amazing world! Read on for more gameplay tips and a list of goals for you to accomplish!
+===
 #§5=§6= §0§nHow To Use This Book§r §6=§5=
-#Use the arrows at the bottom left and bottom right of this book to navigate between pages. This book contains a challenge section. You do not have to complete the challenges, they are provided to give you ideas on what to do. Once you complete a challenge, click on the box to check it off. Also, don't forget to craft yourself a Task Table to store this book in!
-
+#Use the arrows at the bottom left and right of this book to navigate between pages. This book contains a challenge section. You do not have to complete the challenges, they are provided to give you ideas on what to do. \n \nOnce you complete a challenge, click on the box to check it off. Also, don't forget to craft yourself a Task Table to store this book in!
+===
 #§5=§6= §0§nWhere Do I Start§r §6=§5=
-#Here's a quick early game breakdown: make Crooks to get extra drops from leaves. Make barrels to compost saplings and other organic stuff to make more dirt and to capture rain water. Infest leaves with silkworms to get string. Make a sieve and sift materials to get resources. "Stones" can be crafted into Cobblestone. Make a hammer to hammer cobble, gravel, and sand. When a Barrel is filled with water insert a Dust Block to make Clay. Cook an Unfired Crucible in a Furnace and place it over top of a heat source such as a torch
-#(and later, lava or fire). Fill the crucible with cobble and it will melt into lava. Use Water and Lava to make a cobble generator. Once you obtain the Cobble Generator, the progression continues much like other modpacks. Also when you are waiting for trees to grow, try twerking! No, I'm not kidding. Crouch repeatedly or sprint near Saplings to make them grow faster
-
-#A Note About Biomes
+#Here's a quick early game breakdown: make Crooks to get extra drops from leaves. Make barrels to compost saplings and other organic stuff to make more dirt and to capture rain water. Infest leaves with silkworms to get string 
+#Make a sieve and sift materials to get resources. "Stones" can be crafted into Cobblestone. Make a hammer to hammer cobble, gravel, and sand. When a Barrel is filled with water insert a Dust Block to make Clay. Cook an Unfired Crucible in a Furnace and place it over top of a heat source such as a torch
+#(and later, lava or fire). Fill the crucible with cobble and it will melt into lava. Use Water and Lava to make a cobble generator. Once you obtain the Cobble Generator, the progression continues much like other modpacks. \n \nAlso, when you are waiting for trees to grow, try twerking! No, I'm not kidding. Crouch repeatedly or sprint near Saplings to make them grow faster
+===
+#§5=§6= §0§nA Note About Biomes§r §6=§5=
 #It does not rain in every biome but you can still make water using the Wooden Crucibles (Ex Compressum). Simply fill them with leaves or saplings to produce water. Passive and enemy mobs should spawn in every biome
 
 
 
+===
+#Credits:
+#My name is Darkosto. 
+#I stream on 
+#[§1§nwww.darkostorants.com§r](https://www.darkostorants.com)
 
-#Credits
-#My name is Darkosto. I stream on darkostorants.com
-
-#
-#The Challenges
+===
+#§5=§6= §0§nThe Challenges§r §6=§5=
 #You can't ever "beat" the pack, but I've provided a list of challenges designed to help you progress. Don't worry if you don't know how to do some of them, have fun with the process of searching for answers. You'll learn a lot and have some fun too!
 #They are divided into tiers/tears of difficulty, and you do NOT have to do them in order!
 
-#
-#§4-§1-§4-§2=§5=§6= §0§nTier 1§r §6=§5=§2=§4-§1-§4-
+===
+#§4-§1-§4-§2=§5=§6= §c§l§nTier 1§r §6=§5=§2=§4-§1-§4-
 Create §lCobblestone§r with Lava and Water
 Automate your §lCobblestone Generator
 Infest a tree with §lSilkworms
@@ -54,15 +57,15 @@ Fill a §lDirtChest§r §l9000§r to maximum capacity
 Listen to §lPigstep§r (DMCA???)
 Wear a §lMonocle§r
 Take a §lCookie§r from a Cookie §lJar§r
-Measure the length of your base with a Tape Measure (Find a replacement for this)
-
+Measure the length of your base with a Tape Measure
+===
 #In your §1§ltrophy§0 room use holders such as §lItem§r §lFrames§r or §lArmor§r §lStands§r, etc. to display the following items (in no particular order):
 Each color of §lwool§r
 Full sets of armor from 8 different materials
 20 different seeds from Mystical Agriculture
-20 unique §lForce§r §lFlasks§r filled with animals or mobs
+20 unique §lForce§r §lFlasks§r filled with liquids, animals, or mobs
 
-
+===
 #§4-§1-§4-§2=§5=§6= §c§l§nTier 2§r §6=§5=§2=§4-§1-§4-
 Make an automated bacon farm
 Use a Refined Storage §lCrafter§r to auto-craft a §l64k§r §lStorage§r §lDisk§r
@@ -70,23 +73,23 @@ Go to the §lInfinite Dark§r Dimension
 Craft an §lInfinity§r §lConstruction§r §lWand§r
 Open 64 §lChance§r §lCubes§r
 Equip 10 §lHeart§r §lContainers§r from Cyclic
-Make an Unbreakable Tinkers Construct Pickaxe (Not yet supported in Tconstruct)
+Make an Unbreakable Tinkers' Construct Tool or Weapon
 Kill a Wither
 Kill the Ender Dragon
 Upgrade your §lEnchantment§r §lTable§r for level 60 Enchants
 Access your Refined Storage Network remotely using a §lWireless§r §lGrid§r
 §lEntangle§r 2 blocks together
-
+===
 #In your §1§ltrophy§0 room display the following items (in no particular order): 
 A §lTreasure§r §lCore§r
 One of each of the Mob Heads (5 Total)
 A Player Head
 20 unique §lStatues§r
 A full set of §lManyullyn§r Tinkers Construct Tools
-One each of Single(1x), Double(2x), Triple(3x), Quadruple(4x), Quintuple(5x), Sextuple(6x), Septuple(7x), and Octuple(8x) §lCompressed Cobblestone§r
+One each of §lSingle§r(§51x§r), §lDouble§r(§22x§r), §lTriple§r(§83x§r), §lQuadruple§r(§44x§r), §lQuintuple§r(§15x§r), §lSextuple§r(§06x§r), §lSeptuple§r(§c7x§r), and §lOctuple§r(§d8x§r) Compressed Cobblestone
 
-
-#§4-§1-§4-§2=§5=§6= §0§nTier 3§r §6=§5=§2=§4-§1-§4-
+===
+#§4-§1-§4-§2=§5=§6= §c§l§nTier 3§r §6=§5=§2=§4-§1-§4-
 Fill a §lSupreme§r §lBlack§r §lHole§r §lUnit§r to max capacity
 Automatically craft an §lOctuple(8x)§r §lCompressed§r §lCobblestone§r in less than 1 hour
 Fill 10 §l64k§r §lFluid§r §lStorage§r §ldisks§r each with a unique liquid, excluding water
@@ -94,6 +97,486 @@ Increase Cobblestone production to faster than 10,000 Cobble per second
 Use a §lNetwork§r §lTransmitter§r and §lReciever§r to access your Refined Storage network from another dimension
 Kill a Wither that spawned out of a §lChance§r §lCube§r
 Kill a Wither in the Infinite Dark, The Overworld, The Nether, and The End
-Run a §lMining§r §lLaser§r from Industrial Foregoing at full power
+Run an §lOre§r §lLaser§r §lBase§r from Industrial Foregoing with 90 §lLaser§r §lDrills§r
 Fight and kill two bosses at once
+===
 #§4-§1-§4-§2=§5=§6= §0§nThe End§r §6=§5=§2=§4-§1-§4-
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+#you smell :)

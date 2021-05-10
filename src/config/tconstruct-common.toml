@@ -1,14 +1,14 @@
 
 #Everything to do with gameplay
 [gameplay]
-	#If true all material variants of the different parts will be listed in creative. Set to false to only have the first found material for all parts (usually wood).
-	listAllPartMaterials = true
 	#Set this to false to disable new players spawning with the Tinkers' Book.
 	shouldSpawnWithTinkersBook = true
-	#If true all material variants of the different tools will be listed in creative. Set to false to only have the first found material for all tools (usually wood).
-	listAllToolMaterials = false
-	#Blacklist of registry names for the crafting station to connect to. Mainly for compatibility.
-	craftingStationBlacklist = ["storagedrawers:controller", "storagedrawers:controller_slave"]
+	#If non-empty, only this material will be shown on tools in creative and JEI (or the first valid material if this is invalid for the tool).
+	#If empty, all materials will show
+	showOnlyToolMaterial = "tconstruct:manyullyn"
+	#If non-empty, only material will be shown on parts in creative and JEI (or the first valid material if this is invalid for the part).
+	#If empty, all materials will show
+	showOnlyPartMaterial = ""
 
 #Everything to do with world generation
 [worldgen]

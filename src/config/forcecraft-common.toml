@@ -41,7 +41,7 @@
 	#Range: > 1
 	FairyMinGroup = 1
 	#An additional list of tile entities the Force Furnace can NOT insert into [Syntax: modid:tile_name]
-	#Examples: "minecraft:shulker_box" would it stop inserting into shulkers
+	#Examples: "minecraft:shulker_box" would stop it inserting into shulkers
 	furnaceOutputBlacklist = [""]
 	#Enable Ender Tot's to spawn [Default: true]
 	CreeperTotSpawning = true

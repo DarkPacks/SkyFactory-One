@@ -1,0 +1,12 @@
+{
+  "type": "exnihilosequentia:fluid_item",
+  "fluid": {
+    "fluid": "tconstruct:blood"
+  },
+  "input": {
+    "item": "exnihilosequentia:ancient_spores"
+  },
+  "result": {
+    "item": "minecraft:crimson_nylium"
+  }
+}

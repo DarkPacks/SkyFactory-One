@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "#forge:rods/stone",
+    "minecraft:stick",
+    "minecraft:blaze_rod",
+    "buildersaddition:iron_rod",
+    "forcecraft:force_stick"
+  ]
+}

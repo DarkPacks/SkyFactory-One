@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_fluid_combustion",
+  "fuel": {
+    "raw:fluid": "industrialforegoing:biofuel"
+  },
+  "energy": 320
+}
