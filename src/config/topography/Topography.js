@@ -1,9 +1,9 @@
 
 //Disables the example scripts
-disableExamples(false);
+disableExamples(true);
 
 //Sets the global gui background replacement
-setGuiBackground("examples/images/options_background");
+setGuiBackground("images/options_background");
 
 /*
  * Allows for replacement of the vanilla structure block with a version that can create significantly larger structures.

@@ -1,5 +1,5 @@
 
-setSpawnStructure("examples/structures/oaktree", 64);
+setSpawnStructure("structures/oaktree", 64);
 
 function buildChunkGenerator(seed, biomeRegistry, dimensionSettingsRegistry) {
 	var biomesToRemove = Java.to(

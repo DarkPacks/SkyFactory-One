@@ -1,4 +1,4 @@
-setSpawnStructure("examples/structures/end_portal_placement_block", 64);
+setSpawnStructure("structures/end_portal_placement_block", 64);
 
 
 function buildChunkGenerator(seed, biomeRegistry, dimensionSettingsRegistry) {

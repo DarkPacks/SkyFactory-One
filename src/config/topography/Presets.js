@@ -3,11 +3,11 @@
  */
 
 //Registers world presets
-registerPreset("void", "Void Worlds", "examples/images/Basic_Tree", "Overworld/Nether/End as void dimensions with starting structures")//Registers preset
-.registerDimension("overworld", "examples/dimensions/overworld_void")//Registers script "overworld_void" to be used for generating dimension "overworld"
-.registerDimension("the_nether", "examples/dimensions/nether_void")//Registers script "nether_void" to be used for generating dimension "nether"
-.registerDimension("the_end", "examples/dimensions/end_void")//Registers script "end_void" to be used for generating dimension "end"
-.registerDimension("topography:infinite_dark", "examples/dimensions/infinite_dark")
+registerPreset("void", "Void Worlds", "images/Basic_Tree", "Overworld/Nether/End as void dimensions with starting structures")//Registers preset
+.registerDimension("overworld", "dimensions/overworld_void")//Registers script "overworld_void" to be used for generating dimension "overworld"
+.registerDimension("the_nether", "dimensions/nether_void")//Registers script "nether_void" to be used for generating dimension "nether"
+.registerDimension("the_end", "dimensions/end_void")//Registers script "end_void" to be used for generating dimension "end"
+.registerDimension("topography:infinite_dark", "dimensions/infinite_dark")
 .registerEventHandler("BiomeLoadingEvent", Java.extend(Consumer, {//Registers a Forge event handler of type "BiomeLoadingEvent" 
 	accept: function(event) {
 		if (!BiomeHelper.test(event.getName(), BiomeDictionary.Type.END)) {

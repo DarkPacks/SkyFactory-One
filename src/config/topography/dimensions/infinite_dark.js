@@ -36,7 +36,7 @@ function getRandomSpawner(rand) {
 }
 
 //Floor structures
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 81, "examples/structures/captainq1")
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 81, "structures/captainq1")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == BlockHelper.getState("minecraft:red_wool")) {
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
@@ -50,7 +50,7 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 	}
 	return Util.Block.buildBlockInfo(pos, state, nbt);
 }))));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 81, "examples/structures/captainq2")
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 81, "structures/captainq2")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == BlockHelper.getState("minecraft:red_wool")) {
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
@@ -64,7 +64,7 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 	}
 	return Util.Block.buildBlockInfo(pos, state, nbt);
 }))));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 81, "examples/structures/captainq3")
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 81, "structures/captainq3")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == BlockHelper.getState("minecraft:red_wool")) {
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
@@ -78,7 +78,7 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 	}
 	return Util.Block.buildBlockInfo(pos, state, nbt);
 }))));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 80, "examples/structures/bentley_tower")
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 80, "structures/bentley_tower")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == BlockHelper.getState("minecraft:pink_wool")) {
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
@@ -140,7 +140,7 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(ANDESITE, 2, 0, 16, 1, 2, 1)));
 
 //Ceiling structures
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 2, 130, "examples/structures/captainq_hanging_plus_chain")
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 2, 130, "structures/captainq_hanging_plus_chain")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == BlockHelper.getState("minecraft:red_wool")) {
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildRandomSpawner(rand)));
@@ -150,7 +150,7 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelpe
 	}
 	return Util.Block.buildBlockInfo(pos, state, nbt);
 }))));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 4, 77, "examples/structures/captainq_chain")
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 4, 77, "structures/captainq_chain")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == BlockHelper.getState("minecraft:red_wool")) {
 		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildRandomSpawner(rand)));
