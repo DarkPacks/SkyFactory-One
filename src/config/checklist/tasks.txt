@@ -15,10 +15,15 @@
 
 
 ===
-#Credits:
-#My name is Darkosto. 
-#I stream on 
-#[§1§nwww.darkostorants.com§r](https://www.darkostorants.com)
+#§5=§6= §0§nCredits§r §6=§5=
+#[Hi! My name is Darkosto. I stream on: §5§nTwitch§r](https://darkosto.tv/SFOneBook)
+
+#§4Special§r §4thank§r §4you§r §4to§r: Blargerist, FirstNecron, Lothrazar, MrBysco, Shadows_of_Fire, ShyNieke, Vadis365, ValkyrieofNight
+
+#§4Custom§r §4Structures§r §4Made§r §4by§r: CaptainQ, OnlyBentley
+
+#[§4Modpack§r §4Testing§r: darkphan](https://www.twitch.tv/darkphan)
+
 
 ===
 #§5=§6= §0§nThe Challenges§r §6=§5=
@@ -52,9 +57,9 @@ Create three different types of experience farms
 Using §lCrucibles§r, create an automatically collected infinite lava farm
 Fly, you fool! (jumping into the void is not flying!)
 Create a village large enough to spawn Iron Golems
-Collect 5 Blaze Spawners from the Nether
+Collect 5 §c§lBlaze§r §c§lSpawners§r from the Nether using a §lSack§r §lof§r §lHolding§r
 Fill a §lDirtChest§r §l9000§r to maximum capacity
-Listen to §lPigstep§r (DMCA???)
+Listen to §lPigstep§r
 Wear a §lMonocle§r
 Take a §lCookie§r from a Cookie §lJar§r
 Measure the length of your base with a Tape Measure
@@ -97,11 +102,31 @@ Increase Cobblestone production to faster than 10,000 Cobble per second
 Use a §lNetwork§r §lTransmitter§r and §lReciever§r to access your Refined Storage network from another dimension
 Kill a Wither that spawned out of a §lChance§r §lCube§r
 Kill a Wither in the Infinite Dark, The Overworld, The Nether, and The End
-Run an §lOre§r §lLaser§r §lBase§r from Industrial Foregoing with 90 §lLaser§r §lDrills§r
+Run an §lOre§r §lLaser§r §lBase§r from Industrial Foregoing with 100 §lLaser§r §lDrills§r filled with Tier 2 Speed and Efficiency Upgrades
 Fight and kill two bosses at once
 ===
 #§4-§1-§4-§2=§5=§6= §0§nThe End§r §6=§5=§2=§4-§1-§4-
+#
+#
+#
+#
+#
+#§0§nThank you for playing!§r
 ===
+#Check out these others packs from Darkosto!
+#SkyFactory 2.5
+#SkyFactory 3
+#SkyFactory 4
+#SevTech: Ages
+#SevTech: Ages of the Sky
+#Journey to the Core
+#Escape from 2020
+#Invasion
+#The Aftermath
+#Crackpack 3
+#Dawn of the Void
+#Dark Grid
+#Revenge of the C Team
 ===
 ===
 ===
@@ -579,4 +604,4 @@ Fight and kill two bosses at once
 ===
 ===
 ===
-#you smell :)
+#§c§l§nMuddr§r was here!

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:netherrack",
+    "minecraft:magma_block",
+    "simpletomb:grave_cross",
+    "simpletomb:grave_normal",
+    "simpletomb:grave_simple",
+    "simpletomb:tombstone",
+    "cyclic:fireplace"
+  ]
+}

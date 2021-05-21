@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:black_stained_glass",
+    "tconstruct:black_clear_stained_glass"
+  ]
+}

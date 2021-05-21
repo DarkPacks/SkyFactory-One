@@ -12,7 +12,7 @@
 	#Automatically turn the player when wall clinging
 	autoRotation = false
 	#Enable Wall-Jump enchantments in the enchanting table
-	enableEnchantments = true
+	enableEnchantments = false
 	#Walk up steps even while airborne, also jump over fences
 	stepAssist = true
 	#Allows you to climb up without alternating walls

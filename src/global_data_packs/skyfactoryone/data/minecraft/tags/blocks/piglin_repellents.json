@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:soul_fire",
+    "minecraft:soul_torch",
+    "minecraft:soul_lantern",
+    "minecraft:soul_wall_torch",
+    "minecraft:soul_campfire",
+    "inspirations:wall_soul_torch_lever",
+    "inspirations:soul_torch_lever",
+    "supplementaries:sconce_soul",
+    "supplementaries:sconce_wall_soul"
+  ]
+}

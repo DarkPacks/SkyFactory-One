@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:shears",
+    "tconstruct:kama",
+    "cyclic:shears_obsidian",
+    "cyclic:shears_flint",
+    "forcecraft:force_shears"
+  ]
+}

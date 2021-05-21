@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:oak_planks",
+    "minecraft:spruce_planks",
+    "minecraft:birch_planks",
+    "minecraft:jungle_planks",
+    "minecraft:acacia_planks",
+    "minecraft:dark_oak_planks",
+    "minecraft:crimson_planks",
+    "minecraft:warped_planks",
+    "tconstruct:greenheart_planks",
+    "tconstruct:skyroot_planks",
+    "tconstruct:bloodshroom_planks",
+    "crumbs:oak_tile",
+    "crumbs:spruce_tile",
+    "crumbs:birch_tile",
+    "crumbs:jungle_tile",
+    "crumbs:acacia_tile",
+    "crumbs:dark_oak_tile",
+    "crumbs:crimson_tile",
+    "crumbs:warped_tile",
+    "crumbs:reinforced_oak_planks",
+    "crumbs:reinforced_spruce_planks",
+    "crumbs:reinforced_birch_planks",
+    "crumbs:reinforced_jungle_planks",
+    "crumbs:reinforced_acacia_planks",
+    "crumbs:reinforced_dark_oak_planks",
+    "crumbs:reinforced_crimson_planks",
+    "crumbs:reinforced_warped_planks",
+    "forcecraft:force_planks"
+  ]
+}

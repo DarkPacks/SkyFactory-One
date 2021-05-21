@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:soul_sand",
+    "minecraft:soul_soil",
+    "tconstruct:soul_glass",
+    "tconstruct:soul_glass_pane"
+  ]
+}

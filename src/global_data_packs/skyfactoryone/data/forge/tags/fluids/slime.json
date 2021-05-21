@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#tconstruct:earth_slime",
+    "cyclic:slime"
+  ]
+}

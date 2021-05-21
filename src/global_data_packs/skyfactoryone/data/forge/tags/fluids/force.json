@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "forcecraft:fluid_force_source",
+      "required": false
+    },
+    {
+      "id": "forcecraft:fluid_force_flowing",
+      "required": false
+    }
+  ]
+}

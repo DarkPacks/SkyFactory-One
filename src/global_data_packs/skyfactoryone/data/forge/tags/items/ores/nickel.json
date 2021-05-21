@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "thermal:nickel_ore",
+    "exnihilosequentia:chunk_nickel"
+  ]
+}

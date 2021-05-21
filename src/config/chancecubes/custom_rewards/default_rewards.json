@@ -1,0 +1,556 @@
+{
+  "bad_omen": {
+    "chance": 0,
+    "Schematic": [
+      {
+        "fileName": "/data/chancecubes/schematics/house.ccs",
+        "hardcoded": true,
+        "yOffSet": -1,
+        "relativeToPlayer": true,
+        "includeAirBlocks": true,
+        "falling": false,
+        "spacingDelay": 0.1
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon minecraft:villager %px %py %pz {VillagerData:{level:1,profession:\"minecraft:librarian\",type:\"minecraft:plains\"}}",
+        "copies": 9,
+        "delay": 100
+      },
+      {
+        "command": "/effect give @a[distance=0..32] minecraft:bad_omen 10 %%[1,1,1,1,1,2,2,4]%%",
+        "delay": 300
+      }
+    ],
+    "Message": [
+      {
+        "message": "<%%[A_D,Ugrashrath,Marioluigi7896]%%> Do you want to play a game?",
+        "delay": 200
+      }
+    ]
+  },
+  "bees": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon minecraft:bee",
+        "copies": 10
+      }
+    ],
+    "Message": [
+      {
+        "message": "NOT THE BEES!"
+      }
+    ]
+  },
+  "diy_pie": {
+    "chance": 0,
+    "Block": [
+      {
+        "block": "minecraft:pumpkin",
+        "xOffSet": 1
+      },
+      {
+        "block": "minecraft:sugar_cane",
+        "xOffSet": 1,
+        "yOffSet": 1,
+        "delay": 2
+      }
+    ],
+    "Message": [
+      {
+        "message": "Do it yourself Pumpkin Pie!",
+        "range": 32
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon minecraft:chicken ~ ~1 ~ {CustomName:'{\"text\":\"Zeeth_Kyrah\"}'}"
+      }
+    ]
+  },
+  "fighter": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:iron_sword",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:iron_helmet",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:iron_chestplate",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:iron_leggings",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:iron_boots",
+          "Count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "SPARTAAA!!!",
+        "range": 25
+      }
+    ]
+  },
+  "fire_fox": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon minecraft:fox ~ ~ ~ {Fire:9999,CustomNameVisible:1b,CustomName:'{\"text\":\"Fire Fox\",\"color\":\"gold\"}',ActiveEffects:[{Id:12b,Amplifier:10b,Duration:999999,ShowParticles:0b}]}"
+      }
+    ]
+  },
+  "fireworks": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon minecraft:firework_rocket ~ ~ ~ {Glowing:1b,LifeTime:10,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;16711680]}]}}}}",
+        "copies": 8
+      }
+    ]
+  },
+  "have_another": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "chancecubes:chance_cube",
+          "Count": 3
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "I hear you like Chance Cubes."
+      },
+      {
+        "message": "So I put some Chance Cubes in your Chance Cubes!",
+        "delay": 1
+      }
+    ]
+  },
+  "horde": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Release the horde!",
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "minecraft:zombie"
+        },
+        "copies": 15
+      }
+    ]
+  },
+  "Endermen Horde": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Release the horde!",
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "minecraft:enderman"
+        },
+        "copies": 10
+      }
+    ]
+  },
+  "Witch Horde": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Release the horde!",
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "minecraft:witch"
+        },
+        "copies": 10
+      }
+    ]
+  },
+  "Skeleton Horde": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Release the horde!",
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "minecraft:skeleton"
+        },
+        "copies": 10
+      }
+    ]
+  },
+  "Drowned Horde": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Release the horde!",
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "minecraft:drowned"
+        },
+        "copies": 10
+      }
+    ]
+  },
+  "Endermite Horde": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Release the horde!",
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "minecraft:endermite"
+        },
+        "copies": 10
+      }
+    ]
+  },
+  "Hoglin Horde": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Release the horde!",
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "minecraft:hoglin"
+        },
+        "copies": 10
+      }
+    ]
+  },
+  "Husk Horde": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Release the horde!",
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "minecraft:husk"
+        },
+        "copies": 10
+      }
+    ]
+  },
+  "Phantom Horde": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Release the horde!",
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "minecraft:phantom"
+        },
+        "copies": 10
+      }
+    ]
+  },
+  "Piglin Brute Horde": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Release the horde!",
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "minecraft:piglin_brute"
+        },
+        "copies": 10
+      }
+    ]
+  },
+  "Piglin Horde": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Release the horde!",
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "minecraft:piglin"
+        },
+        "copies": 10
+      }
+    ]
+  },
+  "Pillager Horde": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Release the horde!",
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "minecraft:pillager"
+        },
+        "copies": 10
+      }
+    ]
+  },
+  "Spider Horde": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Release the horde!",
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "minecraft:spider"
+        },
+        "copies": 10
+      }
+    ]
+  },
+  "Stray Horde": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Release the horde!",
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "minecraft:stray"
+        },
+        "copies": 10
+      }
+    ]
+  },
+  "Strider Horde": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Release the horde!",
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "minecraft:strider"
+        },
+        "copies": 10
+      }
+    ]
+  },
+  "Creeper Tot Horde": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Release the horde!",
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "forcecraft:creeper_tot"
+        },
+        "copies": 10
+      }
+    ]
+  },
+  "saplings": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:acacia_sapling",
+          "Count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:birch_sapling",
+          "Count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:dark_oak_sapling",
+          "Count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:jungle_sapling",
+          "Count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:oak_sapling",
+          "Count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:spruce_sapling",
+          "Count": 4
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "Seems you have purchased the saplings DLC",
+        "range": 25
+      }
+    ]
+  },
+  "slime_man": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon minecraft:slime ~ ~ ~ {Glowing:1b,Size:3,Passengers:[{id:\"minecraft:slime\",Glowing:1b,Size:2,Passengers:[{id:\"minecraft:slime\",Glowing:1b,CustomNameVisible:1b,Size:1,CustomName:'{\"text\":\"Slime Man\",\"color\":\"white\"}'}]}]}"
+      }
+    ]
+  },
+  "tnt_structure": {
+    "chance": 0,
+    "Area": [
+      {
+        "xSize": 3,
+        "ySize": 1,
+        "zSize": 3,
+        "block": "minecraft:tnt",
+        "xOff": -1,
+        "yOff": 0,
+        "zOff": -1,
+        "falling": true,
+        "delay": 0,
+        "causesUpdate": false,
+        "relativeToPlayer": false
+      },
+      {
+        "xSize": 3,
+        "ySize": 1,
+        "zSize": 3,
+        "block": "minecraft:redstone_block",
+        "xOff": -1,
+        "yOff": 1,
+        "zOff": -1,
+        "falling": true,
+        "delay": 40,
+        "causesUpdate": true,
+        "relativeToPlayer": false
+      }
+    ]
+  },
+  "want_to_build_a_snowman": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:snow_block",
+          "Count": 2
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:jack_o_lantern",
+          "Count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "Do you want to build a snowman?",
+        "range": 32
+      }
+    ]
+  },
+  "watch_world_burn": {
+    "chance": 0,
+    "Area": [
+      {
+        "xSize": 7,
+        "ySize": 1,
+        "zSize": 7,
+        "block": "minecraft:fire",
+        "xOff": -3,
+        "yOff": 0,
+        "zOff": -3,
+        "falling": false,
+        "delay": 0,
+        "causesUpdate": true,
+        "relativeToPlayer": true
+      }
+    ],
+    "Message": [
+      {
+        "message": "Some people just want to watch the world burn.",
+        "range": 25
+      }
+    ]
+  }
+}

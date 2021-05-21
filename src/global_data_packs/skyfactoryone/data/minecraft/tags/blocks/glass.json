@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:glass/colorless",
+    "#minecraft:stained_glass",
+    "#minecraft:glass/colorless",
+    "#minecraft:stained_glass"
+  ]
+}

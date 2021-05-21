@@ -1,0 +1,8 @@
+{
+  "override": "replace",
+  "generator": "simplegens:simple_nether",
+  "fuel": {
+    "raw:item": "minecraft:nether_star"
+  },
+  "energy": 98304000
+}

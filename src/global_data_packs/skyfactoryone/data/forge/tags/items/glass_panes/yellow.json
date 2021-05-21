@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:yellow_stained_glass_pane",
+    "tconstruct:yellow_clear_stained_glass_pane"
+  ]
+}

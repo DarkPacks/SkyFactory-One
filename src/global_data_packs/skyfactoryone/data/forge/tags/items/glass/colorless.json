@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:glass",
+    "tconstruct:clear_glass"
+  ]
+}

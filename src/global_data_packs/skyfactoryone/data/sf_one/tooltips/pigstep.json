@@ -1,0 +1,11 @@
+{
+  "items": [
+    "minecraft:music_disc_pigstep"
+  ],
+  "tooltips": [
+    {
+      "text": "Found in Nether & Bastion Chests",
+      "color": "#f58787"
+    }
+  ]
+}

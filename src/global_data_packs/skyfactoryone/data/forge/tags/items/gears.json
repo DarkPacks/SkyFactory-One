@@ -20,6 +20,7 @@
     "#forge:gears/sapphire",
     "#forge:gears/signalum",
     "#forge:gears/silver",
-    "#forge:gears/tin"
+    "#forge:gears/tin",
+    "forcecraft:force_gear"
   ]
 }

@@ -1,0 +1,47 @@
+{
+  "Entity": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "TBA"
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon cat ~ ~ ~ {Sitting:1b,CatType:0,CustomName:'{\"text\":\"Meeka\"}',ActiveEffects:[{Id:31b,Amplifier:1b,Duration:99999,ShowParticles:0b}]}",
+        "copies": 1
+      }
+    ]
+  },
+  "chancecubes:bad_omen": {
+    "chance": 0,
+    "Schematic": [
+      {
+        "fileName": "/data/chancecubes/schematics/house.ccs",
+        "hardcoded": true,
+        "yOffSet": -1,
+        "relativeToPlayer": true,
+        "includeAirBlocks": true,
+        "falling": false,
+        "spacingDelay": 0.1
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon minecraft:villager %px %py %pz {VillagerData:{level:1,profession:\"minecraft:librarian\",type:\"minecraft:plains\"}}",
+        "copies": 9,
+        "delay": 100
+      },
+      {
+        "command": "/effect give @a[distance=0..32] minecraft:bad_omen 10 %%[1,1,1,1,1,2,2,4]%%",
+        "delay": 300
+      }
+    ],
+    "Message": [
+      {
+        "message": "<%%[A_D,Ugrashrath,Marioluigi7896]%%> Do you want to play a game?",
+        "delay": 200
+      }
+    ]
+  }
+}

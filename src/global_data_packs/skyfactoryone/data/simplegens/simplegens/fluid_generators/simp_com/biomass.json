@@ -3,5 +3,5 @@
   "fuel": {
     "raw:fluid": "cyclic:biomass"
   },
-  "energy": 40
+  "energy": 480
 }

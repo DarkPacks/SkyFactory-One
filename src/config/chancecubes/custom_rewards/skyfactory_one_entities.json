@@ -1,0 +1,237 @@
+{
+  "Fairy": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "HEY LISSEN!"
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon forcecraft:fairy ^1 ^3 ^2",
+        "copies": 1
+      },
+      {
+        "command": "/summon forcecraft:fairy ^2 ^3 ^3",
+        "copies": 1
+      },
+      {
+        "command": "/summon forcecraft:fairy ^3 ^3 ^4",
+        "copies": 1
+      },
+      {
+        "command": "/summon forcecraft:fairy ^4 ^3 ^5",
+        "copies": 1
+      },
+      {
+        "command": "/summon forcecraft:fairy ^5 ^3 ^6",
+        "copies": 1
+      },
+      {
+        "command": "/summon forcecraft:fairy ^-2 ^3 ^6",
+        "copies": 1
+      },
+      {
+        "command": "/summon forcecraft:fairy ^-3 ^3 ^6",
+        "copies": 1
+      },
+      {
+        "command": "/summon forcecraft:fairy ^-4 ^3 ^6",
+        "copies": 1
+      },
+      {
+        "command": "/summon forcecraft:fairy ^1 ^3 ^2",
+        "copies": 1
+      },
+      {
+        "command": "/summon forcecraft:fairy ^2 ^2 ^3",
+        "copies": 1
+      },
+      {
+        "command": "/summon forcecraft:fairy ^3 ^2 ^4",
+        "copies": 1
+      },
+      {
+        "command": "/summon forcecraft:fairy ^-4 ^2 ^5",
+        "copies": 1
+      },
+      {
+        "command": "/summon forcecraft:fairy ^-5 ^2 ^6",
+        "copies": 1
+      },
+      {
+        "command": "/summon forcecraft:fairy ^-6 ^4 ^6",
+        "copies": 1
+      },
+      {
+        "command": "/summon forcecraft:fairy ^-7 ^4 ^6",
+        "copies": 1
+      },
+      {
+        "command": "/summon forcecraft:fairy ^-8 ^4 ^6",
+        "copies": 1
+      }
+    ]
+  },
+  "Purple Slime Man": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon tconstruct:ender_slime ~ ~ ~ {Glowing:1b,Size:3,Passengers:[{id:\"tconstruct:ender_slime\",Glowing:1b,Size:2,Passengers:[{id:\"tconstruct:ender_slime\",Glowing:1b,CustomNameVisible:1b,Size:1,CustomName:'{\"text\":\"Slime Man\",\"color\":\"white\"}'}]}]}"
+      }
+    ]
+  },
+  "Blue Slime Man": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon tconstruct:sky_slime ~ ~ ~ {Glowing:1b,Size:3,Passengers:[{id:\"tconstruct:sky_slime\",Glowing:1b,Size:2,Passengers:[{id:\"tconstruct:sky_slime\",Glowing:1b,CustomNameVisible:1b,Size:1,CustomName:'{\"text\":\"Slime Man\",\"color\":\"white\"}'}]}]}"
+      }
+    ]
+  },
+  "Rainbow Slime Man": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon tconstruct:sky_slime ~ ~ ~ {Glowing:1b,Size:3,Passengers:[{id:\"tconstruct:earth_slime\",Glowing:1b,Size:2,Passengers:[{id:\"tconstruct:ender_slime\",Glowing:1b,CustomNameVisible:1b,Size:1,CustomName:'{\"text\":\"Slime Man\",\"color\":\"white\"}'}]}]}"
+      }
+    ]
+  },
+  "Chu": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon forcecraft:gold_chu_chu ~ ~ ~ {Glowing:1b,Size:1,Passengers:[{id:\"forcecraft:blue_chu_chu\",Glowing:1b,Size:1,Passengers:[{id:\"forcecraft:green_chu_chu\",Glowing:1b,CustomNameVisible:1b,Size:1,CustomName:'{\"text\":\"Slime Man\",\"color\":\"white\"}'}]}]}"
+      }
+    ]
+  },
+  "Mimic": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Free loot!"
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon artifacts:mimic ^-1 ^3 ^6"
+      }
+    ]
+  },
+  "Chu2": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon forcecraft:gold_chu_chu ^ ^ ^ {Glowing:1b,Size:4,Passengers:[{id:\"forcecraft:red_chu_chu\",Glowing:1b,Size:3,Passengers:[{id:\"forcecraft:green_chu_chu\",Glowing:1b,Size:2,Passengers:[{id:\"forcecraft:blue_chu_chu\",Glowing:1b,Size:1}]}]}]}"
+      }
+    ]
+  },
+  "Trident": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon drowned ~ ~ ~ {CustomNameVisible:1b,CanBreakDoors:1b,CustomName:'{\"text\":\"Venamah\",\"color\":\"red\"}',HandItems:[{id:\"minecraft:trident\",Count:1b,tag:{display:{Name:'{\"text\":\"Wrath of Venamah\",\"color\":\"red\",\"underlined\":true}'},Enchantments:[{id:\"minecraft:channeling\",lvl:1s}]}},{}],HandDropChances:[100.000F,0.085F]}"
+      }
+    ]
+  },
+  "Lynn_Phantom": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon phantom ^ ^9 ^ {Glowing:1b,CustomNameVisible:1b,Health:69f,Size:20,CustomName:'{\"text\":\"lynn_phoenix\",\"color\":\"dark_purple\"}',HandItems:[{id:\"minecraft:obsidian\",Count:7b,tag:{display:{Lore:['{\"text\":\"You\\'re an Obsidian\",\"color\":\"gold\"}']},Enchantments:[{}]}},{}],HandDropChances:[100.000F,0.085F],Attributes:[{Name:generic.knockback_resistance,Base:5},{Name:generic.movement_speed,Base:2.5}]}"
+      }
+    ]
+  },
+  "WitherTest": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon wither ~ ~ ~ {Glowing:1b,CustomNameVisible:1b,Health:20f,Invul:100,CustomName:'{\"text\":\"Venamah\",\"color\":\"#CD7F32\",\"bold\":true,\"underlined\":true}',ActiveEffects:[{Id:2b,Amplifier:100b,Duration:1200,ShowParticles:0b},{Id:6b,Amplifier:1b,Duration:200},{Id:25b,Amplifier:7b,Duration:400}],Attributes:[{Name:generic.max_health,Base:20},{Name:generic.movement_speed,Base:1},{Name:generic.attack_damage,Base:0}]}"
+      }
+    ]
+  },
+  "Bomb Drop": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon tnt ^ ^10 ^ {Fuse:200,Passengers:[{id:\"minecraft:boat\",Type:\"oak\"}]}"
+      }
+    ]
+  },
+  "bacail": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/effect give @p slowness 6 4 true"
+      },
+      {
+        "command": "/summon creeper ~5 ~10 ~ {powered:1b,ExplosionRadius:0b,Fuse:71,ignited:1b}",
+        "delay": 30
+      },
+      {
+        "command": "/summon creeper ~3 ~10 ~-1 {powered:1b,ExplosionRadius:0b,Fuse:73,ignited:1b}",
+        "delay": 30
+      },
+      {
+        "command": "/summon creeper ~3 ~10 ~1 {powered:1b,ExplosionRadius:0b,Fuse:75,ignited:1b}",
+        "delay": 30
+      },
+      {
+        "command": "/summon creeper ~1 ~10 ~3 {powered:1b,ExplosionRadius:0b,Fuse:77,ignited:1b}",
+        "delay": 30
+      },
+      {
+        "command": "/summon creeper ~1 ~10 ~-3 {powered:1b,ExplosionRadius:0b,Fuse:79,ignited:1b}",
+        "delay": 30
+      },
+      {
+        "command": "/summon creeper ^ ^10 ^ {powered:1b,ExplosionRadius:0b,Fuse:81,ignited:1b}",
+        "delay": 10
+      },
+      {
+        "command": "/summon creeper ~-5 ~10 ~ {powered:1b,ExplosionRadius:0b,Fuse:83,ignited:1b}",
+        "delay": 30
+      },
+      {
+        "command": "/summon creeper ~-3 ~10 ~-1 {powered:1b,ExplosionRadius:0b,Fuse:85,ignited:1b}",
+        "delay": 30
+      },
+      {
+        "command": "/summon creeper ~-3 ~10 ~1 {powered:1b,ExplosionRadius:0b,Fuse:87,ignited:1b}",
+        "delay": 30
+      },
+      {
+        "command": "/summon creeper ~-1 ~10 ~3 {powered:1b,ExplosionRadius:0b,Fuse:89,ignited:1b}",
+        "delay": 30
+      },
+      {
+        "command": "/summon creeper ~-1 ~10 ~-3 {powered:1b,ExplosionRadius:0b,Fuse:91,ignited:1b}",
+        "delay": 30
+      },
+      {
+        "command": "/playsound entity.generic.explode master @p",
+        "delay": 75
+      },
+      {
+        "command": "/effect give @p levitation 1 80",
+        "delay": 75
+      },
+      {
+        "command": "/effect give @p slow_falling 4 10",
+        "delay": 180
+      }
+    ]
+  },
+  "HunterOfGems": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon cat ~ ~3 ~ {Silent:1b,Glowing:1b,UUID:[I;2050998037,1992929370,1486695121,1227289699],HurtTime:0,Health:90f,CatType:10,ActiveEffects:[{Id:1b,Amplifier:15b,Duration:2400,ShowParticles:0b},{Id:14b,Amplifier:1b,Duration:2400,ShowParticles:0b},{Id:20b,Amplifier:1b,Duration:2400,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:90}]}"
+      },
+      {
+        "command": "/summon elder_guardian ^ ^5 ^ {NoGravity:1b,Glowing:1b,Leashed:1b,FallFlying:1b,Motion:[0.0,-1.0,-1.0],ArmorItems:[{},{},{id:\"minecraft:elytra\",Count:1b},{}],ActiveEffects:[{Id:2b,Amplifier:127b,Duration:1999980,ShowParticles:0b},{Id:14b,Amplifier:10b,Duration:1999980,ShowParticles:0b},{Id:25b,Amplifier:10b,Duration:1999980,ShowParticles:0b},{Id:28b,Amplifier:127b,Duration:1999980,ShowParticles:0b}],Leash:{UUID:[I;2050998037,1992929370,1486695121,1227289699]}}",
+        "delay": 2
+      }
+    ]
+  }
+}

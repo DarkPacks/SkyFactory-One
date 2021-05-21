@@ -1,0 +1,212 @@
+{
+  "TNT": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/tnt"
+      }
+    ]
+  },
+  "TNT Slab": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/slab_tnt"
+      }
+    ]
+  },
+  "Explosive Grenade": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/grenade"
+      }
+    ]
+  },
+  "Obsidian": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/obsidian"
+      }
+    ]
+  },
+  "Crying Obsidian": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/crying_obsidian"
+      }
+    ]
+  },
+  "Stick": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "What's brown and sticky?"
+      },
+      {
+        "message": "A stick!",
+        "delay": 80
+      }
+    ],
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/stick",
+        "delay": 60
+      }
+    ]
+  },
+  "Lodestone": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/lodestone"
+      }
+    ]
+  },
+  "EFLN": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/efln_ball"
+      }
+    ]
+  },
+  "Painting": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/painting"
+      }
+    ]
+  },
+  "Saddle": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/saddle"
+      }
+    ]
+  },
+  "Rotten Flesh": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/rotten_flesh"
+      }
+    ]
+  },
+  "Bookshelf": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/bookshelf"
+      }
+    ]
+  },
+  "Golden Apple": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/golden_apple"
+      }
+    ]
+  },
+  "Rope": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/rope"
+      }
+    ]
+  },
+  "Fan": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "I am your biggest fan!"
+      }
+    ],
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/fan"
+      }
+    ]
+  },
+  "Manyullyn Ingot": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/manyullyn_ingot"
+      }
+    ]
+  },
+  "Apple Diamond": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/apple_diamond"
+      }
+    ]
+  },
+  "Apple Emerald": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/apple_emerald"
+      }
+    ]
+  },
+  "force_sapling": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/force_sapling"
+      }
+    ]
+  },
+  "force_ingot": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/force_ingot"
+      }
+    ]
+  },
+  "solid xp": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/solid_xp"
+      }
+    ]
+  },
+  "xp baby": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/xp_baby"
+      }
+    ]
+  },
+  "Spoils Bags": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Riches beyond your wildest dreams!"
+      }
+    ],
+    "Command": [
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/spoils_bag_t1"
+      },
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/spoils_bag_t2"
+      },
+      {
+        "command": "/loot spawn ^ ^3 ^1 loot sf_one:chance_cube_rewards/spoils_bag_t3"
+      }
+    ]
+  }
+}

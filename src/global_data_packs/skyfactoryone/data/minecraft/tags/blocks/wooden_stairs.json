@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:oak_stairs",
+    "minecraft:spruce_stairs",
+    "minecraft:birch_stairs",
+    "minecraft:jungle_stairs",
+    "minecraft:acacia_stairs",
+    "minecraft:dark_oak_stairs",
+    "minecraft:crimson_stairs",
+    "minecraft:warped_stairs",
+    "tconstruct:greenheart_planks_stairs",
+    "tconstruct:skyroot_planks_stairs",
+    "tconstruct:bloodshroom_planks_stairs",
+    "forcecraft:force_plank_stairs"
+  ]
+}

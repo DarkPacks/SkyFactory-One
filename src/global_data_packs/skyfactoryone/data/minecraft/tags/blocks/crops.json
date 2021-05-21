@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
+    "minecraft:beetroots",
+    "minecraft:carrots",
+    "minecraft:potatoes",
+    "minecraft:wheat",
+    "minecraft:melon_stem",
+    "minecraft:pumpkin_stem",
+    "supplementaries:flax",
     "thermal:bell_pepper",
     "thermal:eggplant",
     "thermal:green_bean",

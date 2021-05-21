@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "thermal:latex",
+    "industrialforegoing:latex",
+    "industrialforegoing:latex_fluid"
+  ]
+}

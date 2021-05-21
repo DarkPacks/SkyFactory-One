@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "thermal:copper_ore",
+    "exnihilosequentia:chunk_copper"
+  ]
+}

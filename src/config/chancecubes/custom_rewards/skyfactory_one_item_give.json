@@ -1,0 +1,991 @@
+{
+  "Elevators": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Working on an elevator has its ups and downs!"
+      }
+    ],
+    "Item": [
+      {
+        "item": {
+          "id": "elevatorid:elevator_white",
+          "Count": 10
+        }
+      },
+      {
+        "item": {
+          "id": "elevatorid:elevator_orange",
+          "Count": 10
+        }
+      },
+      {
+        "item": {
+          "id": "elevatorid:elevator_magenta",
+          "Count": 10
+        }
+      },
+      {
+        "item": {
+          "id": "elevatorid:elevator_light_blue",
+          "Count": 10
+        }
+      },
+      {
+        "item": {
+          "id": "elevatorid:elevator_yellow",
+          "Count": 10
+        }
+      },
+      {
+        "item": {
+          "id": "elevatorid:elevator_lime",
+          "Count": 10
+        }
+      },
+      {
+        "item": {
+          "id": "elevatorid:elevator_pink",
+          "Count": 10
+        }
+      },
+      {
+        "item": {
+          "id": "elevatorid:elevator_gray",
+          "Count": 10
+        }
+      },
+      {
+        "item": {
+          "id": "elevatorid:elevator_light_gray",
+          "Count": 10
+        }
+      },
+      {
+        "item": {
+          "id": "elevatorid:elevator_cyan",
+          "Count": 10
+        }
+      },
+      {
+        "item": {
+          "id": "elevatorid:elevator_purple",
+          "Count": 10
+        }
+      },
+      {
+        "item": {
+          "id": "elevatorid:elevator_blue",
+          "Count": 10
+        }
+      },
+      {
+        "item": {
+          "id": "elevatorid:elevator_brown",
+          "Count": 10
+        }
+      },
+      {
+        "item": {
+          "id": "elevatorid:elevator_green",
+          "Count": 10
+        }
+      },
+      {
+        "item": {
+          "id": "elevatorid:elevator_red",
+          "Count": 10
+        }
+      },
+      {
+        "item": {
+          "id": "elevatorid:elevator_black",
+          "Count": 10
+        }
+      }
+    ]
+  },
+  "Bacon Portal!": {
+    "chance": 0,
+    "dependencies": {},
+    "Message": [
+      {
+        "message": "YUMMY DELICIOUS BACON!"
+      }
+    ],
+    "Item": [
+      {
+        "item": {
+          "id": "forcecraft:baconator",
+          "Count": 1
+        }
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon item ~ ~ ~ {Motion:[0.1,0.4,0.0],Item:{id:\"forcecraft:cooked_bacon\",Count:1b}}",
+        "copies": 4,
+        "copies_soft": false,
+        "delay": 20
+      },
+      {
+        "command": "/summon item ~ ~ ~ {Motion:[0.1,0.4,0.0],Item:{id:\"forcecraft:cooked_bacon\",Count:1b}}",
+        "copies": 4,
+        "copies_soft": false,
+        "delay": 25
+      },
+      {
+        "command": "/summon item ~ ~ ~ {Motion:[0.1,0.4,0.0],Item:{id:\"forcecraft:cooked_bacon\",Count:1b}}",
+        "copies": 4,
+        "copies_soft": false,
+        "delay": 30
+      },
+      {
+        "command": "/summon item ~ ~ ~ {Motion:[0.1,0.4,0.0],Item:{id:\"forcecraft:cooked_bacon\",Count:1b}}",
+        "copies": 4,
+        "copies_soft": false,
+        "delay": 35
+      },
+      {
+        "command": "/summon item ~ ~ ~ {Motion:[0.1,0.4,0.0],Item:{id:\"forcecraft:cooked_bacon\",Count:1b}}",
+        "copies": 4,
+        "copies_soft": false,
+        "delay": 37
+      },
+      {
+        "command": "/summon item ~ ~ ~ {Motion:[0.1,0.4,0.0],Item:{id:\"forcecraft:cooked_bacon\",Count:1b}}",
+        "copies": 4,
+        "copies_soft": false,
+        "delay": 45
+      },
+      {
+        "command": "/summon item ~ ~ ~ {Motion:[0.1,0.4,0.0],Item:{id:\"forcecraft:cooked_bacon\",Count:1b}}",
+        "copies": 4,
+        "copies_soft": false,
+        "delay": 50
+      },
+      {
+        "command": "/summon item ~ ~ ~ {Motion:[0.1,0.4,0.0],Item:{id:\"forcecraft:cooked_bacon\",Count:1b}}",
+        "copies": 4,
+        "copies_soft": false,
+        "delay": 55
+      },
+      {
+        "command": "/summon item ~ ~ ~ {Motion:[0.1,0.4,0.0],Item:{id:\"forcecraft:cooked_bacon\",Count:1b}}",
+        "copies": 4,
+        "copies_soft": false,
+        "delay": 60
+      },
+      {
+        "command": "/summon item ~ ~ ~ {Motion:[0.1,0.4,0.0],Item:{id:\"forcecraft:cooked_bacon\",Count:1b}}",
+        "copies": 4,
+        "copies_soft": false,
+        "delay": 65
+      },
+      {
+        "command": "/summon item ~ ~ ~ {Motion:[0.1,0.4,0.0],Item:{id:\"forcecraft:cooked_bacon\",Count:1b}}",
+        "copies": 4,
+        "copies_soft": false,
+        "delay": 70
+      },
+      {
+        "command": "/summon item ~ ~ ~ {Motion:[0.1,0.4,0.0],Item:{id:\"forcecraft:cooked_bacon\",Count:1b}}",
+        "copies": 4,
+        "copies_soft": false,
+        "delay": 75
+      },
+      {
+        "command": "/summon item ~ ~ ~ {Motion:[0.1,0.4,0.0],Item:{id:\"forcecraft:cooked_bacon\",Count:1b}}",
+        "copies": 4,
+        "copies_soft": false,
+        "delay": 80
+      }
+    ]
+  },
+  "Patterns": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "%%[My mind is blank!,I sense a pattern here]%%"
+      }
+    ],
+    "Item": [
+      {
+        "item": {
+          "id": "tconstruct:pattern",
+          "Count": 30
+        }
+      }
+    ]
+  },
+  "Sponges": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "What is yellow and spongy? A sponge."
+      }
+    ],
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:sponge",
+          "Count": 3
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:wet_sponge",
+          "Count": 3
+        }
+      }
+    ]
+  },
+  "Clock": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Even a broken clock is correct twice a day!"
+      }
+    ],
+    "Item": [
+      {
+        "item": {
+          "id": "supplementaries:clock_block",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Trash": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "What do you call a conversation between two garbage cans?"
+      },
+      {
+        "message": "Trash Talk.",
+        "delay": 120
+      }
+    ],
+    "Item": [
+      {
+        "item": {
+          "id": "cyclic:trash",
+          "Count": 2
+        }
+      }
+    ]
+  },
+  "Black Hole Tank": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "industrialforegoing:advanced_black_hole_tank",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Black Hole Unit": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "industrialforegoing:advanced_black_hole_unit",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Netherite Hammer": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "exnihilosequentia:hammer_netherite",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Diamond Crook": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "exnihilosequentia:crook_diamond",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Crucible": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "exnihilosequentia:crucible_fired",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Sieve and Mesh": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "exnihilosequentia:sieve",
+          "Count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "exnihilosequentia:mesh_string",
+          "Count": 4
+        }
+      }
+    ]
+  },
+  "Barrels": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "exnihilosequentia:barrel_wood",
+          "Count": 2
+        }
+      },
+      {
+        "item": {
+          "id": "exnihilosequentia:barrel_stone",
+          "Count": 2
+        }
+      }
+    ]
+  },
+  "Ender Chest": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "enderstorage:ender_chest",
+          "Count": 2
+        }
+      }
+    ]
+  },
+  "Ender Tank": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "enderstorage:ender_tank",
+          "Count": 2
+        }
+      }
+    ]
+  },
+  "Ender Pouch": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "enderstorage:ender_pouch",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "single_chunk_loader": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "chunkloaders:single_chunk_loader",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "basic_chunk_loader": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "chunkloaders:basic_chunk_loader",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "advanced_chunk_loader": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "chunkloaders:advanced_chunk_loader",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "ultimate_chunk_loader": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "chunkloaders:ultimate_chunk_loader",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Tinkers' Creative Upgrade": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "tconstruct:creative_upgrade",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Iron Chests": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "ironchest:iron_chest",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "ironchest:gold_chest",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "ironchest:diamond_chest",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "ironchest:copper_chest",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "ironchest:silver_chest",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "ironchest:crystal_chest",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "ironchest:obsidian_chest",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "ironchest:dirt_chest",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Beacon": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:beacon",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Hay Block": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:hay_block",
+          "Count": 7
+        }
+      }
+    ]
+  },
+  "Firefly Jar": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "supplementaries:firefly_jar",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Respawn Anchor": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:respawn_anchor",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Enchanted Golden Apple": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:enchanted_golden_apple",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Absorption Hopper": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "mob_grinding_utils:absorption_hopper",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Simple Pink Generator": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "simplegens:simple_pink",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Simple Combustion Generator": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "simplegens:simple_combustion",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Watering Can": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "mysticalagriculture:watering_can",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Heart": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "cyclic:heart",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Piggy Backpack": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "tconstruct:piggy_backpack",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "force_pickaxe": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "forcecraft:force_pickaxe",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "force_axe": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "forcecraft:force_axe",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "force_sword": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "forcecraft:force_sword",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "force_shovel": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "forcecraft:force_shovel",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "force_shears": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "forcecraft:force_shears",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "force_mitt": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "forcecraft:force_mitt",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "magnet_glove": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "forcecraft:magnet_glove",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "force_furnace": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "forcecraft:force_furnace",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "force_pack": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "forcecraft:force_pack",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Drawers": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "storagedrawers:obsidian_storage_upgrade",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "storagedrawers:iron_storage_upgrade",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "storagedrawers:gold_storage_upgrade",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "storagedrawers:diamond_storage_upgrade",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "storagedrawers:emerald_storage_upgrade",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "storagedrawers:one_stack_upgrade",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "storagedrawers:void_upgrade",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "storagedrawers:redstone_upgrade",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "storagedrawers:min_redstone_upgrade",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "storagedrawers:max_redstone_upgrade",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "storagedrawers:illumination_upgrade",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "storagedrawers:upgrade_template",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "storagedrawers:drawer_key",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "storagedrawers:quantify_key",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "storagedrawers:oak_full_drawers_1",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Tape Measure": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "You cannot measure freedom in metric!"
+      }
+    ],
+    "Item": [
+      {
+        "item": {
+          "id": "measurements:tape_measure",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Pancakes!": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "A Stack of Pancakes! The superior breakfast food!"
+      }
+    ],
+    "Item": [
+      {
+        "item": {
+          "id": "supplementaries:pancake",
+          "Count": 64
+        }
+      }
+    ]
+  },
+  "Faucet": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Did you know your faucet has 15 different mechanisms that help turn on the water?"
+      },
+      {
+        "message": "They all work in sink.",
+        "delay": 120
+      }
+    ],
+    "Item": [
+      {
+        "item": {
+          "id": "supplementaries:faucet",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Globe": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Flat Earth Denied!"
+      }
+    ],
+    "Item": [
+      {
+        "item": {
+          "id": "supplementaries:globe",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Doormat": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Hi! I'm Mat!"
+      }
+    ],
+    "Item": [
+      {
+        "item": {
+          "id": "supplementaries:doormat",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Tank": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Tanks a lot!"
+      }
+    ],
+    "Item": [
+      {
+        "item": {
+          "id": "tconstruct:seared_tank",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "tconstruct:seared_window",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "cyclic:cask",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "cyclic:tank",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "industrialforegoing:common_black_hole_tank",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "mob_grinding_utils:tank",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "mob_grinding_utils:tank_sink",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Redstone Clock": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Why do they call it a grandfather clock?"
+      },
+      {
+        "message": "Cause it's an old timer.",
+        "delay": 80
+      }
+    ],
+    "Item": [
+      {
+        "item": {
+          "id": "cyclic:clock",
+          "Count": 1
+        }
+      }
+    ]
+  },
+  "Enchanting Table": {
+    "chance": 0,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:enchanting_table",
+          "Count": 1
+        }
+      }
+    ]
+  }
+}

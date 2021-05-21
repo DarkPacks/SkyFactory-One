@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "cofh_core:experience",
+    "industrialforegoing:essence",
+    "industrialforegoing:essence_fluid",
+    "cyclic:xpjuice",
+    "mob_grinding_utils:fluid_xp",
+    {
+      "id": "industrialforegoing:essence",
+      "required": false
+    },
+    {
+      "id": "pneumaticcraft:memory_essence",
+      "required": false
+    },
+    {
+      "id": "cofh_core:experience",
+      "required": false
+    }
+  ]
+}

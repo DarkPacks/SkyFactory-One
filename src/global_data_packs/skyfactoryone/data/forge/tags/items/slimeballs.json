@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:slime_ball",
+    "#forge:slimeball/sky",
+    "#forge:slimeball/ender",
+    "#forge:slimeball/blood",
+    "#forge:slimeball/ichor",
+    "industrialforegoing:pink_slime"
+  ]
+}

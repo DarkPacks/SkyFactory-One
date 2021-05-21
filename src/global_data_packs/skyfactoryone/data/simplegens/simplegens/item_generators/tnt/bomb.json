@@ -1,0 +1,7 @@
+{
+  "generator": "simplegens:simple_tnt",
+  "fuel": {
+    "raw:item": "supplementaries:bomb"
+  },
+  "energy": 100000
+}

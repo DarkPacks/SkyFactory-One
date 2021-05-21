@@ -1,0 +1,8 @@
+{
+  "type": "thermal:magmatic_fuel",
+  "ingredient": {
+    "fluid": "tconstruct:molten_blaze",
+    "amount": 1000
+  },
+  "energy": 320000
+}

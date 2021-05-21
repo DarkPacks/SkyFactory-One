@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:wooden_trapdoors",
+    "minecraft:iron_trapdoor",
+    "inspirations:glass_trapdoor",
+    "framedblocks:framed_trapdoor",
+    "supplementaries:gold_trapdoor",
+    "supplementaries:netherite_trapdoor"
+  ]
+}

@@ -1,0 +1,1 @@
+give @p cyclic:battery_infinite

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:gold_ores",
+    "exnihilosequentia:chunk_gold"
+  ]
+}

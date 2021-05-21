@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "thermal:copper_ore",
+    "tconstruct:copper_ore"
+  ]
+}

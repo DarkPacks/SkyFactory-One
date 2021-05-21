@@ -14,14 +14,55 @@
 [worldgen]
 	#Generate Cobalt
 	generateCobalt = false
-	#Set this to false to disable slime islands spawning in the world
-	generateSlimeIslands = false
 	#Generate Copper
 	generateCopper = false
 	#Approx Ores per Chunk
 	veinCountCobalt = 20
 	#Approx Ores per Chunk
 	veinCountCopper = 20
+
+	#Options related to slime islands
+	[worldgen.slime_islands]
+
+		#Options related to earth slime islands spawning in the oceans
+		[worldgen.slime_islands.earth]
+			#If true, this island generates
+			generate = false
+			#How many chunks on average between islands
+			#Range: 10 ~ 500
+			separation = 15
+
+		#Settings for sky slime islands in the overworld sky
+		[worldgen.slime_islands.sky]
+			#If true, this island generates
+			generate = false
+			#How many chunks on average between islands
+			#Range: 10 ~ 500
+			separation = 30
+
+		#Settings for clay islands in the overworld sky
+		[worldgen.slime_islands.clay]
+			#If true, this island generates
+			generate = false
+			#How many chunks on average between islands
+			#Range: 10 ~ 500
+			separation = 100
+
+		#Settings for blood islands in the nether lava ocean
+		[worldgen.slime_islands.blood]
+			#If true, this island generates
+			generate = false
+			#How many chunks on average between islands
+			#Range: 10 ~ 500
+			separation = 13
+
+		#Settings for end slime islands in the outer end islands
+		[worldgen.slime_islands.end]
+			#If true, this island generates
+			generate = false
+			#How many chunks on average between islands
+			#Range: 10 ~ 500
+			separation = 25
 
 #Options related to recipes, limited options as a datapack allows most recipes to be modified
 [recipes]

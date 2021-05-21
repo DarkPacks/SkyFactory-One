@@ -1,0 +1,11 @@
+{
+  "items": [
+    "thermal:light_blue_rockwool"
+  ],
+  "tooltips": [
+    {
+      "text": "Fireproof",
+      "color": "#ecbf00"
+    }
+  ]
+}

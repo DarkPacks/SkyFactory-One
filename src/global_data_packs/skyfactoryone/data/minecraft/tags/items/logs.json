@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:logs_that_burn",
+    "#minecraft:crimson_stems",
+    "#minecraft:warped_stems",
+    "#tconstruct:bloodshroom_logs",
+    "forcecraft:force_log"
+  ]
+}

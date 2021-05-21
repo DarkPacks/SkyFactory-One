@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:gems/diamond",
+    "#forge:gems/emerald",
+    "#forge:gems/lapis",
+    "#forge:gems/prismarine",
+    "#forge:gems/quartz",
+    "#forge:gems/apatite",
+    "#forge:gems/cinnabar",
+    "#forge:gems/niter",
+    "#forge:gems/ruby",
+    "#forge:gems/sapphire",
+    "#forge:gems/sulfur"
+  ]
+}

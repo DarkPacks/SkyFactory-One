@@ -20,7 +20,7 @@
 #End settings
 [End]
 	#Defines if the End Cake gets partly consumed when eaten [default: true]
-	consumeEndCake = true
+	consumeEndCake = false
 	#Set the refill items used by End Cake (Only change if you know what you're doing) [modid:itemname].
 	endCakeRefillItems = ["minecraft:ender_eye"]
 

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 24.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "mob_grinding_utils:solid_xp_baby"
+        }
+      ]
+    }
+  ]
+}

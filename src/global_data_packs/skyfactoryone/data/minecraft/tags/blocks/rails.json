@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:rail",
+    "minecraft:powered_rail",
+    "minecraft:detector_rail",
+    "minecraft:activator_rail",
+    "tconstruct:wooden_rail",
+    "tconstruct:wooden_dropper_rail",
+    "buildersaddition:crossrail"
+  ]
+}

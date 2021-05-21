@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:lime_stained_glass",
+    "tconstruct:lime_clear_stained_glass"
+  ]
+}

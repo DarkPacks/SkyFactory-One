@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:ladder",
+    "minecraft:vine",
+    "minecraft:scaffolding",
+    "minecraft:weeping_vines",
+    "minecraft:weeping_vines_plant",
+    "minecraft:twisting_vines",
+    "minecraft:twisting_vines_plant",
+    "tconstruct:seared_ladder",
+    "inspirations:rope",
+    "inspirations:vine",
+    "supplementaries:rope"
+  ]
+}

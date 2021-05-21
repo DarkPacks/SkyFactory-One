@@ -1,7 +1,27 @@
 {
-  "conditions": [
-    {
-      "type": "forge:false"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "eee",
+    "cgc",
+    "eee"
+  ],
+  "key": {
+    "e": {
+      "item": "minecraft:ender_eye"
+    },
+    "c": {
+      "item": "minecraft:cake"
+    },
+    "g": {
+      "item": "minecraft:golden_apple"
     }
-  ]
+  },
+  "result": {
+    "item": "telepastries:end_cake",
+    "count": 1
+  }
 }
+
+
+
+

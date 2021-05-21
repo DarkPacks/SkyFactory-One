@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:oak_slab",
+    "minecraft:spruce_slab",
+    "minecraft:birch_slab",
+    "minecraft:jungle_slab",
+    "minecraft:acacia_slab",
+    "minecraft:dark_oak_slab",
+    "minecraft:crimson_slab",
+    "minecraft:warped_slab",
+    "tconstruct:greenheart_planks_slab",
+    "tconstruct:skyroot_planks_slab",
+    "tconstruct:bloodshroom_planks_slab",
+    "crumbs:oak_tile_slab",
+    "crumbs:spruce_tile_slab",
+    "crumbs:birch_tile_slab",
+    "crumbs:jungle_tile_slab",
+    "crumbs:acacia_tile_slab",
+    "crumbs:dark_oak_tile_slab",
+    "forcecraft:force_plank_slab"
+  ]
+}

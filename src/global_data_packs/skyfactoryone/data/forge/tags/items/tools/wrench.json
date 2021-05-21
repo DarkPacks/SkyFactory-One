@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "cyclic:cable_wrench"
+    "cyclic:cable_wrench",
+    "pipez:wrench",
+    "rftoolsbase:smartwrench",
+    "rftoolsbase:smartwrench_select",
+    "thermal:wrench"
   ]
 }

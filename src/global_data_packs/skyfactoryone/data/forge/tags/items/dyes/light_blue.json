@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:light_blue_dye",
+    "inspirations:light_blue_dyed_bottle"
+  ]
+}

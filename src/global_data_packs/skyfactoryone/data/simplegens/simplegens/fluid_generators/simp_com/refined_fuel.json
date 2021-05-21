@@ -3,5 +3,5 @@
   "fuel": {
     "raw:fluid": "thermal:refined_fuel"
   },
-  "energy": 160
+  "energy": 1500
 }

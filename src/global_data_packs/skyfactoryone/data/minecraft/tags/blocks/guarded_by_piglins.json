@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:gold_block",
+    "minecraft:barrel",
+    "minecraft:chest",
+    "minecraft:ender_chest",
+    "minecraft:gilded_blackstone",
+    "minecraft:trapped_chest",
+    "#minecraft:shulker_boxes",
+    "#minecraft:gold_ores",
+    "tconstruct:silky_jewel_block",
+    "#forge:storage_blocks/rose_gold",
+    "supplementaries:sack",
+    "crumbs:oak_barrel",
+    "crumbs:birch_barrel",
+    "crumbs:jungle_barrel",
+    "crumbs:acacia_barrel",
+    "crumbs:dark_oak_barrel",
+    "crumbs:crimson_barrel",
+    "crumbs:warped_barrel"
+  ]
+}

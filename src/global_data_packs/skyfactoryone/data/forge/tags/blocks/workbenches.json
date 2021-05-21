@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:crafting_table",
+    "tconstruct:crafting_station",
+    {
+      "id": "#forge:workbench",
+      "required": false
+    },
+    "cyclic:workbench",
+    "crumbs:spruce_crafting_table",
+    "crumbs:birch_crafting_table",
+    "crumbs:jungle_crafting_table",
+    "crumbs:acacia_crafting_table",
+    "crumbs:dark_oak_crafting_table",
+    "crumbs:crimson_crafting_table",
+    "crumbs:warped_crafting_table"
+  ]
+}

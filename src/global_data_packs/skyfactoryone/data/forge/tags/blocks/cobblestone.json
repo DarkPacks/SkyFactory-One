@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cobblestone",
+    "minecraft:infested_cobblestone",
+    "minecraft:mossy_cobblestone",
+    "crumbs:cobbled_granite",
+    "crumbs:cobbled_diorite",
+    "crumbs:cobbled_andesite"
+  ]
+}

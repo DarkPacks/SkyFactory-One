@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:wooden_doors",
+    "minecraft:iron_door",
+    "inspirations:glass_door",
+    "framedblocks:framed_door",
+    "supplementaries:gold_door",
+    "supplementaries:netherite_door"
+  ]
+}
