@@ -89,6 +89,14 @@
       }
     ]
   },
+  "Slime Tower": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon slime ~ ~ ~ {Size:10,Passengers:[{id:\"tconstruct:ender_slime\",Size:9,Passengers:[{id:\"tconstruct:ender_slime\",Size:8,Passengers:[{id:\"minecraft:magma_cube\",Size:7,Passengers:[{id:\"minecraft:magma_cube\",Size:6,Passengers:[{id:\"tconstruct:earth_slime\",Size:5,Passengers:[{id:\"tconstruct:earth_slime\",Size:4,Passengers:[{id:\"tconstruct:sky_slime\",Size:3,CustomName:'{\"text\":\"Tower of Slime\",\"color\":\"green\",\"bold\":true}'}]}]}]}]}]}]}]}"
+      }
+    ]
+  },
   "Rainbow Slime Man": {
     "chance": 0,
     "Command": [
@@ -126,35 +134,27 @@
       }
     ]
   },
-  "Trident": {
-    "chance": 0,
-    "Command": [
-      {
-        "command": "/summon drowned ~ ~ ~ {CustomNameVisible:1b,CanBreakDoors:1b,CustomName:'{\"text\":\"Venamah\",\"color\":\"red\"}',HandItems:[{id:\"minecraft:trident\",Count:1b,tag:{display:{Name:'{\"text\":\"Wrath of Venamah\",\"color\":\"red\",\"underlined\":true}'},Enchantments:[{id:\"minecraft:channeling\",lvl:1s}]}},{}],HandDropChances:[100.000F,0.085F]}"
-      }
-    ]
-  },
   "Lynn_Phantom": {
     "chance": 0,
     "Command": [
       {
-        "command": "/summon phantom ^ ^9 ^ {Glowing:1b,CustomNameVisible:1b,Health:69f,Size:20,CustomName:'{\"text\":\"lynn_phoenix\",\"color\":\"dark_purple\"}',HandItems:[{id:\"minecraft:obsidian\",Count:7b,tag:{display:{Lore:['{\"text\":\"You\\'re an Obsidian\",\"color\":\"gold\"}']},Enchantments:[{}]}},{}],HandDropChances:[100.000F,0.085F],Attributes:[{Name:generic.knockback_resistance,Base:5},{Name:generic.movement_speed,Base:2.5}]}"
+        "command": "/summon phantom ^ ^9 ^ {Fire:6000,Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_dark_purp\",Health:69f,Size:20,CustomName:'{\"text\":\"lynn_phoenix\",\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:obsidian\",Count:7b,tag:{display:{Lore:['{\"text\":\"You\\'re an Obsidian\",\"color\":\"gold\"}']},Enchantments:[{}]}},{}],HandDropChances:[100.000F,0.085F],ActiveEffects:[{Id:12b,Amplifier:1b,Duration:6000,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:69},{Name:generic.knockback_resistance,Base:5},{Name:generic.movement_speed,Base:2.5}]}"
       }
     ]
   },
-  "WitherTest": {
+  "Venamah": {
     "chance": 0,
     "Command": [
       {
-        "command": "/summon wither ~ ~ ~ {Glowing:1b,CustomNameVisible:1b,Health:20f,Invul:100,CustomName:'{\"text\":\"Venamah\",\"color\":\"#CD7F32\",\"bold\":true,\"underlined\":true}',ActiveEffects:[{Id:2b,Amplifier:100b,Duration:1200,ShowParticles:0b},{Id:6b,Amplifier:1b,Duration:200},{Id:25b,Amplifier:7b,Duration:400}],Attributes:[{Name:generic.max_health,Base:20},{Name:generic.movement_speed,Base:1},{Name:generic.attack_damage,Base:0}]}"
-      }
-    ]
-  },
-  "Bomb Drop": {
-    "chance": 0,
-    "Command": [
+        "command": "/summon wither ~ ~ ~ {Glowing:1b,Team:\"SFONE_gold\",Health:20f,Invul:100,Tags:[\"venamah_wither\"],CustomName:'{\"text\":\"Venamah\",\"color\":\"#CD7F32\",\"bold\":true,\"underlined\":true}',ActiveEffects:[{Id:2b,Amplifier:1b,Duration:2000},{Id:6b,Amplifier:1b,Duration:1200,ShowParticles:0b},{Id:25b,Amplifier:10b,Duration:1200,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:20},{Name:generic.attack_damage,Base:0}]}"
+      },
       {
-        "command": "/summon tnt ^ ^10 ^ {Fuse:200,Passengers:[{id:\"minecraft:boat\",Type:\"oak\"}]}"
+        "command": "/teleport @e[tag=venamah_wither,type=wither] 1 -200 1",
+        "delay": 108
+      },
+      {
+        "command": "/summon item ~ ~10 ~ {Item:{id:\"minecraft:ghast_tear\",Count:1b,tag:{display:{Name:'{\"text\":\"GiTGuD Nerd \",\"color\":\"#CD7F32\"}'}}}}",
+        "delay": 107
       }
     ]
   },
@@ -162,63 +162,76 @@
     "chance": 0,
     "Command": [
       {
-        "command": "/effect give @p slowness 6 4 true"
+        "command": "/tag @a[distance=..6] add bacail"
       },
       {
-        "command": "/summon creeper ~5 ~10 ~ {powered:1b,ExplosionRadius:0b,Fuse:71,ignited:1b}",
+        "command": "/effect give @a[tag=bacail] slowness 6 4 true"
+      },
+      {
+        "command": "/summon creeper ~5 ~10 ~ {Invulnerable:1b,Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_green\",powered:1b,ExplosionRadius:0b,Fuse:71,ignited:1b,CustomName:'{\"text\":\"Bacail\",\"color\":\"dark_green\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:air\",Count:1b},{}],HandDropChances:[100.000F,0.085F]}",
         "delay": 30
       },
       {
-        "command": "/summon creeper ~3 ~10 ~-1 {powered:1b,ExplosionRadius:0b,Fuse:73,ignited:1b}",
+        "command": "/summon creeper ~3 ~10 ~-1 {Invulnerable:1b,Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_green\",powered:1b,ExplosionRadius:0b,Fuse:73,ignited:1b,CustomName:'{\"text\":\"Bacail\",\"color\":\"dark_green\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:air\",Count:1b},{}],HandDropChances:[100.000F,0.085F]}",
         "delay": 30
       },
       {
-        "command": "/summon creeper ~3 ~10 ~1 {powered:1b,ExplosionRadius:0b,Fuse:75,ignited:1b}",
+        "command": "/summon creeper ~3 ~10 ~1 {Invulnerable:1b,Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_green\",powered:1b,ExplosionRadius:0b,Fuse:75,ignited:1b,CustomName:'{\"text\":\"Bacail\",\"color\":\"dark_green\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:air\",Count:1b},{}],HandDropChances:[100.000F,0.085F]}",
         "delay": 30
       },
       {
-        "command": "/summon creeper ~1 ~10 ~3 {powered:1b,ExplosionRadius:0b,Fuse:77,ignited:1b}",
+        "command": "/summon creeper ~1 ~10 ~3 {Invulnerable:1b,Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_green\",powered:1b,ExplosionRadius:0b,Fuse:77,ignited:1b,CustomName:'{\"text\":\"Bacail\",\"color\":\"dark_green\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:air\",Count:1b},{}],HandDropChances:[100.000F,0.085F]}",
         "delay": 30
       },
       {
-        "command": "/summon creeper ~1 ~10 ~-3 {powered:1b,ExplosionRadius:0b,Fuse:79,ignited:1b}",
+        "command": "/summon creeper ~1 ~10 ~-3 {Invulnerable:1b,Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_green\",powered:1b,ExplosionRadius:0b,Fuse:79,ignited:1b,CustomName:'{\"text\":\"Bacail\",\"color\":\"dark_green\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:air\",Count:1b},{}],HandDropChances:[100.000F,0.085F]}",
         "delay": 30
       },
       {
-        "command": "/summon creeper ^ ^10 ^ {powered:1b,ExplosionRadius:0b,Fuse:81,ignited:1b}",
+        "command": "/summon creeper ^ ^10 ^ {Invulnerable:1b,Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_green\",powered:1b,ExplosionRadius:0b,Fuse:81,ignited:1b,CustomName:'{\"text\":\"Bacail\",\"color\":\"dark_green\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:air\",Count:1b},{}],HandDropChances:[100.000F,0.085F]}",
         "delay": 10
       },
       {
-        "command": "/summon creeper ~-5 ~10 ~ {powered:1b,ExplosionRadius:0b,Fuse:83,ignited:1b}",
+        "command": "/summon creeper ~-5 ~10 ~ {Invulnerable:1b,Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_green\",powered:1b,ExplosionRadius:0b,Fuse:83,ignited:1b,CustomName:'{\"text\":\"Bacail\",\"color\":\"dark_green\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:air\",Count:1b},{}],HandDropChances:[100.000F,0.085F]}",
         "delay": 30
       },
       {
-        "command": "/summon creeper ~-3 ~10 ~-1 {powered:1b,ExplosionRadius:0b,Fuse:85,ignited:1b}",
+        "command": "/summon creeper ~-3 ~10 ~-1 {Invulnerable:1b,Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_green\",powered:1b,ExplosionRadius:0b,Fuse:85,ignited:1b,CustomName:'{\"text\":\"Bacail\",\"color\":\"dark_green\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:air\",Count:1b},{}],HandDropChances:[100.000F,0.085F]}",
         "delay": 30
       },
       {
-        "command": "/summon creeper ~-3 ~10 ~1 {powered:1b,ExplosionRadius:0b,Fuse:87,ignited:1b}",
+        "command": "/summon creeper ~-3 ~10 ~1 {Invulnerable:1b,Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_green\",powered:1b,ExplosionRadius:0b,Fuse:87,ignited:1b,CustomName:'{\"text\":\"Bacail\",\"color\":\"dark_green\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:air\",Count:1b},{}],HandDropChances:[100.000F,0.085F]}",
         "delay": 30
       },
       {
-        "command": "/summon creeper ~-1 ~10 ~3 {powered:1b,ExplosionRadius:0b,Fuse:89,ignited:1b}",
+        "command": "/summon creeper ~-1 ~10 ~3 {Invulnerable:1b,Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_green\",powered:1b,ExplosionRadius:0b,Fuse:89,ignited:1b,CustomName:'{\"text\":\"Bacail\",\"color\":\"dark_green\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:air\",Count:1b},{}],HandDropChances:[100.000F,0.085F]}",
         "delay": 30
       },
       {
-        "command": "/summon creeper ~-1 ~10 ~-3 {powered:1b,ExplosionRadius:0b,Fuse:91,ignited:1b}",
+        "command": "/summon creeper ~-1 ~10 ~-3 {Invulnerable:1b,Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_green\",powered:1b,ExplosionRadius:0b,Fuse:91,ignited:1b,CustomName:'{\"text\":\"Bacail\",\"color\":\"dark_green\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:air\",Count:1b},{}],HandDropChances:[100.000F,0.085F]}",
         "delay": 30
       },
       {
-        "command": "/playsound entity.generic.explode master @p",
+        "command": "/playsound entity.generic.explode master @a[tag=bacail]",
         "delay": 75
       },
       {
-        "command": "/effect give @p levitation 1 80",
+        "command": "/effect give @a[tag=bacail] levitation 1 80",
         "delay": 75
       },
       {
-        "command": "/effect give @p slow_falling 4 10",
+        "command": "/summon item ~ ~ ~ {Item:{id:\"minecraft:powered_rail\",Count:1b,tag:{display:{Lore:['{\"text\":\"choo choo!\",\"color\":\"dark_green\"}']},Enchantments:[{}]}}}",
+        "copies": 4,
+        "copies_soft": false,
+        "delay": 90
+      },
+      {
+        "command": "/effect give @a[tag=bacail] slow_falling 4 10",
         "delay": 180
+      },
+      {
+        "command": "/tag @a[tag=bacail] remove bacail",
+        "delay": 200
       }
     ]
   },
@@ -226,11 +239,261 @@
     "chance": 0,
     "Command": [
       {
-        "command": "/summon cat ~ ~3 ~ {Silent:1b,Glowing:1b,UUID:[I;2050998037,1992929370,1486695121,1227289699],HurtTime:0,Health:90f,CatType:10,ActiveEffects:[{Id:1b,Amplifier:15b,Duration:2400,ShowParticles:0b},{Id:14b,Amplifier:1b,Duration:2400,ShowParticles:0b},{Id:20b,Amplifier:1b,Duration:2400,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:90}]}"
+        "command": "/summon cat ~ ~3 ~ {Silent:1b,Invulnerable:0b,Glowing:1b,UUID:[I;2050998037,1992929370,1486695121,1227289698],HurtTime:0,Health:90f,CatType:10,ActiveEffects:[{Id:1b,Amplifier:15b,Duration:2400,ShowParticles:0b},{Id:14b,Amplifier:1b,Duration:2400,ShowParticles:0b},{Id:20b,Amplifier:1b,Duration:2400,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:90},{Name:generic.armor,Base:30},{Name:generic.armor_toughness,Base:127}]}"
       },
       {
-        "command": "/summon elder_guardian ^ ^5 ^ {NoGravity:1b,Glowing:1b,Leashed:1b,FallFlying:1b,Motion:[0.0,-1.0,-1.0],ArmorItems:[{},{},{id:\"minecraft:elytra\",Count:1b},{}],ActiveEffects:[{Id:2b,Amplifier:127b,Duration:1999980,ShowParticles:0b},{Id:14b,Amplifier:10b,Duration:1999980,ShowParticles:0b},{Id:25b,Amplifier:10b,Duration:1999980,ShowParticles:0b},{Id:28b,Amplifier:127b,Duration:1999980,ShowParticles:0b}],Leash:{UUID:[I;2050998037,1992929370,1486695121,1227289699]}}",
+        "command": "/summon elder_guardian ^ ^5 ^ {NoGravity:1b,Glowing:1b,Team:\"SFONE_blue\",CustomNameVisible:1b,Leashed:1b,FallFlying:1b,Motion:[0.0,-1.0,-1.0],CustomName:'{\"text\":\"HunterOfGems\",\"color\":\"blue\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:trident\",Count:1b,tag:{Enchantments:[{id:\"minecraft:riptide\",lvl:3s}]}},{}],HandDropChances:[100.000F,0.085F],ArmorItems:[{},{},{id:\"minecraft:elytra\",Count:1b},{}],ArmorDropChances:[0.085F,0.085F,0.000F,0.085F],ActiveEffects:[{Id:2b,Amplifier:127b,Duration:1999980,ShowParticles:0b},{Id:25b,Amplifier:10b,Duration:1999980,ShowParticles:0b},{Id:28b,Amplifier:127b,Duration:1999980,ShowParticles:0b}],Leash:{UUID:[I;2050998037,1992929370,1486695121,1227289698]}}",
         "delay": 2
+      }
+    ]
+  },
+  "NotiCon": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon wolf ~ ~1 ~ {Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_blue\",CustomName:'{\"text\":\"NotiCon\",\"color\":\"#4169E1\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:podzol\",Count:6b,tag:{display:{Name:'{\"text\":\"Dirty Dirt\",\"color\":\"#754224\"}',Lore:['{\"text\":\"it\\'s dirty.\",\"color\":\"#754224\"}']},Enchantments:[{}]}},{}],HandDropChances:[100.000F,0.085F]}"
+      },
+      {
+        "command": "/summon wolf ~1 ~1 ~1 {LeftHanded:1b}"
+      },
+      {
+        "command": "/summon wolf ~3 ~1 ~3"
+      },
+      {
+        "command": "/summon wolf ~5 ~1 ~1 {Age:-12000}"
+      },
+      {
+        "command": "/summon wolf ~1 ~1 ~5 {Age:-12000}"
+      },
+      {
+        "command": "/particle poof ~ ~1 ~ 0 0 0 1 10 normal",
+        "copies": 2
+      },
+      {
+        "command": "/particle poof ~1 ~1 ~1 0 0 0 1 10 normal",
+        "copies": 2
+      },
+      {
+        "command": "/particle poof ~3 ~1 ~3 0 0 0 1 10 normal",
+        "copies": 2
+      },
+      {
+        "command": "/particle poof ~5 ~1 ~1 0 0 0 1 10 normal",
+        "copies": 2
+      },
+      {
+        "command": "/particle poof ~1 ~1 ~5 0 0 0 1 10 normal",
+        "copies": 2
+      },
+      {
+        "command": "/particle poof ~1 ~1 ~2 0 0 0 1 10 normal",
+        "copies": 2
+      },
+      {
+        "command": "/particle poof ~2 ~1 ~3 0 0 0 1 10 normal",
+        "copies": 2
+      },
+      {
+        "command": "/particle poof ~3 ~1 ~ 0 0 0 1 10 normal",
+        "copies": 2
+      },
+      {
+        "command": "/particle poof ~-1 ~1 ~-1 0 0 0 1 10 normal",
+        "copies": 2
+      },
+      {
+        "command": "/particle poof ~0 ~1 ~-5 0 0 0 1 10 normal",
+        "copies": 2
+      },
+      {
+        "command": "/playsound entity.wolf.howl master @a[distance=..6]"
+      }
+    ]
+  },
+  "gerbil69": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon cow ~ ~ ~ {Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_green\",LeftHanded:1b,CustomName:'{\"text\":\"gerbil69\",\"color\":\"green\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:milk_bucket\",Count:1b,tag:{display:{Lore:['{\"text\":\"I am udderly out of amoosing cow jokes\"}']},Enchantments:[{}]}},{}],HandDropChances:[100.000F,0.085F]}"
+      },
+      {
+        "command": "/playsound entity.creeper.primed master @a[distance=..6] ^-2 ^ ^-1 1.0",
+        "delay": 2
+      },
+      {
+        "command": "/playsound entity.creeper.primed master @a[distance=..6] ^-1 ^ ^-4 1.0",
+        "delay": 4
+      },
+      {
+        "command": "/playsound entity.creeper.primed master @a[distance=..6] ^-3 ^ ^-2 1.0",
+        "delay": 7
+      }
+    ]
+  },
+  "usmc_chick": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/function sf_one:SFONE_teams"
+      },
+      {
+        "command": "/summon turtle ~ ~3 ~ {Glowing:1b,Team:\"SFONE_blue\"}",
+        "delay": 3
+      },
+      {
+        "command": "/summon turtle ~ ~3 ~ {Glowing:1b,Team:\"SFONE_gold\"}",
+        "delay": 3
+      },
+      {
+        "command": "/summon turtle ~ ~3 ~ {Glowing:1b,Team:\"SFONE_dark_red\"}",
+        "delay": 3
+      },
+      {
+        "command": "/summon turtle ~ ~3 ~ {Glowing:1b,Team:\"SFONE_dark_purp\"}",
+        "delay": 3
+      },
+      {
+        "command": "/summon turtle ~ ~3 ~ {Glowing:1b,Team:\"SFONE_light_purp\",CustomName:'{\"text\":\"usmc_chick_79\",\"color\":\"#FF69B4\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:pink_wool\",Count:1b,tag:{display:{Name:'{\"text\":\"it\\'s PINK!\",\"color\":\"#FF69B4\"}'},Enchantments:[{}]}},{}],HandDropChances:[100.000F,0.085F],ArmorItems:[{},{},{},{id:\"minecraft:turtle_helmet\",Count:1b,tag:{display:{Name:'{\"text\":\"Hero\\'s Half Shell\",\"color\":\"#FF69B4\"}'}}}],ArmorDropChances:[0.085F,0.085F,0.085F,100.000F]}",
+        "delay": 3
+      }
+    ]
+  },
+  "grenzenlosL": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon witch ~ ~3 ~ {Glowing:1b,Team:\"SFONE_dark_purp\",LeftHanded:0b,CustomName:'{\"text\":\"GrenzenlosL\",\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:paper\",Count:1b,tag:{display:{Name:'{\"text\":\"Math Knowledge\",\"color\":\"dark_purple\"}'},Enchantments:[{}]}},{}],HandDropChances:[0.000F,0.085F],ArmorItems:[{},{},{id:\"minecraft:paper\",Count:1b,tag:{display:{Name:'{\"text\":\"Math Knowledge\",\"color\":\"dark_purple\"}',Lore:['{\"text\":\"3.141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117067982148086513282306647093844609550582231725359408128481117450284102701938521105559644622948954930381964428810975665933446128475648233786783165271201909145648566923460348610454326648213393607260249141273724587006606315588174881520920962829254091715364367892590360011330530548820466521384146951941511609433057270365759591953092186117381932611793105118548074462379962749567351885752724891227938183011949129833673362440656643086021394946395224737190702179860943702770539217176293176752384674818467669405132000568127145263560827785771342757789609173637178721468440901224953430146549585371050792279689258923542019956112129021960864034418159813629774771309960518707211349999998372978049951059731732816096318595024459455346908302642522308253344685035261931188171010003137838752886587533208381420617177669147303598253490428755468731159562863882353787593751957781857780532171226806613001927876611195909216420198938095257201065485863278865936153381827968230301952035301852968995773622599413891249721775283479131515574857242454150695950829533116861727855889075098381754637464939319255060400927701671139009848824012858361603563707660104710181942955596198946767837\",\"color\":\"dark_aqua\"}']},Enchantments:[{}]}},{}],ArmorDropChances:[0.085F,0.085F,100.000F,0.085F]}"
+      }
+    ]
+  },
+  "suppressor153": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon chicken ~ ~10 ~ {LeftHanded:1b,IsChickenJockey:1b,Passengers:[{id:\"minecraft:villager\",Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_green\",IsBaby:0b,CanBreakDoors:1b,CustomName:'{\"text\":\"Suppressor153\",\"color\":\"green\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:sea_lantern\",Count:1b,tag:{display:{Lore:['{\"text\":\"trade me\"}']}}},{}],HandDropChances:[100.000F,0.085F],ArmorItems:[{},{},{},{id:\"minecraft:turtle_helmet\",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],VillagerData:{level:5,profession:\"minecraft:librarian\",type:\"minecraft:swamp\"},Offers:{Recipes:[{rewardExp:1b,maxUses:5,buy:{id:\"minecraft:paper\",Count:1b,tag:{display:{Name:'{\"text\":\"Math Knowledge\",\"color\":\"dark_purple\"}',Lore:[\"{\\\"text\\\":\\\"3.141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117067982148086513282306647093844609550582231725359408128481117450284102701938521105559644622948954930381964428810975665933446128475648233786783165271201909145648566923460348610454326648213393607260249141273724587006606315588174881520920962829254091715364367892590360011330530548820466521384146951941511609433057270365759591953092186117381932611793105118548074462379962749567351885752724891227938183011949129833673362440656643086021394946395224737190702179860943702770539217176293176752384674818467669405132000568127145263560827785771342757789609173637178721468440901224953430146549585371050792279689258923542019956112129021960864034418159813629774771309960518707211349999998372978049951059731732816096318595024459455346908302642522308253344685035261931188171010003137838752886587533208381420617177669147303598253490428755468731159562863882353787593751957781857780532171226806613001927876611195909216420198938095257201065485863278865936153381827968230301952035301852968995773622599413891249721775283479131515574857242454150695950829533116861727855889075098381754637464939319255060400927701671139009848824012858361603563707660104710181942955596198946767837\\\",\\\"color\\\":\\\"dark_aqua\\\"}\"]}}},sell:{id:'minecraft:pumpkin_pie',Count:3b,tag:{Enchantments:[{}]}}},{rewardExp:1b,maxUses:5,buy:{id:\"minecraft:sea_lantern\",Count:1b,tag:{display:{Lore:['{\"text\":\"trade me\"}']}}},sell:{id:'minecraft:enchanted_book',Count:1b,tag:{StoredEnchantments:[{id:'minecraft:mending',lvl:1s}]}}},{rewardExp:1b,maxUses:5,buy:{id:\"minecraft:ghast_tear\",Count:1b,tag:{display:{Name:'{\"text\":\"GiTGuD Nerd \",\"color\":\"#CD7F32\"}'}}},sell:{id:'minecraft:nether_star',Count:1b}},{rewardExp:1b,maxUses:5,buy:{id:\"thermal:signalum_gear\",Count:1b,tag:{display:{Name:'{\"text\":\"redsdracomancer\\'s Gear\",\"color\":\"aqua\"}'},Enchantments:[{id:\"minecraft:infinity\",lvl:1s}]}},sell:{id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{id:\"minecraft:infinity\",lvl:1s}]}}},{rewardExp:1b,maxUses:5,buy:{id:\"minecraft:lapis_block\",Count:1b,tag:{display:{Lore:['{\"text\":\"You\\'re a block head!\",\"color\":\"dark_blue\"}']},Enchantments:[{}]}},sell:{id:\"artifacts:everlasting_beef\",Count:1b}},{rewardExp:1b,maxUses:5,buy:{id:\"minecraft:obsidian\",Count:1b,tag:{display:{Lore:['{\"text\":\"You\\'re an Obsidian\",\"color\":\"gold\"}']},Enchantments:[{}]}},sell:{id:\"mob_grinding_utils:golden_egg\",Count:1b}},{rewardExp:1b,maxUses:5,buy:{id:\"minecraft:powered_rail\",Count:1b,tag:{display:{Lore:['{\"text\":\"choo choo!\",\"color\":\"dark_green\"}']}}},sell:{id:\"forcecraft:undeath_card\",Count:1b}},{buy:{id:\"minecraft:podzol\",Count:5b,tag:{display:{Name:'{\"text\":\"Dirty Dirt\",\"color\":\"#754224\"}',Lore:['{\"text\":\"it\\'s dirty.\",\"color\":\"#754224\"}']},Enchantments:[{}]}},sell:{id:\"mob_grinding_utils:rotten_egg\",Count:1b}},{rewardExp:1b,maxUses:5,buy:{id:\"minecraft:milk_bucket\",Count:1b,tag:{display:{Lore:['{\"text\":\"I am udderly out of amoosing cow jokes\"}']},Enchantments:[{}]}},sell:{id:\"statues:mooshroom_statue\",Count:1b}},{rewardExp:1b,maxUses:5,buy:{id:\"minecraft:pink_wool\",Count:1b,tag:{display:{Name:'{\"text\":\"it\\'s PINK!\",\"color\":\"#FF69B4\"}'},Enchantments:[{}]}},sell:{id:\"statues:sheep_statue_pink\",Count:1b}},{rewardExp:1b,maxUses:5,buy:{id:\"minecraft:purple_bed\",Count:1b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},sell:{id:\"statues:sheep_statue_purple\",Count:1b}},{rewardExp:1b,maxUses:5,buy:{id:\"tconstruct:copper_ingot\",Count:1b,tag:{display:{Name:'{\"text\":\"Drakma\\'s Totally Useless Copper Ingot\",\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true}',Lore:['{\"text\":\"How many Copper Ingots do you need?! \",\"color\":\"dark_purple\",\"bold\":true}','{\"text\":\"One Ingot?!\",\"color\":\"dark_purple\"}','{\"text\":\"Two Ingots?!\",\"color\":\"dark_purple\"}','{\"text\":\"Eight Ingots?!\",\"color\":\"dark_purple\"}','{\"text\":\"Waste of your time!\",\"color\":\"dark_purple\"}','{\"text\":\"Bye Felecia!\",\"color\":\"dark_purple\",\"bold\":true}']},Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}},sell:{id:\"tconstruct:copper_nugget\",Count:1b}}]},Gossips:[{Type:\"major_positive\",Value:2}]}]}"
+      }
+    ]
+  },
+  "n3twoik": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon vindicator ~ ~ ~ {Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_green\",Johnny:0b,CustomName:'{\"text\":\"n3twoik\",\"color\":\"green\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:diamond_axe\",Count:1b,tag:{display:{Name:'{\"text\":\"n3twoik\\'s nuisance\",\"color\":\"green\"}'},Enchantments:[{id:\"minecraft:efficiency\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}]}},{id:\"minecraft:shield\",Count:1b}],HandDropChances:[100.000F,0.000F]}"
+      }
+    ]
+  },
+  "redsdracomancer": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "It's a bird, it's a plane..."
+      },
+      {
+        "message": "It's falling",
+        "delay": 75
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon firework_rocket ~ ~ ~ {LifeTime:20,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:2,Flicker:1b,Trail:1b,Colors:[I;65433,5376255,16774925,4563711],FadeColors:[I;16722753]}]}}}}",
+        "delay": 40
+      },
+      {
+        "command": "/summon magma_cube ~ ~15 ~ {Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_dark_red\",Size:7,CustomName:'{\"text\":\"redsdracomancer\",\"color\":\"aqua\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"thermal:signalum_gear\",Count:1b,tag:{display:{Name:'{\"text\":\"redsdracomancer\\'s Gear\",\"color\":\"aqua\"}'},Enchantments:[{id:\"minecraft:infinity\",lvl:1s}]}},{}],HandDropChances:[100.000F,0.085F],ActiveEffects:[{Id:2b,Amplifier:6b,Duration:12000,ShowParticles:0b},{Id:18b,Amplifier:3b,Duration:12000,ShowParticles:0b},{Id:28b,Amplifier:3b,Duration:12000,ShowParticles:0b}],Attributes:[{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}",
+        "delay": 65
+      }
+    ]
+  },
+  "adam": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/playsound chancecubes:d20_break ambient @a[distance=..20]",
+        "delay": 0
+      },
+      {
+        "command": "/particle dust 1.000 0.000 1.000 1 ~ ~ ~-2 1 0 1 10 500 normal",
+        "delay": 120
+      },
+      {
+        "command": "/particle dust 1.000 0.000 0.000 1 ~ ~ ~ 1 0 1 10 500 normal",
+        "delay": 120
+      },
+      {
+        "command": "/playsound cyclic:magic_missile ambient @a[distance=..20] ~ ~ ~ 0.5 0.5 0.5",
+        "delay": 120
+      },
+      {
+        "command": "/particle dust 1.000 0.000 1.000 1 ~ ~1 ~-1 1 0 1 10 500 normal",
+        "delay": 140
+      },
+      {
+        "command": "/particle dust 1.000 0.000 0.000 1 ~ ~1 ~1 1 0 1 10 500 normal",
+        "delay": 140
+      },
+      {
+        "command": "/playsound cyclic:magic_missile ambient @a[distance=..20] ~ ~ ~ 0.5 0.8 0.5",
+        "delay": 140
+      },
+      {
+        "command": "/particle dust 1.000 0.000 1.000 1 ~ ~2 ~ 1 0 1 10 500 normal",
+        "delay": 160
+      },
+      {
+        "command": "/particle dust 1.000 0.000 0.000 1 ~ ~2 ~2 1 0 1 10 500 normal",
+        "delay": 160
+      },
+      {
+        "command": "/playsound cyclic:magic_missile ambient @a[distance=..20] ~ ~ ~ 0.5 1.1 0.5",
+        "delay": 160
+      },
+      {
+        "command": "/particle dust 1.000 0.000 1.000 1 ~ ~3 ~1 1 0 1 10 500 normal",
+        "delay": 170
+      },
+      {
+        "command": "/particle dust 1.000 0.000 0.000 1 ~ ~3 ~3 1 0 1 10 500 normal",
+        "delay": 170
+      },
+      {
+        "command": "/playsound cyclic:magic_missile ambient @a[distance=..20] ~ ~ ~ 0.5 1.4 0.5",
+        "delay": 170
+      },
+      {
+        "command": "/particle dust 1.000 0.000 1.000 1 ~ ~4 ~2 1 0 1 10 500 normal",
+        "delay": 180
+      },
+      {
+        "command": "/particle dust 1.000 0.000 0.000 1 ~ ~4 ~4 1 0 1 10 500 normal",
+        "delay": 180
+      },
+      {
+        "command": "/playsound cyclic:magic_missile ambient @a[distance=..20] ~ ~ ~ 0.5 1.7 0.5",
+        "delay": 180
+      },
+      {
+        "command": "/particle dust 1.000 0.000 1.000 1 ~ ~5 ~3 1 0 1 10 500 normal",
+        "delay": 200
+      },
+      {
+        "command": "/particle dust 1.000 0.000 0.000 1 ~ ~5 ~5 1 0 1 10 500 normal",
+        "delay": 200
+      },
+      {
+        "command": "/effect give @a[distance=..10] levitation 2 1 true",
+        "delay": 200
+      },
+      {
+        "command": "/playsound apotheosis:altar ambient @a[distance=..20]",
+        "delay": 240
+      },
+      {
+        "command": "/playsound chancecubes:giant_cube_spawn ambient @a[distance=..20]",
+        "delay": 240
+      },
+      {
+        "command": "/summon silverfish ~ ~3 ~5 {Silent:1b,Team:\"SFONE_blue\",DeathLootTable:\"sf_one:chance_cube_rewards/empty\",Health:90f,Passengers:[{id:\"minecraft:pig\",Silent:1b,Team:\"SFONE_blue\",DeathLootTable:\"sf_one:chance_cube_rewards/empty\",NoAI:1b,Health:90f,Passengers:[{id:\"minecraft:pig\",Silent:1b,Team:\"SFONE_blue\",DeathLootTable:\"sf_one:chance_cube_rewards/empty\",NoAI:1b,Health:90f,Passengers:[{id:\"minecraft:pig\",Silent:1b,Team:\"SFONE_blue\",DeathLootTable:\"sf_one:chance_cube_rewards/empty\",NoAI:1b,Health:90f,Passengers:[{id:\"minecraft:pig\",Silent:1b,Team:\"SFONE_blue\",DeathLootTable:\"sf_one:chance_cube_rewards/empty\",NoAI:1b,Health:90f,Passengers:[{id:\"minecraft:evoker\",Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_blue\",CustomName:'{\"text\":\"Adamparamedic\",\"color\":\"dark_blue\",\"bold\":true,\"underlined\":true}',ArmorItems:[{},{},{},{id:'minecraft:lapis_block',Count:1b,tag:{display:{Lore:[\"{\\\"text\\\":\\\"You're a block head!\\\",\\\"color\\\":\\\"dark_blue\\\"}\"]},Enchantments:[{}]}}],ArmorDropChances:[0.085F,0.085F,0.085F,100.000F]}],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2400,ShowParticles:0b},{Id:20b,Amplifier:1b,Duration:2400,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:90}]}],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2400,ShowParticles:0b},{Id:20b,Amplifier:1b,Duration:2400,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:90}]}],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2400,ShowParticles:0b},{Id:20b,Amplifier:1b,Duration:2400,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:90}]}],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2400,ShowParticles:0b},{Id:20b,Amplifier:1b,Duration:2400,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:90}]}],ActiveEffects:[{Id:1b,Amplifier:4b,Duration:2400,ShowParticles:0b},{Id:14b,Amplifier:1b,Duration:2400,ShowParticles:0b},{Id:20b,Amplifier:1b,Duration:2400,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:90},{Name:generic.attack_damage,Base:0},{Name:generic.attack_knockback,Base:0}]}",
+        "delay": 240
       }
     ]
   }

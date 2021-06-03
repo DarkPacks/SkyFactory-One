@@ -1,0 +1,108 @@
+{
+  "Bungee": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/tag @a[distance=..6] add bungee"
+      },
+      {
+        "command": "/effect give @a[tag=bungee] levitation 3 1 true"
+      },
+      {
+        "command": "/playsound cyclic:fan_on ambient @a[tag=bungee] ~ ~ ~ 1.0 0.7 1.0"
+      },
+      {
+        "command": "/effect give @a[tag=bungee] levitation 1 127 true",
+        "delay": 60
+      },
+      {
+        "command": "/playsound cyclic:byeaa ambient @a[tag=bungee] ~ ~ ~ 1.0 0.5 1.0",
+        "delay": 60
+      },
+      {
+        "command": "/effect give @a[tag=bungee] levitation 1 128 true",
+        "delay": 80
+      },
+      {
+        "command": "/playsound cyclic:fan_off ambient @a[tag=bungee] ~ ~ ~ 1.0 0.5 1.0",
+        "delay": 80
+      },
+      {
+        "command": "/effect give @a[tag=bungee] levitation 1 127 true",
+        "delay": 100
+      },
+      {
+        "command": "/playsound cyclic:byeaa ambient @a[tag=bungee] ~ ~ ~ 1.0 0.5 1.0",
+        "delay": 100
+      },
+      {
+        "command": "/effect give @a[tag=bungee] levitation 1 128 true",
+        "delay": 120
+      },
+      {
+        "command": "/playsound cyclic:fan_off ambient @a[tag=bungee] ~ ~ ~ 1.0 0.5 1.0",
+        "delay": 120
+      },
+      {
+        "command": "/effect give @a[tag=bungee] levitation 1 127 true",
+        "delay": 140
+      },
+      {
+        "command": "/playsound cyclic:byeaa ambient @a[tag=bungee] ~ ~ ~ 1.0 0.5 1.0",
+        "delay": 140
+      },
+      {
+        "command": "/effect give @a[tag=bungee] levitation 1 128 true",
+        "delay": 160
+      },
+      {
+        "command": "/playsound cyclic:fan_off ambient @a[tag=bungee] ~ ~ ~ 1.0 0.5 1.0",
+        "delay": 160
+      },
+      {
+        "command": "/effect give @a[tag=bungee] levitation 1 127 true",
+        "delay": 180
+      },
+      {
+        "command": "/playsound cyclic:byeaa ambient @a[tag=bungee] ~ ~ ~ 1.0 0.5 1.0",
+        "delay": 180
+      },
+      {
+        "command": "/effect give @a[tag=bungee] levitation 1 128 true",
+        "delay": 200
+      },
+      {
+        "command": "/playsound cyclic:fan_off ambient @a[tag=bungee] ~ ~ ~ 1.0 0.5 1.0",
+        "delay": 200
+      },
+      {
+        "command": "/effect give @a[tag=bungee] levitation 1 127 true",
+        "delay": 220
+      },
+      {
+        "command": "/playsound cyclic:byeaa ambient @a[tag=bungee] ~ ~ ~ 1.0 0.5 1.0",
+        "delay": 220
+      },
+      {
+        "command": "/playsound cyclic:fan_off ambient @a[tag=bungee] ~ ~ ~ 1.0 0.5 1.0",
+        "delay": 280
+      },
+      {
+        "command": "/effect give @a[tag=bungee] slow_falling 5 1 true",
+        "delay": 360
+      },
+      {
+        "command": "/effect give @a[tag=bungee] resistance 10 5 true",
+        "delay": 300
+      },
+      {
+        "command": "/playsound cyclic:thunk ambient @a[tag=bungee] ~ ~ ~ 1.0 0.5 1.0",
+        "delay": 380
+      },
+      {
+        "command": "/tag @a[tag=bungee] remove bungee",
+        "delay": 400
+      }
+    ]
+  }
+}

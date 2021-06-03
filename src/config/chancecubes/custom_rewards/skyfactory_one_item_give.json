@@ -311,6 +311,11 @@
   },
   "Diamond Crook": {
     "chance": 0,
+    "Message": [
+      {
+        "message": "\u270c I am not a crook! \u270c"
+      }
+    ],
     "Item": [
       {
         "item": {
@@ -985,6 +990,27 @@
           "id": "minecraft:enchanting_table",
           "Count": 1
         }
+      }
+    ]
+  },
+  "Drakma": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Who needs 1 type of Copper when you can have 2!"
+      }
+    ],
+    "Command": [
+      {
+        "command": "/give @p tconstruct:copper_ingot{display:{Name:'{\"text\":\"Drakma\\'s Totally Useless Copper Ingot\",\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true}',Lore:['{\"text\":\"How many Copper Ingots do you need?! \",\"color\":\"dark_purple\",\"bold\":true}','{\"text\":\"One Ingot?!\",\"color\":\"dark_purple\"}','{\"text\":\"Two Ingots?!\",\"color\":\"dark_purple\"}','{\"text\":\"Eight Ingots?!\",\"color\":\"dark_purple\"}','{\"text\":\"Waste of your time!\",\"color\":\"dark_purple\"}','{\"text\":\"Bye Felecia!\",\"color\":\"dark_purple\",\"bold\":true}']},Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s}]} 1"
+      }
+    ]
+  },
+  "Lothrazar": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon item ~ ~3 ~ {Item:{id:\"minecraft:shulker_box\",Count:1b,tag:{display:{Name:'{\"text\":\"Purp Cup\",\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true}',Lore:['{\"text\":\"Purp in my cup.\",\"color\":\"dark_purple\"}']},BlockEntityTag:{Items:[{Slot:0b,id:\"forcecraft:force_brick_purple\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:1b,id:\"forcecraft:force_brick_purple_slab\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:2b,id:\"forcecraft:force_brick_purple_stairs\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:3b,id:\"forcecraft:force_purple_torch\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:4b,id:\"buildersaddition:pillow_purple\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:5b,id:\"minecraft:purple_banner\",Count:16b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:6b,id:\"inspirations:purple_book\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:7b,id:\"minecraft:purple_carpet\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:8b,id:\"inspirations:purple_carpeted_trapdoor\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:9b,id:\"tconstruct:purple_clear_stained_glass_pane\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:10b,id:\"pickletweaks:purple_cobblestone\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:11b,id:\"minecraft:purple_concrete\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:12b,id:\"minecraft:purple_concrete_powder\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:13b,id:\"minecraft:purple_dye\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:14b,id:\"minecraft:purple_glazed_terracotta\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:15b,id:\"buildersplus:purple_quartzstairs\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:16b,id:\"thermal:purple_rockwool\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:17b,id:\"minecraft:purple_stained_glass\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:18b,id:\"minecraft:purple_stained_glass_pane\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:19b,id:\"minecraft:purple_terracotta\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:20b,id:\"buildersplus:purpur_plate\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:21b,id:\"buildersplus:purpur_qslab\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:22b,id:\"buildersplus:purpur_qstairs\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:23b,id:\"buildersaddition:sofa_purple\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:24b,id:\"minecraft:purple_bed\",Count:1b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:25b,id:\"tconstruct:purple_clear_stained_glass\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}},{Slot:26b,id:\"buildersplus:oak_purple_glass_fence\",Count:64b,tag:{display:{Name:'{\"text\":\"Purp\",\"color\":\"dark_purple\"}'}}}]}}}}"
       }
     ]
   }

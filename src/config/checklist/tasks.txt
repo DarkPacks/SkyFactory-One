@@ -95,7 +95,7 @@ One each of §lSingle§r(§51x§r), §lDouble§r(§22x§r), §lTriple§r(§83x§
 
 ===
 #§4-§1-§4-§2=§5=§6= §c§l§nTier 3§r §6=§5=§2=§4-§1-§4-
-Fill a §lSupreme§r §lBlack§r §lHole§r §lUnit§r to max capacity
+Fill an §lAdvanced§r §lBlack§r §lHole§r §lUnit§r to max capacity
 Automatically craft an §lOctuple(8x)§r §lCompressed§r §lCobblestone§r in less than 1 hour
 Fill 10 §l64k§r §lFluid§r §lStorage§r §ldisks§r each with a unique liquid, excluding water
 Increase Cobblestone production to faster than 10,000 Cobble per second

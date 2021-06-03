@@ -1,0 +1,1 @@
+give @p bow{display:{Name:'{"text":"Legolas\' Dream","color":"green","bold":true}',Lore:['{"text":"Legolas wishes he had this"}']},Unbreakable:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:127s},{id:"minecraft:power",lvl:127s},{id:"minecraft:punch",lvl:127s},{id:"minecraft:infinity",lvl:1s}]} 1

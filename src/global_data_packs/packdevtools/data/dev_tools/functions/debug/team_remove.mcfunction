@@ -1,0 +1,5 @@
+team remove tmnt_Leo_sfone
+team remove tmnt_Mike_sfone
+team remove tmnt_Raph_sfone
+team remove tmnt_Donny_sfone
+team remove tmnt_usmc_sfone
