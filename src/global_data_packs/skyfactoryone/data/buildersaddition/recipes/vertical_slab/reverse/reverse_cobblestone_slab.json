@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:cobblestone_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:cobblestone",
+    "count": 1
+  }
+}
