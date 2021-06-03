@@ -161,7 +161,7 @@
     "chancecubes:cursed_head": true,
     "chancecubes:wheel_spin": true,
     "chancecubes:math": true,
-    "chancecubes:question": true,
+    "chancecubes:question": false,
     "chancecubes:heads_or_tails": false,
     "chancecubes:village": false,
     "chancecubes:woodland_mansion": false,
@@ -317,6 +317,20 @@
     "Bomb Drop": true,
     "chancecubes:connect_4": true,
     "bacail": true,
-    "HunterOfGems": true
+    "HunterOfGems": true,
+    "NotiCon": true,
+    "Slime Tower": true,
+    "Venamah": true,
+    "gerbil69": true,
+    "usmc_chick": true,
+    "grenzenlosL": true,
+    "suppressor153": true,
+    "n3twoik": true,
+    "redsdracomancer": true,
+    "adam": true,
+    "Bungee": true,
+    "Drakma": true,
+    "sup2": true,
+    "Lothrazar": true
   }
 }
