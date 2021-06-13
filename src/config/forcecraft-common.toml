@@ -30,6 +30,9 @@
 	#Chu Chu Max Group size [Default: 1]
 	#Range: > 1
 	ChuChuMaxGroup = 1
+	#The max amount of ticks it takes to charge a tool with Force [Default: 120 (6 seconds)]
+	#Range: > 20
+	forceInfusingTime = 120
 	#Enable Force Ore generation. [Default: true]
 	generateForceOre = false
 	#Enable Chu Chu's to spawn [Default: true]

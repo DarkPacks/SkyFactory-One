@@ -496,5 +496,59 @@
         "delay": 240
       }
     ]
+  },
+  "ChosenArchitect": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon slime ~ ~ ~ {Team:\"SFONE_gold\",Health:21f,Size:0,Passengers:[{id:\"minecraft:creeper\",Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_gold\",Fuse:19980,CustomName:'{\"text\":\"ChosenArchitect\",\"color\":\"gold\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:enchanted_book\",Count:1b,tag:{display:{Name:'{\"text\":\"ChosenArchitect\\'s Protection\",\"color\":\"gold\",\"bold\":true}'},Enchantments:[{id:\"minecraft:blast_protection\",lvl:10s}]}},{}],HandDropChances:[100.000F,0.085F]}]}"
+      }
+    ]
+  },
+  "Dedlou": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon dolphin ~ ~8 ~ {Glowing:1b,Team:\"SFONE_yellow\",Moistness:19980,GotFish:1b,Passengers:[{id:\"minecraft:dolphin\",Glowing:1b,Team:\"SFONE_yellow\",Moistness:19980,GotFish:1b,Passengers:[{id:\"minecraft:dolphin\",Glowing:1b,Team:\"SFONE_yellow\",Moistness:19980,GotFish:1b,Passengers:[{id:\"minecraft:dolphin\",Glowing:1b,Team:\"SFONE_yellow\",Moistness:19980,GotFish:1b,Passengers:[{id:\"minecraft:cat\",Glowing:1b,Team:\"SFONE_yellow\",Sitting:1b,CatType:10,CollarColor:15b,Passengers:[{id:\"minecraft:parrot\",Glowing:1b,Team:\"SFONE_yellow\",Sitting:1b,Variant:4,Passengers:[{id:\"minecraft:fireball\",Team:\"SFONE_yellow\",Passengers:[{id:\"minecraft:end_crystal\",Team:\"SFONE_yellow\",ShowBottom:0b,Passengers:[{id:\"minecraft:blaze\",Glowing:1b,Team:\"SFONE_yellow\",Passengers:[{id:\"minecraft:shulker\",Glowing:1b,Team:\"SFONE_yellow\",AttachFace:0b,Color:11b,Passengers:[{id:\"minecraft:pillager\",Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_yellow\",CustomName:'{\"text\":\"Dedlou\",\"color\":\"blue\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:crossbow\",Count:1b,tag:{ChargedProjectiles:[{id:\"minecraft:firework_rocket\",Count:1b,tag:{Fireworks:{Flight:3b,Explosions:[{Type:4,Flicker:1b,Trail:1b,Colors:[I;993279]}]}}},{id:\"minecraft:firework_rocket\",Count:1b,tag:{Fireworks:{Flight:3b,Explosions:[{Type:3,Flicker:1b,Trail:1b}]}}},{id:\"minecraft:firework_rocket\",Count:1b,tag:{Fireworks:{Flight:3b,Explosions:[{Type:2,Flicker:1b,Trail:1b}]}}}],Charged:1b}},{id:\"minecraft:salmon\",Count:1b,tag:{display:{Name:'{\"text\":\"Sushi\",\"color\":\"blue\",\"bold\":true,\"underlined\":true}'},Enchantments:[{}]}}],HandDropChances:[0.085F,100.000F],Attributes:[{Name:generic.follow_range,Base:32}]}]}]}]}],Item:{id:\"minecraft:stick\",Count:1b}}]}]}]}]}]}],ActiveEffects:[{Id:1b,Amplifier:4b,Duration:19980,ShowParticles:0b},{Id:8b,Amplifier:20b,Duration:19980,ShowParticles:0b},{Id:28b,Amplifier:9b,Duration:19980,ShowParticles:0b}]}"
+      }
+    ]
+  },
+  "ogny": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon enderman ~ ~ ~ {Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_green\",CustomName:'{\"text\":\"ogny\",\"color\":\"green\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:cake\",Count:1b,tag:{display:{Name:'{\"text\":\"Ogny\\'s Birthday Cake\",\"color\":\"green\"}'},Enchantments:[{}]}},{}],HandDropChances:[100.000F,0.085F],carriedBlockState:{Name:\"minecraft:cake\",Properties:{bites:\"1\"}},ForgeCaps:{\"hats:capability_hat\":{hsbH:0.0f,partCount:1,clrR:0.0f,count:1,isNew:0b,hsbS:0.0f,part_0:{hsbH:0.0f,partCount:0,clrR:0.0f,count:1,isNew:0b,hsbS:0.0f,clrG:0.0f,isShowing:1b,enchanted:0b,clrA:0.0f,clrB:0.0f,name:\"Party Blower\",hsbB:0.0f,isFavourite:0b},clrG:0.0f,isShowing:1b,enchanted:0b,clrA:0.0f,clrB:0.0f,name:\"Party Hat\",hsbB:0.0f,isFavourite:0b}}}"
+      }
+    ]
+  },
+  "drakohen": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon polar_bear ^ ^3 ^3 {Glowing:1b,CustomNameVisible:1b,Team:\"SFONE_green\",Passengers:[{id:\"minecraft:polar_bear\",Silent:1b,Team:\"SFONE_green\",Age:-12000,ActiveEffects:[{Id:14b,Amplifier:1b,Duration:12000,ShowParticles:0b}]}],CustomName:'{\"text\":\"Drakohen_\",\"color\":\"green\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"minecraft:emerald\",Count:1b,tag:{display:{Name:'{\"text\":\"Shiny Stone\",\"color\":\"green\"}'},Enchantments:[{id:\"minecraft:lure\",lvl:2s}]}},{}],HandDropChances:[100.000F,0.085F]}"
+      }
+    ]
+  },
+  "SunsetWhiskey": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon drowned ^1 ^4 ^5 {Glowing:1b,Team:\"SFONE_black\",IsBaby:1b,CanBreakDoors:1b,Passengers:[{id:\"minecraft:chicken\",Glowing:1b,Team:\"SFONE_black\",EggLayTime:20,ActiveEffects:[{Id:25b,Amplifier:100b,Duration:12000,ShowParticles:0b}]}],ArmorItems:[{id:\"minecraft:golden_boots\",Count:1b,tag:{display:{Name:'{\"text\":\"Cold Drip\",\"color\":\"black\"}'},Damage:1.0,Enchantments:[{id:\"minecraft:frost_walker\",lvl:1s}]}},{},{},{id:\"minecraft:turtle_helmet\",Count:1b}],ArmorDropChances:[100.000F,0.085F,0.085F,0.000F],Attributes:[{Name:zombie.spawn_reinforcements,Base:100}]}"
+      },
+      {
+        "command": "/summon drowned ^ ^5 ^3 {Glowing:1b,Team:\"SFONE_black\",IsBaby:1b,CanBreakDoors:1b,Passengers:[{id:\"minecraft:chicken\",Glowing:1b,Team:\"SFONE_black\",Age:-12000,EggLayTime:20,ActiveEffects:[{Id:25b,Amplifier:100b,Duration:12000,ShowParticles:0b}]}],ArmorItems:[{},{},{},{id:\"minecraft:turtle_helmet\",Count:1b}],ArmorDropChances:[100.000F,0.085F,0.085F,0.000F],Attributes:[{Name:zombie.spawn_reinforcements,Base:100}]}"
+      },
+      {
+        "command": "/summon drowned ^-1 ^4 ^5 {Glowing:1b,Team:\"SFONE_black\",IsBaby:1b,CanBreakDoors:1b,Passengers:[{id:\"minecraft:chicken\",Glowing:1b,Team:\"SFONE_black\",Age:-12000,EggLayTime:20,ActiveEffects:[{Id:25b,Amplifier:100b,Duration:12000,ShowParticles:0b}]}],ArmorItems:[{},{},{},{id:\"minecraft:turtle_helmet\",Count:1b}],ArmorDropChances:[100.000F,0.085F,0.085F,0.000F],Attributes:[{Name:zombie.spawn_reinforcements,Base:100}]}"
+      }
+    ]
+  },
+  "iRunes": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon armor_stand ^ ^1 ^3 {NoGravity:1b,Glowing:0b,ShowArms:1b,NoBasePlate:1b,Pose:{Body:[0f,3f,0f],LeftArm:[0f,0f,-20f],RightArm:[-99f,0f,0f],LeftLeg:[0f,0f,-20f],RightLeg:[0f,0f,20f],Head:[0f,0f,0f]},Passengers:[{id:\"minecraft:guardian\",Glowing:0b,CustomNameVisible:1b,Team:\"SFONE_light_purp\",CustomName:'{\"text\":\"iRunes\",\"color\":\"light_purple\",\"bold\":true,\"underlined\":true}',HandItems:[{id:\"tconstruct:quartz_shuriken\",Count:1b,tag:{display:{Name:'{\"text\":\"RuneStar\",\"color\":\"light_purple\"}'},Enchantments:[{}]}},{}],HandDropChances:[100.000F,0.085F]}],HandItems:[{id:\"minecraft:stick\",Count:1b},{id:\"minecraft:sponge\",Count:1b}],ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b},{id:\"minecraft:leather_leggings\",Count:1b},{id:\"minecraft:leather_chestplate\",Count:1b},{}]}"
+      }
+    ]
   }
 }

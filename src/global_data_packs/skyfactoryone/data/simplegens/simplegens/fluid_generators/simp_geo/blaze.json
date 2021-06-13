@@ -1,7 +1,7 @@
 {
   "generator": "simplegens:simple_geothermal",
   "fuel": {
-    "raw:fluid": "tconstruct:molten_blaze"
+    "raw:fluid": "tconstruct:blazing_blood"
   },
   "energy": 320
 }

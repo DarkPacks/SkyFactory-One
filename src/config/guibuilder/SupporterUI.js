@@ -9,6 +9,8 @@ addElement(new GuiElementText(EnumGuiLocation.BOTTOM_CENTER, Util.Text.color(Uti
 
 //Read lines of text from file
 var supporters = Util.File.readLines("./config/guibuilder/supporters.txt");
+var Collections = Java.type("java.util.Collections");
+Collections.shuffle(supporters);
 //top left anchor point, bottom right anchor point, text list
 //combine is the max number of strings per line, and spacing between them
 //xPadding is padding on the right and left sides of the gui

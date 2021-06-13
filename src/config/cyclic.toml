@@ -114,6 +114,17 @@
 			#Block these from being picked up
 			disable_pickup = ["parabox:parabox", "extracells:fluidcrafter", "extracells:ecbaseblock", "extracells:fluidfiller"]
 
+		#####################################################################################
+		# Obsidian gear settings
+		#####################################################################################
+		[cyclic.items.obsidian]
+			#Weapon damage
+			#Range: 0.10000000149011612 ~ 99.0
+			damage = 10.5
+			#Armor toughness
+			#Range: 0.10000000149011612 ~ 99.0
+			toughness = 6.0
+
 		#Wand settings
 		[cyclic.items.teleport_wand]
 			#Maximum distance to activate
@@ -134,6 +145,17 @@
 			#Experience given when eating a poisoned heart
 			#Range: 0 ~ 99999
 			experience = 500
+
+		#####################################################################################
+		# Emerald gear settings
+		#####################################################################################
+		[cyclic.items.emerald]
+			#Weapon damage
+			#Range: 0.10000000149011612 ~ 99.0
+			damage = 4.5
+			#Armor toughness
+			#Range: 0.10000000149011612 ~ 99.0
+			toughness = 3.0
 
 	#####################################################################################
 	# Edit the permissions of all commands added by the mod.  false means anyone can use, true means only OP players can use  

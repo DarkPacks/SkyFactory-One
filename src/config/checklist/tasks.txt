@@ -16,13 +16,13 @@
 
 ===
 #§5=§6= §0§nCredits§r §6=§5=
-#[Hi! My name is Darkosto. I stream on: §5§nTwitch§r](https://darkosto.tv/SFOneBook)
+[Hi! My name is Darkosto. I stream on: §5§nTwitch§r](https://darkosto.tv/SFOneBook)
 
 #§4Special§r §4thank§r §4you§r §4to§r: Blargerist, FirstNecron, Lothrazar, MrBysco, Shadows_of_Fire, ShyNieke, Vadis365, ValkyrieofNight
 
 #§4Custom§r §4Structures§r §4Made§r §4by§r: CaptainQ, OnlyBentley
 
-#[§4Modpack§r §4Testing§r: darkphan](https://www.twitch.tv/darkphan)
+[§4Modpack§r §4Testing§r: darkphan](https://www.twitch.tv/darkphan)
 
 
 ===

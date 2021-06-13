@@ -12,24 +12,10 @@
 		#blocks that can't be rotated. Some special ones like chests, beds and pistons are already hardcoded
 		blacklist = ["minecraft:end_portal_frame"]
 
-	[blocks.cage]
-		#allow all baby mobs to be captured by cages
-		cage_allow_all_babies = false
-		#allow all entities to be captured by cages and jars. Not meant for survival
-		cage_allow_all_mobs = false
-
 	[blocks.candle_holder]
 		#candle holder light level
 		#Range: 1 ~ 15
 		light_level = 12
-
-	[blocks.globe]
-		#chanche of finding a globe in a shipwreck treasure chest.
-		#Range: 0.0 ~ 1.0
-		shipwreck_treasure_chance = 0.25
-		#how many globe trades to give to the wandering trader. This will effectively increase the chance of him having a globe trader. Increase this if you have other mods that add stuff to that trader
-		#Range: 0 ~ 50
-		chance = 2
 
 	[blocks.speaker_block]
 		#maximum range
@@ -45,14 +31,6 @@
 		#maximum number of sacks after which the slowness effect will be applied. each multiple of this number will further slow the player down
 		#Range: 0 ~ 50
 		sack_increment = 2
-
-	[blocks.spring_launcher]
-		#fall distance needed to trigger the automatic spring launch
-		#Range: 0 ~ 512
-		fall_height_required = 5
-		#spring launcher launch speed
-		#Range: 0.0 ~ 16.0
-		velocity = 1.5
 
 	[blocks.bellows]
 		#velocity increase uses this equation: 
@@ -75,16 +53,67 @@
 		#causes pushing animation to be smooth client side but also restricts player movement when being pushed
 		velocity_changed_flag = true
 
+	[blocks.notice_board]
+		#allow notice boards to accept and display any item, not just maps and books
+		allow_any_item = false
+
+	[blocks.cage]
+		#allow all baby mobs to be captured by cages
+		cage_allow_all_babies = false
+		#allow all entities to be captured by cages and jars. Not meant for survival
+		cage_allow_all_mobs = false
+
+	[blocks.globe]
+		#how many globe trades to give to the wandering trader. This will effectively increase the chance of him having a globe trader. Increase this if you have other mods that add stuff to that trader
+		#Range: 0 ~ 50
+		chance = 2
+		#chanche of finding a globe in a shipwreck treasure chest.
+		#Range: 0.0 ~ 1.0
+		shipwreck_treasure_chance = 0.25
+
+	[blocks.spring_launcher]
+		#fall distance needed to trigger the automatic spring launch
+		#Range: 0 ~ 512
+		fall_height_required = 5
+		#spring launcher launch speed
+		#Range: 0.0 ~ 16.0
+		velocity = 1.5
+
+	[blocks.hourglass]
+		#Time in ticks for sugar
+		#Range: 0 ~ 10000
+		sugar_time = 40
+		#Time in ticks for honey
+		#Range: 0 ~ 10000
+		honey_time = 2000
+		#Time in ticks for glowstone dust
+		#Range: 0 ~ 10000
+		glowstone_time = 190
+		#Time in ticks for redstone dust
+		#Range: 0 ~ 10000
+		redstone_time = 400
+		#Time in ticks for blaze powder
+		#Range: 0 ~ 10000
+		blaze_powder_time = 277
+		#Time in ticks for sand blocks
+		#Range: 0 ~ 10000
+		sand_time = 70
+		#Time in ticks for concrete blocks
+		#Range: 0 ~ 10000
+		concrete_time = 105
+		#Time in ticks for slime balls
+		#Range: 0 ~ 10000
+		slime_time = 1750
+		#Time in ticks for generic dust
+		#Range: 0 ~ 10000
+		dust_time = 150
+
 	[blocks.safe]
 		#makes safes only breakable by their owner or by a player in creative
 		prevent_breaking = false
 		#make safes simpler so they do not require keys:
 		#they will be bound to the first person that opens one and only that person will be able to interact with them
 		simple_safes = false
-
-	[blocks.notice_board]
-		#allow notice boards to accept and display any item, not just maps and books
-		allow_any_item = false
 
 	[blocks.jar]
 		#allow right click to instantly eat or drink food or potions inside a jar.
@@ -93,10 +122,6 @@
 		#jar liquid capacity: leave at 12 for pixel accuracy
 		#Range: 0 ~ 1024
 		capacity = 12
-
-	[blocks.timber_frame]
-		#replace a timber frame with wattle and daub when daub is placed in it
-		replace_daub = true
 
 #Configure spawning conditions
 [spawns]
@@ -123,13 +148,13 @@
 			#average distance apart in chunks between spawn attempts
 			#Range: 0 ~ 1001
 			average_distance = 19
-			#minimum distance apart in chunks between spawn attempts. 1001 to disable them entirely
-			#Range: 0 ~ 1001
-			minimum_distance = 10
 			#with this option road signs will display the distance to the structure that they are pointing to
 			show_distance_text = true
 			#list of structure that a sign can point to. Note that they will only spawn in dimensions where vanilla villages can
 			villages = ["minecraft:village", "repurposed_structures:village_badlands", "repurposed_structures:village_dark_oak", "repurposed_structures:village_birch", "repurposed_structures:village_giant_taiga", "repurposed_structures:village_jungle", "repurposed_structures:village_mountains", "repurposed_structures:village_oak", "repurposed_structures:village_swamp", "pokecube:village", "pokecube_legends:village", "pokecube_legends:village/ocean", "valhelsia_structures:castle", "valhelsia_structures:castle_ruin", "valhelsia_structures:small_castle", "valhelsia_structures:tower_ruin"]
+			#minimum distance apart in chunks between spawn attempts. 1001 to disable them entirely
+			#Range: 0 ~ 1001
+			minimum_distance = 10
 
 #entities parameters
 [entities]
@@ -160,8 +185,15 @@
 		#throw bricks at your foes! Might break glass blocks
 		enabled = true
 
+	[tweaks.adventurer_maps]
+		custom_adventurer_maps = [[""]]
+
 	[tweaks.hanging_flower_pots]
 		#allows you to place hanging flower pots. Works with any modded pot too
+		enabled = true
+
+	[tweaks.raked_gravel]
+		#allow gravel to be raked with a hoe
 		enabled = true
 
 	[tweaks.cake_tweaks]
@@ -170,16 +202,19 @@
 		#replaces normal cake placement with a directional one
 		directional_cake = true
 
+	[tweaks.bottle_xp]
+		#bottling health cost
+		#Range: 0 ~ 20
+		cost = 2
+		#allow bottling up xp by using a bottle on an enchanting table
+		enabled = true
+
 	[tweaks.bells_tweaks]
 		#ring a bell by clicking on a chain that's connected to it
 		chain_ringing = true
 		#max chain length that allows a bell to ring
 		#Range: 0 ~ 1024
 		chain_length = 16
-
-	[tweaks.placeable_sticks]
-		#allow placeable blaze rods
-		enabled = true
 
 [items]
 

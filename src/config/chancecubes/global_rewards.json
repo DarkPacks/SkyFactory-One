@@ -158,7 +158,7 @@
     "chancecubes:boss_evil_witch": true,
     "chancecubes:boss_demonic_blaze": true,
     "chancecubes:boss_ravager": true,
-    "chancecubes:cursed_head": true,
+    "chancecubes:cursed_head": false,
     "chancecubes:wheel_spin": true,
     "chancecubes:math": true,
     "chancecubes:question": false,
@@ -331,6 +331,14 @@
     "Bungee": true,
     "Drakma": true,
     "sup2": true,
-    "Lothrazar": true
+    "Lothrazar": true,
+    "ChosenArchitect": true,
+    "Dedlou": true,
+    "ogny": true,
+    "drakohen": true,
+    "SunsetWhiskey": true,
+    "LovelessTie": true,
+    "WikiRik": true,
+    "iRunes": true
   }
 }

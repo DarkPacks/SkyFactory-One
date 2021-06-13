@@ -27,6 +27,7 @@
 		cage = true
 		bamboo_spikes = true
 		hourglass = true
+		raked_gravel = true
 		jar = true
 		sconce_ender = true
 		rope_arrow = true
@@ -62,8 +63,10 @@
 		item_shelf = true
 		turn_table = true
 		faucet = true
+		i_want_flags = false
 		gold_trapdoor = true
 		magma_cream_block = true
+		goblet = true
 		sconce_green = false
 		flute = true
 		pulley_block = true

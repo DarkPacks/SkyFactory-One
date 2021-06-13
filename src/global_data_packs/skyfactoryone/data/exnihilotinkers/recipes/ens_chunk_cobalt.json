@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "exnihilotinkers",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "exnihilosequentia:piece_cobalt"
+    }
+  },
+  "result": {
+    "item": "exnihilosequentia:chunk_cobalt"
+  }
+}

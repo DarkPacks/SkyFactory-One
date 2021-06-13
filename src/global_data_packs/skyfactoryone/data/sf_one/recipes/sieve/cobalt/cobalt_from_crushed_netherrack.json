@@ -2,7 +2,7 @@
   "type": "exnihilosequentia:sieve",
   "rolls": [
     {
-      "chance": 0.05,
+      "chance": 0.01,
       "mesh": "string"
     }
   ],
@@ -10,6 +10,6 @@
     "item": "exnihilosequentia:crushed_netherrack"
   },
   "result": {
-    "item": "tconstruct:cobalt_nugget"
+    "item": "exnihilosequentia:piece_cobalt"
   }
 }
