@@ -1,7 +1,17 @@
+/*
+ * This file makes a basic void dimension with oak tree starting structure
+ */
 
-setSpawnStructure("structures/oaktree", 64);
+/*
+ * Sets the spawn structure
+ * structure path, spawn height
+ */
+setSpawnStructure("examples/structures/oaktree", 64);
 
 function buildChunkGenerator(seed, biomeRegistry, dimensionSettingsRegistry) {
+	/*
+	 * Creates a list of biomes, removing ones from the two remove lists
+	 */
 	var biomesToRemove = Java.to(
 		[],
 		"java.lang.String[]"
@@ -16,9 +26,14 @@ function buildChunkGenerator(seed, biomeRegistry, dimensionSettingsRegistry) {
 		"net.minecraftforge.common.BiomeDictionary$Type[]"
 	);
 	var biomes = Util.Biomes.withoutBiomes(Util.Biomes.withoutTypes(Util.Biomes.forOverworld(), biomeTypesToRemove), biomesToRemove);
-	
-	var biomeProvider = new MultiBiomeProvider(biomes, seed, 3, biomeRegistry);
-	
+	/*
+	 * Makes the BiomeProvider
+	 * biomes, seed, biome size, registry
+	 */
+	var biomeProvider = new MultiBiomeProvider(biomes, seed, 4, biomeRegistry);
+	/*
+	 * Makes the ChunkGenerator
+	 */
 	return new ChunkGeneratorVoid(biomeProvider, function() {
 		return Util.Registries.get(dimensionSettingsRegistry, "minecraft:overworld");
 	}, seed);

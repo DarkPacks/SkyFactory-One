@@ -7,6 +7,6 @@ function buildChunkGenerator(seed, biomeRegistry, dimensionSettingsRegistry) {
 	var biomeProvider = new EndBiomeProvider(biomeRegistry, seed);
 	
 	return new ChunkGeneratorNoiseTopo(biomeProvider, seed, function() {
-		return RegistryHelper.get(dimensionSettingsRegistry, "minecraft:end");
+		return Util.Registries.get(dimensionSettingsRegistry, "minecraft:end");
 	}).removeCenterEndIsland();
 }

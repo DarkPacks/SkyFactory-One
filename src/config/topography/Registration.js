@@ -1,1 +1,1 @@
-register(Util.Biome.makeBiome("topography:infinite_dark"));
+register(Util.Biomes.makeBiome("topography:infinite_dark"));

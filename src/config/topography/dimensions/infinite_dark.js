@@ -1,5 +1,5 @@
 
-setDimensionType(DimensionHelper.typeBuilder().fixedTime(18000).effects("topography:black").skylight(false).ceiling(true).build());
+setDimensionType(Util.Dimensions.typeBuilder().fixedTime(18000).effects("topography:black").skylight(false).ceiling(true).build());
 minGamma(0.0);
 maxGamma(0.0);
 
@@ -7,14 +7,13 @@ var NoFeatureConfig = Java.type("net.minecraft.world.gen.feature.NoFeatureConfig
 var RegionFeatureConfig = Java.type("com.bloodnbonesgaming.topography.common.world.gen.feature.config.RegionFeatureConfig");
 var CircleRegionFeatureConfig = Java.type("com.bloodnbonesgaming.topography.common.world.gen.feature.config.CircleRegionFeatureConfig");
 var StructureFeatureConfig = Java.type("com.bloodnbonesgaming.topography.common.world.gen.feature.config.StructureFeatureConfig");
-var StalactiteFormationConfig = Java.type("com.bloodnbonesgaming.topography.common.world.gen.feature.config.StalactiteFormationConfig");
-var FeatureHelper = Java.type("com.bloodnbonesgaming.topography.common.util.features.FeatureHelper");
+var SpeleothemConfig = Java.type("com.bloodnbonesgaming.topography.common.world.gen.feature.config.SpeleothemConfig");
 var BlockReplacement = Java.type("com.bloodnbonesgaming.topography.common.world.gen.feature.config.BlockReplacement");
-var COBBLESTONE = BlockHelper.getState("minecraft:cobblestone");
-var DIORITE = BlockHelper.getState("minecraft:diorite");
-var GRANITE = BlockHelper.getState("minecraft:granite");
-var ANDESITE = BlockHelper.getState("minecraft:andesite");
-var GRAVEL = BlockHelper.getState("minecraft:gravel");
+var COBBLESTONE = Util.Blocks.getState("minecraft:cobblestone");
+var DIORITE = Util.Blocks.getState("minecraft:diorite");
+var GRANITE = Util.Blocks.getState("minecraft:granite");
+var ANDESITE = Util.Blocks.getState("minecraft:andesite");
+var GRAVEL = Util.Blocks.getState("minecraft:gravel");
 
 var randomSpawnerOptions = [
 	"minecraft:spider",
@@ -36,165 +35,165 @@ function getRandomSpawner(rand) {
 }
 
 //Floor structures
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 81, "structures/captainq1")
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 81, "structures/captainq1")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
-	if (state == BlockHelper.getState("minecraft:red_wool")) {
-		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
+	if (state == Util.Blocks.getState("minecraft:red_wool")) {
+		return Util.Blocks.buildBlockInfo(pos, Util.Blocks.getState("minecraft:spawner"), Util.Blocks.getNBT(Util.Blocks.buildSpawner(getRandomSpawner(rand))));
 	}
-	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
+	else if (Util.Blocks.getBlock(state) == Util.Blocks.getBlock("minecraft:chest")) {
 		if (rand.nextInt(5) == 0) {
-			entities.add(Util.Entity.buildEntityInfo(pos2, pos2, Util.Entity.buildNBT("{id:\"artifacts:mimic\"}")));
+			entities.add(Util.Entities.buildEntityInfo(pos2, pos2, Util.Entities.buildNBT("{id:\"artifacts:mimic\"}")));
 			return null;
 		}
-		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
+		return Util.Blocks.buildBlockInfo(pos, state, Util.Blocks.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
 	}
-	return Util.Block.buildBlockInfo(pos, state, nbt);
+	return Util.Blocks.buildBlockInfo(pos, state, nbt);
 }))));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 81, "structures/captainq2")
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 81, "structures/captainq2")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
-	if (state == BlockHelper.getState("minecraft:red_wool")) {
-		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
+	if (state == Util.Blocks.getState("minecraft:red_wool")) {
+		return Util.Blocks.buildBlockInfo(pos, Util.Blocks.getState("minecraft:spawner"), Util.Blocks.getNBT(Util.Blocks.buildSpawner(getRandomSpawner(rand))));
 	}
-	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
+	else if (Util.Blocks.getBlock(state) == Util.Blocks.getBlock("minecraft:chest")) {
 		if (rand.nextInt(5) == 0) {
-			entities.add(Util.Entity.buildEntityInfo(pos2, pos2, Util.Entity.buildNBT("{id:\"artifacts:mimic\"}")));
+			entities.add(Util.Entities.buildEntityInfo(pos2, pos2, Util.Entities.buildNBT("{id:\"artifacts:mimic\"}")));
 			return null;
 		}
-		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
+		return Util.Blocks.buildBlockInfo(pos, state, Util.Blocks.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
 	}
-	return Util.Block.buildBlockInfo(pos, state, nbt);
+	return Util.Blocks.buildBlockInfo(pos, state, nbt);
 }))));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 81, "structures/captainq3")
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 81, "structures/captainq3")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
-	if (state == BlockHelper.getState("minecraft:red_wool")) {
-		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
+	if (state == Util.Blocks.getState("minecraft:red_wool")) {
+		return Util.Blocks.buildBlockInfo(pos, Util.Blocks.getState("minecraft:spawner"), Util.Blocks.getNBT(Util.Blocks.buildSpawner(getRandomSpawner(rand))));
 	}
-	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
+	else if (Util.Blocks.getBlock(state) == Util.Blocks.getBlock("minecraft:chest")) {
 		if (rand.nextInt(5) == 0) {
-			entities.add(Util.Entity.buildEntityInfo(pos2, pos2, Util.Entity.buildNBT("{id:\"artifacts:mimic\"}")));
+			entities.add(Util.Entities.buildEntityInfo(pos2, pos2, Util.Entities.buildNBT("{id:\"artifacts:mimic\"}")));
 			return null;
 		}
-		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
+		return Util.Blocks.buildBlockInfo(pos, state, Util.Blocks.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
 	}
-	return Util.Block.buildBlockInfo(pos, state, nbt);
+	return Util.Blocks.buildBlockInfo(pos, state, nbt);
 }))));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 80, "structures/bentley_tower")
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 80, "structures/bentley_tower")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
-	if (state == BlockHelper.getState("minecraft:pink_wool")) {
-		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
+	if (state == Util.Blocks.getState("minecraft:pink_wool")) {
+		return Util.Blocks.buildBlockInfo(pos, Util.Blocks.getState("minecraft:spawner"), Util.Blocks.getNBT(Util.Blocks.buildSpawner(getRandomSpawner(rand))));
 	}
-	else if (state == BlockHelper.getState("minecraft:cyan_wool")) {
+	else if (state == Util.Blocks.getState("minecraft:cyan_wool")) {
 		if (rand.nextInt(2) == 0) {//Only place 50% of spawners
-			return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:air"), null);
+			return Util.Blocks.buildBlockInfo(pos, Util.Blocks.getState("minecraft:air"), null);
 		} else {
-			return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
+			return Util.Blocks.buildBlockInfo(pos, Util.Blocks.getState("minecraft:spawner"), Util.Blocks.getNBT(Util.Blocks.buildSpawner(getRandomSpawner(rand))));
 		}
 	}
-	else if (state == BlockHelper.getState("minecraft:orange_wool")) {
-		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildSpawner(getRandomSpawner(rand))));
+	else if (state == Util.Blocks.getState("minecraft:orange_wool")) {
+		return Util.Blocks.buildBlockInfo(pos, Util.Blocks.getState("minecraft:spawner"), Util.Blocks.getNBT(Util.Blocks.buildSpawner(getRandomSpawner(rand))));
 	}
-	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
+	else if (Util.Blocks.getBlock(state) == Util.Blocks.getBlock("minecraft:chest")) {
 		if (rand.nextInt(5) == 0) {
-			entities.add(Util.Entity.buildEntityInfo(pos2, pos2, Util.Entity.buildNBT("{id:\"artifacts:mimic\"}")));
+			entities.add(Util.Entities.buildEntityInfo(pos2, pos2, Util.Entities.buildNBT("{id:\"artifacts:mimic\"}")));
 			return null;
 		}
-		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
+		return Util.Blocks.buildBlockInfo(pos, state, Util.Blocks.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
 	}
-	else if (state == BlockHelper.getState("minecraft:stone_bricks") && rand.nextInt(20) == 0) {
-		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:infested_stone_bricks"), null);
+	else if (state == Util.Blocks.getState("minecraft:stone_bricks") && rand.nextInt(20) == 0) {
+		return Util.Blocks.buildBlockInfo(pos, Util.Blocks.getState("minecraft:infested_stone_bricks"), null);
 	}
-	return Util.Block.buildBlockInfo(pos, state, nbt);
+	return Util.Blocks.buildBlockInfo(pos, state, nbt);
 }))));
 
 //Columns
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:column_formation", new StalactiteFormationConfig(COBBLESTONE, 10, 0, 2, 12, 4, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:column_formation", new StalactiteFormationConfig(DIORITE, 10, 0, 2, 12, 4, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:column_formation", new StalactiteFormationConfig(GRANITE, 10, 0, 2, 12, 4, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:column_formation", new StalactiteFormationConfig(ANDESITE, 10, 0, 2, 12, 4, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:column_formation", new SpeleothemConfig(COBBLESTONE, 10, 0, 2, 12, 4, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:column_formation", new SpeleothemConfig(DIORITE, 10, 0, 2, 12, 4, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:column_formation", new SpeleothemConfig(GRANITE, 10, 0, 2, 12, 4, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:column_formation", new SpeleothemConfig(ANDESITE, 10, 0, 2, 12, 4, 1)));
 
 //Void holes
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:void_hole", new CircleRegionFeatureConfig(10, 0, 8, 10)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:void_hole", new CircleRegionFeatureConfig(10, 0, 8, 10)));
 
 //Stalactites
 //Big
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(COBBLESTONE, 8, 5, 9, 10, 4, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(DIORITE, 8, 5, 9, 10, 4, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(GRANITE, 8, 5, 9, 10, 4, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(ANDESITE, 8, 5, 9, 10, 4, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalactite", new SpeleothemConfig(COBBLESTONE, 8, 5, 9, 10, 4, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalactite", new SpeleothemConfig(DIORITE, 8, 5, 9, 10, 4, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalactite", new SpeleothemConfig(GRANITE, 8, 5, 9, 10, 4, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalactite", new SpeleothemConfig(ANDESITE, 8, 5, 9, 10, 4, 1)));
 //Medium
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(COBBLESTONE, 6, 3, 13, 5, 3, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(DIORITE, 6, 3, 13, 5, 3, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(GRANITE, 6, 3, 13, 5, 3, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(ANDESITE, 6, 3, 13, 5, 3, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalactite", new SpeleothemConfig(COBBLESTONE, 6, 3, 13, 5, 3, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalactite", new SpeleothemConfig(DIORITE, 6, 3, 13, 5, 3, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalactite", new SpeleothemConfig(GRANITE, 6, 3, 13, 5, 3, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalactite", new SpeleothemConfig(ANDESITE, 6, 3, 13, 5, 3, 1)));
 
 //Small
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(COBBLESTONE, 4, 0, 16, 2, 3, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(DIORITE, 4, 0, 16, 2, 3, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(GRANITE, 4, 0, 16, 2, 3, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(ANDESITE, 4, 0, 16, 2, 3, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalactite", new SpeleothemConfig(COBBLESTONE, 4, 0, 16, 2, 3, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalactite", new SpeleothemConfig(DIORITE, 4, 0, 16, 2, 3, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalactite", new SpeleothemConfig(GRANITE, 4, 0, 16, 2, 3, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalactite", new SpeleothemConfig(ANDESITE, 4, 0, 16, 2, 3, 1)));
 
 //Very small
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(COBBLESTONE, 2, 0, 16, 1, 2, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(DIORITE, 2, 0, 16, 1, 2, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(GRANITE, 2, 0, 16, 1, 2, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalactite", new StalactiteFormationConfig(ANDESITE, 2, 0, 16, 1, 2, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalactite", new SpeleothemConfig(COBBLESTONE, 2, 0, 16, 1, 2, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalactite", new SpeleothemConfig(DIORITE, 2, 0, 16, 1, 2, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalactite", new SpeleothemConfig(GRANITE, 2, 0, 16, 1, 2, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalactite", new SpeleothemConfig(ANDESITE, 2, 0, 16, 1, 2, 1)));
 
 //Ceiling structures
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 2, 130, "structures/captainq_hanging_plus_chain")
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 2, 130, "structures/captainq_hanging_plus_chain")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
-	if (state == BlockHelper.getState("minecraft:red_wool")) {
-		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildRandomSpawner(rand)));
+	if (state == Util.Blocks.getState("minecraft:red_wool")) {
+		return Util.Blocks.buildBlockInfo(pos, Util.Blocks.getState("minecraft:spawner"), Util.Blocks.getNBT(Util.Blocks.buildRandomSpawner(rand)));
 	}
-	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
-		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
+	else if (Util.Blocks.getBlock(state) == Util.Blocks.getBlock("minecraft:chest")) {
+		return Util.Blocks.buildBlockInfo(pos, state, Util.Blocks.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
 	}
-	return Util.Block.buildBlockInfo(pos, state, nbt);
+	return Util.Blocks.buildBlockInfo(pos, state, nbt);
 }))));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 4, 77, "structures/captainq_chain")
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 4, 77, "structures/captainq_chain")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
-	if (state == BlockHelper.getState("minecraft:red_wool")) {
-		return Util.Block.buildBlockInfo(pos, BlockHelper.getState("minecraft:spawner"), Util.Block.getNBT(Util.Block.buildRandomSpawner(rand)));
+	if (state == Util.Blocks.getState("minecraft:red_wool")) {
+		return Util.Blocks.buildBlockInfo(pos, Util.Blocks.getState("minecraft:spawner"), Util.Blocks.getNBT(Util.Blocks.buildRandomSpawner(rand)));
 	}
-	else if (Util.Block.getBlock(state) == BlockHelper.getBlock("minecraft:chest")) {
-		return Util.Block.buildBlockInfo(pos, state, Util.Block.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
+	else if (Util.Blocks.getBlock(state) == Util.Blocks.getBlock("minecraft:chest")) {
+		return Util.Blocks.buildBlockInfo(pos, state, Util.Blocks.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
 	}
-	return Util.Block.buildBlockInfo(pos, state, nbt);
+	return Util.Blocks.buildBlockInfo(pos, state, nbt);
 }))));
 
 
 //Stalagmites
 //Medium
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(COBBLESTONE, 10, 0, 4, 5, 2, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(DIORITE, 10, 0, 3, 5, 2, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(GRANITE, 10, 0, 3, 5, 2, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(ANDESITE, 10, 0, 3, 5, 2, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalagmite", new SpeleothemConfig(COBBLESTONE, 10, 0, 4, 5, 2, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalagmite", new SpeleothemConfig(DIORITE, 10, 0, 3, 5, 2, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalagmite", new SpeleothemConfig(GRANITE, 10, 0, 3, 5, 2, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalagmite", new SpeleothemConfig(ANDESITE, 10, 0, 3, 5, 2, 1)));
 
 //Small
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(GRAVEL, 10, 0, 1500, 2, 2, 5)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(COBBLESTONE, 10, 0, 150, 2, 2, 5)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(DIORITE, 10, 0, 150, 2, 2, 5)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(GRANITE, 10, 0, 150, 2, 2, 5)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(ANDESITE, 10, 0, 150, 2, 2, 5)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalagmite", new SpeleothemConfig(GRAVEL, 10, 0, 1500, 2, 2, 5)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalagmite", new SpeleothemConfig(COBBLESTONE, 10, 0, 150, 2, 2, 5)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalagmite", new SpeleothemConfig(DIORITE, 10, 0, 150, 2, 2, 5)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalagmite", new SpeleothemConfig(GRANITE, 10, 0, 150, 2, 2, 5)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalagmite", new SpeleothemConfig(ANDESITE, 10, 0, 150, 2, 2, 5)));
 
 //Very small
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(GRAVEL, 10, 0, 400, 1, 1, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(COBBLESTONE, 10, 0, 32, 1, 1, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(DIORITE, 10, 0, 24, 1, 1, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(GRANITE, 10, 0, 24, 1, 1, 1)));
-addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, FeatureHelper.buildConfiguredFeature("topography:stalagmite", new StalactiteFormationConfig(ANDESITE, 10, 0, 24, 1, 1, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalagmite", new SpeleothemConfig(GRAVEL, 10, 0, 400, 1, 1, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalagmite", new SpeleothemConfig(COBBLESTONE, 10, 0, 32, 1, 1, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalagmite", new SpeleothemConfig(DIORITE, 10, 0, 24, 1, 1, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalagmite", new SpeleothemConfig(GRANITE, 10, 0, 24, 1, 1, 1)));
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:stalagmite", new SpeleothemConfig(ANDESITE, 10, 0, 24, 1, 1, 1)));
 
 function buildChunkGenerator(seed, biomeRegistry, dimensionSettingsRegistry) {
-	var biomes = BiomeHelper.forBiomes("topography:infinite_dark");
+	var biomes = Util.Biomes.forBiomes("topography:infinite_dark");
 	
 	var biomeProvider = new MultiBiomeProvider(biomes, seed, 6, biomeRegistry);
 	
 	return new ChunkGeneratorLayersFlat(biomeProvider, function() {
-		return RegistryHelper.get(dimensionSettingsRegistry, "minecraft:overworld");
+		return Util.Registries.get(dimensionSettingsRegistry, "minecraft:overworld");
 	}, seed)
-		.addLayers(1, 75, BlockHelper.getState("minecraft:stone"))
-			.addLayers(76, 80, BlockHelper.getState("minecraft:cobblestone"))
-				.addLayers(175, 179, BlockHelper.getState("minecraft:cobblestone"))
-					.addLayers(180, 254, BlockHelper.getState("minecraft:stone"))
-						.addLayers(0, 0, BlockHelper.getState("minecraft:bedrock"))
-							.addLayers(255, 255, BlockHelper.getState("minecraft:bedrock"));
+		.addLayers(1, 75, Util.Blocks.getState("minecraft:stone"))
+			.addLayers(76, 80, Util.Blocks.getState("minecraft:cobblestone"))
+				.addLayers(175, 179, Util.Blocks.getState("minecraft:cobblestone"))
+					.addLayers(180, 254, Util.Blocks.getState("minecraft:stone"))
+						.addLayers(0, 0, Util.Blocks.getState("minecraft:bedrock"))
+							.addLayers(255, 255, Util.Blocks.getState("minecraft:bedrock"));
 }

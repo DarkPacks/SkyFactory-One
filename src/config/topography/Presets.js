@@ -10,36 +10,36 @@ registerPreset("void", "Void Worlds", "images/Basic_Tree", "Overworld/Nether/End
 .registerDimension("topography:infinite_dark", "dimensions/infinite_dark")
 .registerEventHandler("BiomeLoadingEvent", Java.extend(Consumer, {//Registers a Forge event handler of type "BiomeLoadingEvent" 
 	accept: function(event) {
-		if (!BiomeHelper.test(event.getName(), BiomeDictionary.Type.END)) {
-			FeatureHelper.clearFeatures(event);//Clears all feature generators
+		if (!Util.Biomes.test(event.getName(), BiomeDictionary.Type.END)) {
+			Util.Features.clearFeatures(event);//Clears all feature generators
 		}
-		//FeatureHelper.clearStructures(event);//Clears all structure generators
+		//Util.Features.clearStructures(event);//Clears all structure generators
 
         //event, structure resource location
-        FeatureHelper.removeStructure(event, "buried_treasure");
-        FeatureHelper.removeStructure(event, "desert_pyramid");
-        //FeatureHelper.removeStructure(event, "endcity");
-        //FeatureHelper.removeStructure(event, "bastion_remnant");
-        //FeatureHelper.removeStructure(event, "fortress");
-        FeatureHelper.removeStructure(event, "fossil");
-        FeatureHelper.removeStructure(event, "igloo");
-        FeatureHelper.removeStructure(event, "jungle_pyramid");
-        FeatureHelper.removeStructure(event, "mansion");
-        FeatureHelper.removeStructure(event, "mineshaft");
-        FeatureHelper.removeStructure(event, "monument");
-        //FeatureHelper.removeStructure(event, "nether_fossil");
-        FeatureHelper.removeStructure(event, "ocean_ruin");
-        FeatureHelper.removeStructure(event, "pillager_outpost");
-        FeatureHelper.removeStructure(event, "ruined_portal");
-        FeatureHelper.removeStructure(event, "shipwreck");
-        FeatureHelper.removeStructure(event, "stronghold");
-        FeatureHelper.removeStructure(event, "swamp_hut");
-        FeatureHelper.removeStructure(event, "underwater_ruin");
-        FeatureHelper.removeStructure(event, "village");
-        FeatureHelper.removeStructure(event, "woodland_mansion");
-        FeatureHelper.removeFeature(event, "void_start_platform");
+        Util.Features.removeStructure(event, "buried_treasure");
+        Util.Features.removeStructure(event, "desert_pyramid");
+        //Util.Features.removeStructure(event, "endcity");
+        //Util.Features.removeStructure(event, "bastion_remnant");
+        //Util.Features.removeStructure(event, "fortress");
+        Util.Features.removeStructure(event, "fossil");
+        Util.Features.removeStructure(event, "igloo");
+        Util.Features.removeStructure(event, "jungle_pyramid");
+        Util.Features.removeStructure(event, "mansion");
+        Util.Features.removeStructure(event, "mineshaft");
+        Util.Features.removeStructure(event, "monument");
+        //Util.Features.removeStructure(event, "nether_fossil");
+        Util.Features.removeStructure(event, "ocean_ruin");
+        Util.Features.removeStructure(event, "pillager_outpost");
+        Util.Features.removeStructure(event, "ruined_portal");
+        Util.Features.removeStructure(event, "shipwreck");
+        Util.Features.removeStructure(event, "stronghold");
+        Util.Features.removeStructure(event, "swamp_hut");
+        Util.Features.removeStructure(event, "underwater_ruin");
+        Util.Features.removeStructure(event, "village");
+        Util.Features.removeStructure(event, "woodland_mansion");
+        Util.Features.removeFeature(event, "void_start_platform");
 
-        if (BiomeHelper.test(event.getName(), BiomeDictionary.Type.OVERWORLD) || event.getName().toString().equals("topography:infinite_dark")) {
+        if (Util.Biomes.test(event.getName(), BiomeDictionary.Type.OVERWORLD) || event.getName().toString().equals("topography:infinite_dark")) {
 			var EntityClassification = Java.type("net.minecraft.entity.EntityClassification");
 			var Spawners = Java.type("net.minecraft.world.biome.MobSpawnInfo.Spawners");
 			
@@ -130,8 +130,8 @@ registerPreset("void", "Void Worlds", "images/Basic_Tree", "Overworld/Nether/End
 			//Features
 			////
 			////
-			FeatureHelper.removeFeature(event, "caves");
-			FeatureHelper.removeFeature(event, "ravines");
+			Util.Features.removeFeature(event, "caves");
+			Util.Features.removeFeature(event, "ravines");
 			
 			////           
 			////
@@ -139,39 +139,39 @@ registerPreset("void", "Void Worlds", "images/Basic_Tree", "Overworld/Nether/End
 			////
 			////
 			//Coal Ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:coal_ore"), OreHelper.BASE_STONE_OVERWORLD, 16, 14, 50, 60, true, 2);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("minecraft:coal_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 16, 14, 50, 60, true, 2);
 			});          
 			//Iron Ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:iron_ore"), OreHelper.BASE_STONE_OVERWORLD, 18, 12, 35, 45, true, 2);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("minecraft:iron_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 18, 12, 35, 45, true, 2);
 			});                      
 			//Gold Ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:gold_ore"), OreHelper.BASE_STONE_OVERWORLD, 10, 5, 5, 15, true, 4);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("minecraft:gold_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 10, 5, 5, 15, true, 4);
 			});
 			//Lapis Ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:lapis_ore"), OreHelper.BASE_STONE_OVERWORLD, 12, 5, 15, 25, true, 4);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("minecraft:lapis_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 12, 5, 15, 25, true, 4);
 			});
 			//Diamond Ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:diamond_ore"), OreHelper.BASE_STONE_OVERWORLD, 10, 3, 1, 10, true, 4);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("minecraft:diamond_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 10, 3, 1, 10, true, 4);
 			});
 			//Redstone Ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:redstone_ore"), OreHelper.BASE_STONE_OVERWORLD, 10, 6, 15, 25, true, 3);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("minecraft:redstone_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 10, 6, 15, 25, true, 3);
 			});
 			//Emerald Ore that's better than TP
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:emerald_ore"), OreHelper.BASE_STONE_OVERWORLD, 8, 3, 1, 10, true, 4);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("minecraft:emerald_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 8, 3, 1, 10, true, 4);
 			});
 
 			////
@@ -181,24 +181,24 @@ registerPreset("void", "Void Worlds", "images/Basic_Tree", "Overworld/Nether/End
 			////
 
 			//Dimensional Shard
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("rftoolsbase:dimensionalshard_overworld"), OreHelper.BASE_STONE_OVERWORLD, 16, 3, 30, 50, true, 4);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("rftoolsbase:dimensionalshard_overworld"), Util.Features.Ores.BASE_STONE_OVERWORLD, 16, 3, 30, 50, true, 4);
 			});
 			//prosperity_ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("mysticalagriculture:prosperity_ore"), OreHelper.BASE_STONE_OVERWORLD, 8, 3, 50, 60, true, 4);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("mysticalagriculture:prosperity_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 8, 3, 50, 60, true, 4);
 			});
 			//inferium_ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("mysticalagriculture:inferium_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 10, 20, 30, true, 2);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("mysticalagriculture:inferium_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 14, 10, 20, 30, true, 2);
 			});
         	//power_ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("forcecraft:power_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 10, 5, 15, true, 2);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("forcecraft:power_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 14, 10, 5, 15, true, 2);
 			});
 
 			////
@@ -208,49 +208,49 @@ registerPreset("void", "Void Worlds", "images/Basic_Tree", "Overworld/Nether/End
 			////
 	
 			//thermal:apatite_ore Ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:apatite_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 8, 15, 25, true, 4);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("thermal:apatite_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 14, 8, 15, 25, true, 4);
 			});
 			//thermal:cinnabar_ore Ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:cinnabar_ore"), OreHelper.BASE_STONE_OVERWORLD, 10, 8, 1, 10, true, 4);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("thermal:cinnabar_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 10, 8, 1, 10, true, 4);
 			});
 			//thermal:niter_ore Ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:niter_ore"), OreHelper.BASE_STONE_OVERWORLD, 8, 8, 40, 50, true, 4);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("thermal:niter_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 8, 8, 40, 50, true, 4);
 			});
 			//thermal:sulfur_ore Ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:sulfur_ore"), OreHelper.BASE_STONE_OVERWORLD, 8, 8, 45, 55, true, 4);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("thermal:sulfur_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 8, 8, 45, 55, true, 4);
 			});
 			//thermal:copper_ore Ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:copper_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 10, 50, 60, true, 2);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("thermal:copper_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 14, 10, 50, 60, true, 2);
 			});
 			//thermal:tin_ore Ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:tin_ore"), OreHelper.BASE_STONE_OVERWORLD, 10, 9, 35, 45, true, 2);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("thermal:tin_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 10, 9, 35, 45, true, 2);
 			});
 			//thermal:lead_ore Ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:lead_ore"), OreHelper.BASE_STONE_OVERWORLD, 8, 8, 20, 30, true, 3);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("thermal:lead_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 8, 8, 20, 30, true, 3);
 			});
 			//thermal:silver_ore Ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:silver_ore"), OreHelper.BASE_STONE_OVERWORLD, 8, 5, 5, 15, true, 4);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("thermal:silver_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 8, 5, 5, 15, true, 4);
 			});
 			//thermal:nickel_ore Ore
-			OreHelper.addOre(event, function() {
+			Util.Features.Ores.addOre(event, function() {
 				//block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-				return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:nickel_ore"), OreHelper.BASE_STONE_OVERWORLD, 12, 10, 40, 50, true, 3);
+				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("thermal:nickel_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 12, 10, 40, 50, true, 3);
 			});
 			
 			////
@@ -261,9 +261,9 @@ registerPreset("void", "Void Worlds", "images/Basic_Tree", "Overworld/Nether/End
 
             var BlockStateMatchRuleTest = Java.type("net.minecraft.world.gen.feature.template.BlockStateMatchRuleTest");
 
-            OreHelper.addOre(event, function() {
+            Util.Features.Ores.addOre(event, function() {
                 //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-                return OreHelper.buildOre(BlockHelper.getState("minecraft:air"), new BlockStateMatchRuleTest(BlockHelper.getState("minecraft:cobblestone")), 20, 16, 78, 81, true, 2);
+                return Util.Features.Ores.buildOre(Util.Blocks.getState("minecraft:air"), new BlockStateMatchRuleTest(Util.Blocks.getState("minecraft:cobblestone")), 20, 16, 78, 81, true, 2);
             });
 		}
 	}
@@ -285,21 +285,21 @@ registerPreset("void", "Void Worlds", "images/Basic_Tree", "Overworld/Nether/End
 			"java.lang.String[]"
 		);
 		
-		if (WorldHelper.test(event.getWorld(), "minecraft:overworld")) {
+		if (Util.Worlds.test(event.getWorld(), "minecraft:overworld")) {
 			for (i = 0; i < restrictToTwoBlocksWater.length; i++) {
-				if (EntityHelper.test(event.getEntityLiving(), restrictToTwoBlocksWater[i])) {
+				if (Util.Entities.test(event.getEntityLiving(), restrictToTwoBlocksWater[i])) {
 					//Allow squid in bubble columns
-					if (WorldHelper.getState(event.getWorld(), event.getX(), event.getY(), event.getZ()) == BlockHelper.getState("minecraft:bubble_column") && EntityHelper.test(event.getEntityLiving(), "minecraft:squid")) {
+					if (Util.Worlds.getState(event.getWorld(), event.getX(), event.getY(), event.getZ()) == Util.Blocks.getState("minecraft:bubble_column") && Util.Entities.test(event.getEntityLiving(), "minecraft:squid")) {
 						return;
 					}
 					//Block spawns which aren't in water
-					if (WorldHelper.getState(event.getWorld(), event.getX(), event.getY(), event.getZ()) != BlockHelper.getState("minecraft:water")) {
+					if (Util.Worlds.getState(event.getWorld(), event.getX(), event.getY(), event.getZ()) != Util.Blocks.getState("minecraft:water")) {
 						event.setResult(Result.DENY);
 						return;
 					}
 					//Block spawns which do not have water either above or blow
-					if (WorldHelper.getState(event.getWorld(), event.getX(), event.getY() - 1, event.getZ()) != BlockHelper.getState("minecraft:water")
-							&& WorldHelper.getState(event.getWorld(), event.getX(), event.getY() + 1, event.getZ()) != BlockHelper.getState("minecraft:water")) {
+					if (Util.Worlds.getState(event.getWorld(), event.getX(), event.getY() - 1, event.getZ()) != Util.Blocks.getState("minecraft:water")
+							&& Util.Worlds.getState(event.getWorld(), event.getX(), event.getY() + 1, event.getZ()) != Util.Blocks.getState("minecraft:water")) {
 						event.setResult(Result.DENY);
 						return;
 					}
@@ -311,7 +311,7 @@ registerPreset("void", "Void Worlds", "images/Basic_Tree", "Overworld/Nether/End
 }).class)
 .registerEventHandler("FogColors", EventSide.CLIENT, Java.extend(Consumer, {
 	accept: function(event) {
-		if (WorldHelper.test(Util.Client.getWorld(), "topography:infinite_dark")) {
+		if (Util.Worlds.test(Util.Client.getWorld(), "topography:infinite_dark")) {
 			event.setRed(0);
 			event.setGreen(0);
 			event.setBlue(0);
@@ -323,10 +323,10 @@ registerPreset("void", "Void Worlds", "images/Basic_Tree", "Overworld/Nether/End
 		var Operation = Java.type("net.minecraft.entity.ai.attributes.AttributeModifier.Operation");
 		var PlayerEntity = Java.type("net.minecraft.entity.player.PlayerEntity");
 		
-		if (WorldHelper.test(event.getWorld(), "topography:infinite_dark") && !(event.getEntity() instanceof PlayerEntity)) {
-			EntityHelper.modifyAttribute(event.getEntity(), "minecraft:generic.attack_damage", "dark_power", 1.0, Operation.MULTIPLY_TOTAL);
-			EntityHelper.modifyAttribute(event.getEntity(), "minecraft:generic.max_health", "dark_resilience", 1.0, Operation.MULTIPLY_TOTAL);
-			EntityHelper.healToMax(event.getEntityLiving());
+		if (Util.Worlds.test(event.getWorld(), "topography:infinite_dark") && !(event.getEntity() instanceof PlayerEntity)) {
+			Util.Entities.modifyAttribute(event.getEntity(), "minecraft:generic.attack_damage", "dark_power", 1.0, Operation.MULTIPLY_TOTAL);
+			Util.Entities.modifyAttribute(event.getEntity(), "minecraft:generic.max_health", "dark_resilience", 1.0, Operation.MULTIPLY_TOTAL);
+			Util.Entities.healToMax(event.getEntityLiving());
 		}
 	}
 }).class)
@@ -335,17 +335,17 @@ registerPreset("void", "Void Worlds", "images/Basic_Tree", "Overworld/Nether/End
 		var PlayerEntity = Java.type("net.minecraft.entity.player.PlayerEntity");
 		var entity = event.getEntityLiving();
 		
-		if (WorldHelper.test(Util.Entity.getWorld(entity), "topography:infinite_dark") && entity instanceof PlayerEntity && !Util.Player.getGamemodeName(entity).equals("CREATIVE") && !Util.Player.getGamemodeName(entity).equals("SPECTATOR")) {
-			if (Util.World.getGameTime(Util.Entity.getWorld(entity)) % 20 == 0) {//Only check every 2 seconds
-				var light = Util.Entity.getLight(entity);
+		if (Util.Worlds.test(Util.Entities.getWorld(entity), "topography:infinite_dark") && entity instanceof PlayerEntity && !Util.Players.getGamemodeName(entity).equals("CREATIVE") && !Util.Players.getGamemodeName(entity).equals("SPECTATOR")) {
+			if (Util.Worlds.getGameTime(Util.Entities.getWorld(entity)) % 20 == 0) {//Only check every 2 seconds
+				var light = Util.Entities.getLight(entity);
 				
 				if (light == 0) {
-					Util.Effect.addPotion(entity, "minecraft:slowness", 40, 1, false, false);//entity, effect, duration, amplification, ambient, particles
-					Util.Effect.addPotion(entity, "minecraft:weakness", 40, 1, false, false);
-					Util.Effect.addPotion(entity, "minecraft:blindness", 40, 0, false, false);
+					Util.Effects.addPotion(entity, "minecraft:slowness", 40, 1, false, false);//entity, effect, duration, amplification, ambient, particles
+					Util.Effects.addPotion(entity, "minecraft:weakness", 40, 1, false, false);
+					Util.Effects.addPotion(entity, "minecraft:blindness", 40, 0, false, false);
 				} else {
-					Util.Effect.addPotion(entity, "minecraft:speed", 40, 0, false, false);
-					Util.Effect.addPotion(entity, "minecraft:resistance", 40, 0, false, false);
+					Util.Effects.addPotion(entity, "minecraft:speed", 40, 0, false, false);
+					Util.Effects.addPotion(entity, "minecraft:resistance", 40, 0, false, false);
 				}
 			}
 		}

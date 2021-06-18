@@ -5,11 +5,11 @@ setStructureSpacing("minecraft:fortress", 10, 4, 30084232);
 setStructureSpacing("minecraft:bastion_remnant", 15, 3, 30084232);
 
 function buildChunkGenerator(seed, biomeRegistry, dimensionSettingsRegistry) {
-	var biomes = BiomeHelper.forNether();
+	var biomes = Util.Biomes.forNether();
 	
 	var biomeProvider = new MultiBiomeProvider(biomes, seed, 4, biomeRegistry);
 	
 	return new ChunkGeneratorVoid(biomeProvider, function() {
-		return RegistryHelper.get(dimensionSettingsRegistry, "minecraft:nether");
+		return Util.Registries.get(dimensionSettingsRegistry, "minecraft:nether");
 	}, seed);
 }
