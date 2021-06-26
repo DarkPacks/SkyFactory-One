@@ -1,5 +1,6 @@
 setSpawnStructure("structures/end_portal_placement_block", 64);
 
+setStructureSpacing("minecraft:endcity", 10, 5, 10387313);
 
 function buildChunkGenerator(seed, biomeRegistry, dimensionSettingsRegistry) {
 
