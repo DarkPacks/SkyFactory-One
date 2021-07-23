@@ -104,7 +104,7 @@
 	enableEvolvedOrechid = false
 	#The ore generation delay for the Evolved Orechid in ticks. GoG Orechid is 2, vanilla Orechid is 100.
 	#Range: > 0
-	evolvedOrechidDelay = 2
+	evolvedOrechidDelay = 0
 	#The mana cost of the Mana Sieve per Tick.
 	#Range: > 0
 	manaSieveCost = 1

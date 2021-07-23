@@ -16,6 +16,8 @@
 		maxStoredPower = 10000
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (5s)]
 		maxProgress = 50
+		#If true, the boss bar of an entity with the AI disable won't be rendered
+		disableBossBars = true
 		#Amount of Power Consumed per Tick - Default: [400FE]
 		powerPerOperation = 1000
 

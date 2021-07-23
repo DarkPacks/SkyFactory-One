@@ -183,6 +183,12 @@
 		[modules.tools.infinity_drill]
 			enabled = true
 
+		[modules.tools.infinity_launcher]
+			enabled = true
+
+		[modules.tools.infinity_nuke]
+			enabled = true
+
 		[modules.tools.mob_imprisonment_tool]
 			enabled = true
 

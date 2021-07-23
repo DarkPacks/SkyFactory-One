@@ -1,0 +1,35 @@
+{
+  "input": [
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "forcecraft:force_flask"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:meat\",Amount:250}",
+  "processingTime": 1200,
+  "output": {
+    "item": "forcecraft:bottled_wither",
+    "count": 1
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

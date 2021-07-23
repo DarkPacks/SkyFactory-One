@@ -11,7 +11,7 @@
 
 [general]
 	#Shows all variants for dynamically textured blocks, like bookshelves. If false just the first will be shown
-	showAllVariants = true
+	showAllVariants = false
 
 [building]
 	#Enables stone paths: a carpet like decorative block for making decorative paths

@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "item": "telepastries:custom_cake"
+    },
+    "title": {
+      "translate": "Free food!"
+    },
+    "description": {
+      "translate": "It's dangerous to go alone, take cake!"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "rewards": {
+    "function": "sf_one:give_overworld_cake"
+  },
+  "criteria": {
+    "entered_end": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "topography:infinite_dark"
+      }
+    }
+  }
+}

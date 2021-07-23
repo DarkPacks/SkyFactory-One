@@ -1,5 +1,7 @@
 
 [general]
+	#If false only full block faces of framed blocks will be culled, if true all outer faces of famed blocks can be culled
+	detailedCulling = true
 	#Wether ghost blocks are shown when you are holding a framed block
 	showGhostBlocks = true
 	#Wether certain framed blocks should show fancy hitboxes

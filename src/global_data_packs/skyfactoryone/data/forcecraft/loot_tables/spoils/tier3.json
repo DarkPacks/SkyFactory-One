@@ -1,0 +1,199 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "name": "Force Loot",
+      "rolls": {
+        "min": 1.0,
+        "max": 4.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "forcecraft:force_mitt"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "forcecraft:force_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "forcecraft:force_gem"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "forcecraft:force_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "forcecraft:force_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "forcecraft:force_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "forcecraft:force_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "forcecraft:force_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "forcecraft:force_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "forcecraft:force_shears"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "forcecraft:life_card"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "forcecraft:darkness_card"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "forcecraft:undeath_card"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "tconstruct:ender_cake"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "thermal:chocolate_cake"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "thermal:spice_cake"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "exnihilosequentia:doll_enderman"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "exnihilosequentia:doll_shulker"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "mob_grinding_utils:monocle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "statues:campfire_statue"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "statues:bumbo_statue"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "thermal:enderium_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "thermal:lumium_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "thermal:signalum_ingot"
+        }
+      ]
+    },
+    {
+      "name": "Other Tables",
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/abandoned_mineshaft"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/stronghold_corridor"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/stronghold_library"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/stronghold_crossing"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/bastion_treasure"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/buried_treasure"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/end_city_treasure"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "name": "Force Loot",
+      "rolls": {
+        "min": 1.0,
+        "max": 4.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "forcecraft:force_mitt"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "forcecraft:force_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "forcecraft:force_gem"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "forcecraft:force_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "forcecraft:force_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "forcecraft:fortune_cookie"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "forcecraft:life_card"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "forcecraft:darkness_card"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "forcecraft:undeath_card"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3.0,
+                "max": 11.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "forcecraft:force_arrow"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "tconstruct:sky_cake"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "tconstruct:blood_cake"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "exnihilosequentia:doll_blaze"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "exnihilosequentia:doll_guardian"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "thermal:invar_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "thermal:electrum_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "thermal:bronze_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "thermal:constantan_ingot"
+        }
+      ]
+    },
+    {
+      "name": "Other Tables",
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/simple_dungeon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/desert_pyramid"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/jungle_temple"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/nether_bridge"
+        }
+      ]
+    }
+  ]
+}

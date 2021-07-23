@@ -1,0 +1,19 @@
+
+[General]
+	#What should be the maximum range of the advanced item collector?
+	#Requires a world reload
+	#Allowed Range: 1 ~ 10  Default: 7
+	advancedCollectorMaxRange = 7
+	#Should the advanced item collector have a filter?
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	advancedCollectorFilter = true
+	#What should be the maximum range of the basic item collector?
+	#Requires a world reload
+	#Allowed Range: 1 ~ 10  Default: 5
+	basicCollectorMaxRange = 5
+	#Should the basic item collector have a filter?
+	#Requires a world reload
+	#Allowed Values: true, false  Default: false
+	basicCollectorFilter = false
+

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:end/root",
+  "display": {
+    "icon": {
+      "item": "telepastries:end_cake"
+    },
+    "title": {
+      "translate": "Free cake!"
+    },
+    "description": {
+      "translate": "You did it! Have a free cake on us!"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "rewards": {
+    "function": "sf_one:give_overworld_cake"
+  },
+  "criteria": {
+    "entered_end": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_end"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "entered_end"
+    ]
+  ]
+}

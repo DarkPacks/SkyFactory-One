@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XBX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "tag": "forge:nuggets/gold"
+    },
+    "B": {
+      "tag": "sf_one:experience_bucket"
+    }
+  },
+  "result": {
+    "item": "mob_grinding_utils:solid_xp_mould_blank"
+  }
+}

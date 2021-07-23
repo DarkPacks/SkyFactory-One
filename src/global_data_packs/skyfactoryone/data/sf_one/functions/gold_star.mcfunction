@@ -1,0 +1,1 @@
+give @p thermal:gold_gear{display:{Name:'{"text":"Gold Star","color":"gold","bold":true}',Lore:['{"text":"Good job! You did it!","color":"gold"}']},Enchantments:[{}]} 1

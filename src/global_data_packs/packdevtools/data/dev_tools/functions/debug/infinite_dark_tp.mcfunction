@@ -1,1 +1,0 @@
-execute in topography:infinite_dark run tp @s 0 65 4

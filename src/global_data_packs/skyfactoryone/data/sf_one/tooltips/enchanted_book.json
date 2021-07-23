@@ -1,0 +1,11 @@
+{
+  "items": [
+    "minecraft:enchanted_book"
+  ],
+  "tooltips": [
+    {
+      "text": "Can be melted into Liquid XP in a Smeltery",
+      "color": "#fc0303"
+    }
+  ]
+}

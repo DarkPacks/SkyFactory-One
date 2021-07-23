@@ -81,9 +81,9 @@
 		#Max Stored Power [FE] - Default: [20000 FE]
 		maxStoredPower = 20000
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
-		maxProgress = 100
+		maxProgress = 200
 		#Amount of Power Consumed per Tick - Default: [5000FE]
-		powerPerOperation = 5000
+		powerPerOperation = 7500
 
 	[MachineResourceProductionConfig.SporeRecreatorConfig]
 		#Amount of Power Consumed per Tick - Default: [40FE]

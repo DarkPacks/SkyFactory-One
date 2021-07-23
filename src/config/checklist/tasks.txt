@@ -16,13 +16,13 @@
 
 ===
 #§5=§6= §0§nCredits§r §6=§5=
-[Hi! My name is Darkosto. I stream on: §5§nTwitch§r](https://darkosto.tv/SFOneBook)
+[Hi! My name is Darkosto. I stream on §5§nTwitch§r](https://darkosto.tv/SFOneBook)
 
-#§4Special§r §4thank§r §4you§r §4to§r: Blargerist, FirstNecron, Lothrazar, MrBysco, Shadows_of_Fire, ShyNieke, Vadis365, ValkyrieofNight
+#§4Special§r §4thank§r §4you§r §4to§r: §1§nBlargerist§r, [§1§nFirstNecron§r](https://github.com/justinrusso), [§1§nLothrazar§r](https://twitter.com/lothrazar), [§1§nMrBysco§r](https://www.curseforge.com/members/mrbysco/projects), [§1§nShadows_of_Fire§r](https://www.patreon.com/Shadows_of_Fire), [§1§nShyNieke§r](https://www.twitch.tv/ShyNieke), §1§nVadis365§r, [§1§nValkyrieofNight§r](https://www.twitch.tv/valkyrieofnight)
 
-#§4Custom§r §4Structures§r §4Made§r §4by§r: CaptainQ, OnlyBentley
+#§4Custom§r §4Structures§r §4Made§r §4by§r: [§1§nCaptainQ§r](https://www.twitch.tv/CaptainQ), [§1§nOnlyBentley§r](https://www.twitch.tv/OnlyBentley)
 
-[§4Modpack§r §4Testing§r: darkphan](https://www.twitch.tv/darkphan)
+[§4Modpack§r §4Testing§r: §1§ndarkphan§r](https://www.twitch.tv/darkphan)
 
 
 ===
@@ -105,28 +105,37 @@ Kill a Wither in the Infinite Dark, The Overworld, The Nether, and The End
 Run an §lOre§r §lLaser§r §lBase§r from Industrial Foregoing with 100 §lLaser§r §lDrills§r filled with Tier 2 Speed and Efficiency Upgrades
 Fight and kill two bosses at once
 ===
+#
+#
+#
+#
+#
+#
+#
 #§4-§1-§4-§2=§5=§6= §0§nThe End§r §6=§5=§2=§4-§1-§4-
 #
 #
 #
 #
-#
-#§0§nThank you for playing!§r
+
 ===
-#Check out these others packs from Darkosto!
-#SkyFactory 2.5
-#SkyFactory 3
-#SkyFactory 4
-#SevTech: Ages
-#SevTech: Ages of the Sky
-#Journey to the Core
-#Escape from 2020
-#Invasion
-#The Aftermath
-#Crackpack 3
-#Dawn of the Void
-#Dark Grid
-#Revenge of the C Team
+#Check out these other modpacks from Darkosto!
+[§1§nSkyFactory 2.5§r](https://darkosto.tv/SFOneSF25)
+[§1§nSkyFactory 3§r](https://darkosto.tv/SFOneSF3)
+[§1§nSkyFactory 4§r](https://darkosto.tv/SFOneSF4)
+[§1§nSevTech: Ages§r](https://darkosto.tv/SFOneSevTech)
+[§1§nSevTech: Ages of the Sky§r](https://darkosto.tv/SFOneSevTechSky)
+[§1§nJourney to the Core§r](https://darkosto.tv/SFOneJTTC)
+[§1§nEscape from 2020§r](https://darkosto.tv/SFOneEscape2020)
+[§1§nInvasion§r](https://darkosto.tv/SFOneInvasion)
+[§1§nThe Aftermath§r](https://darkosto.tv/SFOneAftermath)
+[§1§nCrackpack 3§r](https://darkosto.tv/SFOneCrackpack3)
+[§1§nDawn of the Void§r](https://darkosto.tv/SFOneDotV)
+[§1§nDark Grid§r](https://darkosto.tv/SFOneDarkGrid)
+[§1§nRevenge of the C Team§r](https://darkosto.tv/SFOneCTeam)
+#
+#
+#§5Thank you for playing!§r
 ===
 ===
 ===

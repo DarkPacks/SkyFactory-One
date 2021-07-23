@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "mob_grinding_utils:fluid_xp_bucket",
+    "cyclic:xpjuice_bucket"
+  ]
+}

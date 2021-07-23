@@ -1,21 +1,21 @@
 
-#all these don't actually disable blocks anymore, they just remove their recipe and remove them from the creative tabs(like all other mods do)
-#to access server configuration go into /saves/serverconfigs
-[general]
-	#enable creative tab
-	creative_tab = false
-	#set to false to disable custom dispenser behaviors (filling jars) if for some reason they are causing trouble
-	dispensers = true
-	#creates a creative tab full of filled jars
-	jar_tab = false
+#Here are configs that need reloading to take effect
+[initialization]
 
-#Enable and disable blocks / entities
-[registration]
+	[initialization.general]
+		#Enable Creative Tab
+		creative_tab = false
+		#Enables custom Configured config screen
+		custom_configured_screen = true
+		#Set to false to disable custom dispenser behaviors (i.e: filling jars) if for some reason they are causing trouble
+		dispensers = true
+		#Creates a creative tab full of filled jars
+		jar_tab = false
 
-	[registration.entities]
+	[initialization.entities]
 		firefly = true
 
-	[registration.blocks]
+	[initialization.blocks]
 		clock_block = true
 		speaker_block = true
 		sack = true
@@ -29,7 +29,6 @@
 		hourglass = true
 		raked_gravel = true
 		jar = true
-		sconce_ender = true
 		rope_arrow = true
 		checker_block = true
 		stone_lamp = true
@@ -37,6 +36,8 @@
 		crank = true
 		copper_lantern = true
 		pancake = true
+		statue = true
+		iron_gate = true
 		piston_launcher = true
 		netherite_trapdoor = true
 		fodder = true
@@ -49,7 +50,6 @@
 		pedestal = true
 		blackboard = true
 		netherite_door = true
-		sconce_soul = true
 		candle_holder = true
 		flag = false
 		rope = true
@@ -63,7 +63,6 @@
 		item_shelf = true
 		turn_table = true
 		faucet = true
-		i_want_flags = false
 		gold_trapdoor = true
 		magma_cream_block = true
 		goblet = true

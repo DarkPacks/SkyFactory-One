@@ -1,5 +1,5 @@
 #Replaces the flat cauldron sprite with the 3D cauldron block model
-betterCauldronItemModel = true
+betterCauldronItemModel = false
 #Colors the fireworks item based on the colors of the stars
 coloredFireworkItems = true
 #The ribbon on enchanted books colors based on the enchantment rarity

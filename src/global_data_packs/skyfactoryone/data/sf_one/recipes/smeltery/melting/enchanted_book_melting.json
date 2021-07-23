@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "minecraft:enchanted_book"
+  },
+  "result": {
+    "fluid": "cyclic:xpjuice",
+    "amount": 1000
+  },
+  "temperature": 500,
+  "time": 50
+}

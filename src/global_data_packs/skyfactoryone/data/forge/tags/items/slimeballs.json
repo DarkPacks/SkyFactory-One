@@ -1,11 +1,15 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
     "minecraft:slime_ball",
     "#forge:slimeball/sky",
     "#forge:slimeball/ender",
     "#forge:slimeball/blood",
     "#forge:slimeball/ichor",
-    "industrialforegoing:pink_slime"
+    "industrialforegoing:pink_slime",
+    "forcecraft:gold_chu_jelly",
+    "forcecraft:red_chu_jelly",
+    "forcecraft:green_chu_jelly",
+    "forcecraft:blue_chu_jelly"
   ]
 }

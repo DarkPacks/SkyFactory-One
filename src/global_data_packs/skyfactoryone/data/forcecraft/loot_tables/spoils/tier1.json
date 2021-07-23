@@ -1,0 +1,193 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "name": "Force Loot",
+      "rolls": {
+        "min": 1.0,
+        "max": 4.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "forcecraft:force_mitt"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "forcecraft:force_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "forcecraft:force_gem"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "forcecraft:force_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "forcecraft:force_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "forcecraft:fortune_cookie"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3.0,
+                "max": 11.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "forcecraft:force_arrow"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "forcecraft:force_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:cake"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "tconstruct:earth_cake"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "forcecraft:baconator"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "exnihilosequentia:doll_bee"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "exnihilosequentia:doll_basalz"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "exnihilosequentia:doll_blitz"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "exnihilosequentia:doll_blizz"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "thermal:coffee_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "thermal:coffee"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "thermal:coffee_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "statues:tea"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "thermal:copper_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "thermal:lead_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "thermal:tin_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "thermal:nickel_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "thermal:silver_ingot"
+        }
+      ]
+    },
+    {
+      "name": "Other tables",
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/village/village_toolsmith"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/village/village_weaponsmith"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/spawn_bonus_chest"
+        }
+      ]
+    }
+  ]
+}

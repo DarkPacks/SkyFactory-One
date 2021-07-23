@@ -1,0 +1,18 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "forcecraft:bottled_wither"
+  },
+  "result": [
+    {
+      "item": "forcecraft:force_flask",
+      "chance": 1.0,
+      "locked": true
+    },
+    {
+      "fluid": "industrialforegoing:ether_gas",
+      "amount": 100
+    }
+  ],
+  "energy": 30000
+}
