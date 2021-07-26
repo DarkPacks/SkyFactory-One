@@ -29,5 +29,7 @@
   "forge:ingots/uranium": "exnihilosequentia:ingot_uranium",
   "forge:ingots/nickel": "thermal:nickel_ingot",
   "forge:dusts/niter": "thermal:niter_dust",
-  "forge:gems/apatite": "thermal:apatite"
+  "forge:gems/apatite": "thermal:apatite",
+  "forge:gems/sapphire": "thermal:sapphire",
+  "forge:gems/ruby": "thermal:ruby"
 }

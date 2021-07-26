@@ -33,6 +33,23 @@
 	#The percentage chance a Soulium Ore spawns in a Soulstone cluster.
 	#Range: 0.0 ~ 1.0
 	souliumOreChance = 0.0
+	#The maximum Y level that Soulstone veins can spawn.
+	#Range: 0 ~ 128
+	inferiumSpawnHeight = 128
+	#The list of biome IDs that Prosperity Ore veins can spawn in.
+	prosperityBiomeWhitelist = []
+	#Should Inferium Ore generate in the world?
+	generateInferiumOre = false
+	#The maximum amount of Soulstone blocks that can spawn in a vein.
+	#Range: 0 ~ 64
+	soulstoneSpawnSize = 64
+	#How many Soulstone veins should spawn in a chunk.
+	generateSoulstone = false
+	#How many Soulstone veins should spawn in a chunk.
+	#Range: 0 ~ 128
+	soulstoneSpawnRate = 4
+	#The list of biome IDs that Inferium Ore veins can spawn in.
+	inferiumBiomeWhitelist = []
 	#The maximum amount of Prosperity Ore blocks that can spawn in a vein.
 	#Range: 0 ~ 64
 	prosperitySpawnSize = 8
@@ -45,22 +62,11 @@
 	#How many Prosperity Ore veins should spawn in a chunk.
 	#Range: 0 ~ 128
 	prosperitySpawnRate = 12
-	#The maximum Y level that Soulstone veins can spawn.
-	#Range: 0 ~ 128
-	inferiumSpawnHeight = 128
 	#The maximum Y level that Prosperity Ore veins can spawn.
 	#Range: 0 ~ 256
 	prosperitySpawnHeight = 50
-	#Should Inferium Ore generate in the world?
-	generateInferiumOre = false
-	#The maximum amount of Soulstone blocks that can spawn in a vein.
-	#Range: 0 ~ 64
-	soulstoneSpawnSize = 64
 	#Should Prosperity Ore generate in the world?
 	generateProsperityOre = false
-	#How many Soulstone veins should spawn in a chunk.
-	generateSoulstone = false
-	#How many Soulstone veins should spawn in a chunk.
-	#Range: 0 ~ 128
-	soulstoneSpawnRate = 4
+	#The list of biome IDs that Soulstone veins can spawn in.
+	soulstoneBiomeWhitelist = []
 

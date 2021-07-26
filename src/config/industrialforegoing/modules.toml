@@ -81,6 +81,9 @@
 		[modules.core.laser_lens]
 			enabled = true
 
+		[modules.core.processing_addons]
+			enabled = true
+
 		[modules.core.plastic]
 			enabled = true
 
