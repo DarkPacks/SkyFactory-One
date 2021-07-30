@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ck"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:golden_carrot"
+    },
+    "k": {
+      "item": "storagedrawers:drawer_key"
+    }
+  },
+  "result": {
+    "item": "storagedrawers:shroud_key"
+  }
+}

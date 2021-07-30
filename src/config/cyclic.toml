@@ -16,7 +16,7 @@
 		beekeeper = false
 		#Set false to disable enchantment
 		experience_boost = true
-		#Set false to disable enchantment
+		#Set false to disable Multi Jump enchantment
 		launch = true
 		#Set false to disable enchantment
 		ender = true
@@ -52,7 +52,7 @@
 	#####################################################################################
 	[cyclic.blocks]
 
-		#Sprinkler settings
+		#Ender shelf settings
 		[cyclic.blocks.ender_shelf]
 			#Controller Max distance to search (using manhattan distance)
 			#Range: 1 ~ 256
@@ -119,6 +119,20 @@
 	[cyclic.logging]
 		#Unblock info logs; very spammy; can be useful for testing certain issues
 		info = false
+
+	#####################################################################################
+	#Fluid cost for various machines
+	#####################################################################################
+	[cyclic.fluid]
+		#Cost of magma fluid per action
+		#Range: 1 ~ 64000
+		anvil_magma = 100
+		#Cost of (or payment for if negative) per enchanted book generated
+		#Range: -1000 ~ 16000
+		disenchanter = 100
+		#Payment per void action, if not zero
+		#Range: 0 ~ 16000
+		void_anvil = 25
 
 	#####################################################################################
 	# Item specific configs
@@ -226,13 +240,11 @@
 	#####################################################################################
 	[cyclic.command]
 		#True means only players with OP can use this /cyclic command
-		help = false
+		dev = false
 		#True means only players with OP can use this /cyclic command
-		nbtprint = false
+		ping = false
 		#True means only players with OP can use this /cyclic command
 		health = true
-		#True means only players with OP can use this /cyclic command
-		pingnether = false
 		#True means only players with OP can use this /cyclic command
 		gethome = false
 		#True means only players with OP can use this /cyclic command
