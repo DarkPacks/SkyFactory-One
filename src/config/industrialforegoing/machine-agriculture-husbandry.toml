@@ -78,6 +78,8 @@
 	[MachineAgricultureHusbandryConfig.AnimalFeederConfig]
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
+		#How many animals there need to be in the area to stop the machine from working
+		maxAnimalInTheArea = 35
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Operation - Default: [400FE]

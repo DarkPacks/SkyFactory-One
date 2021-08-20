@@ -87,7 +87,7 @@ Access your Refined Storage Network remotely using a §lWireless§r §lGrid§r
 ===
 #In your §1§ltrophy§0 room display the following items (in no particular order): 
 A §lTreasure§r §lCore§r
-One of each of the Mob Heads (5 Total)
+5 unique Mob Heads
 A Player Head
 20 unique §lStatues§r
 A full set of §lManyullyn§r Tinkers Construct Tools

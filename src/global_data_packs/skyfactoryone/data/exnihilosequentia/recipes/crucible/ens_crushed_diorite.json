@@ -1,11 +1,7 @@
 {
-  "type": "exnihilosequentia:crucible",
-  "input": {
-    "item": "exnihilosequentia:crushed_diorite"
-  },
-  "amount": 200,
-  "fluidResult": {
-    "fluid": "minecraft:lava"
-  },
-  "crucibleType": "fired"
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
 }

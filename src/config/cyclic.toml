@@ -111,7 +111,7 @@
 	#####################################################################################
 	[cyclic.worldgen]
 		#Does this generate in the world
-		flower_cyan = true
+		flower_cyan = false
 
 	#####################################################################################
 	# Logging related configs

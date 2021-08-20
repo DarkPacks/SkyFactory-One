@@ -1,0 +1,10 @@
+
+#Server configuration
+[server]
+	#How far away (in blocks) a player must be for entities to spawn.
+	#Range: 0 ~ 128
+	playerdist = 24
+	#How far away (in blocks) an entity must be from the spawn point to spawn.
+	#Range: 0 ~ 512
+	spawndist = 0
+

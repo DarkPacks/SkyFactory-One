@@ -447,17 +447,6 @@
       }
     ]
   },
-  "Tinkers' Creative Upgrade": {
-    "chance": 0,
-    "Item": [
-      {
-        "item": {
-          "id": "tconstruct:creative_upgrade",
-          "Count": 1
-        }
-      }
-    ]
-  },
   "Iron Chests": {
     "chance": 0,
     "Item": [

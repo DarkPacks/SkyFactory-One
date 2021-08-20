@@ -88,6 +88,16 @@
 	#Range: 1 ~ 45
 	melterNuggetsPerOre = 12
 
+	#Entity head drops when killed by a charged creeper
+	[recipes.heads]
+		stray = true
+		husk = true
+		blaze = true
+		cave_spider = true
+		drowned = true
+		spider = true
+		enderman = true
+
 #Features to use in debugging gameplay and mechanics, generally should not be enabled in packs
 [debug]
 	#If true, forces integration materials to be enabled, even if the relevant metal is missing. Useful for testing material balance.

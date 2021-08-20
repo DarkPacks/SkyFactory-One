@@ -13,5 +13,5 @@
 	openUsage = 30
 	#The energy capacity of the Wireless Crafting Grid
 	#Range: > 0
-	capacity = 3200
+	capacity = 6400
 

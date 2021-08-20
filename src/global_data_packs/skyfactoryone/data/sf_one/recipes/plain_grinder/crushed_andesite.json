@@ -1,10 +1,7 @@
 {
-  "type": "plaingrinder:grinder",
-  "input": {
-    "item": "minecraft:andesite"
-  },
-  "result": {
-    "item": "exnihilosequentia:crushed_andesite",
-    "count": 1
-  }
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
 }

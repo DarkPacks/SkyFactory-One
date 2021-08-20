@@ -1,0 +1,135 @@
+{
+  "tasks": [
+    {
+      "type": "bongo.stat",
+      "category": "custom",
+      "stat": "minecraft:animals_bred",
+      "value": 1
+    },
+    {
+      "type": "bongo.stat",
+      "category": "custom",
+      "stat": "minecraft:eat_cake_slice",
+      "value": 3
+    },
+    {
+      "type": "bongo.stat",
+      "category": "custom",
+      "stat": "minecraft:bell_ring",
+      "value": 1
+    },
+    {
+      "type": "bongo.stat",
+      "category": "custom",
+      "stat": "minecraft:fish_caught",
+      "value": 5
+    },
+    {
+      "type": "bongo.stat",
+      "category": "custom",
+      "stat": "minecraft:target_hit",
+      "value": 1
+    },
+    {
+      "type": "bongo.stat",
+      "category": "custom",
+      "stat": "minecraft:pig_one_cm",
+      "value": 1000
+    },
+    {
+      "type": "bongo.item",
+      "weight": 20,
+      "id": "minecraft:acacia_boat"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 20,
+      "id": "minecraft:acacia_button"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 20,
+      "id": "minecraft:acacia_door"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 20,
+      "id": "minecraft:acacia_fence"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 20,
+      "id": "minecraft:acacia_fence_gate"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 20,
+      "id": "minecraft:acacia_leaves"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 20,
+      "id": "minecraft:acacia_log"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 20,
+      "id": "minecraft:acacia_stairs"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 20,
+      "id": "minecraft:acacia_trapdoor"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 20,
+      "id": "minecraft:acacia_wood"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 15,
+      "id": "minecraft:activator_rail"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 15,
+      "id": "minecraft:allium"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 25,
+      "id": "minecraft:andesite"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 25,
+      "id": "minecraft:andesite_slab"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 25,
+      "id": "minecraft:andesite_stairs"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 25,
+      "id": "minecraft:andesite_wall"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 10,
+      "id": "minecraft:anvil"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 30,
+      "id": "minecraft:apple"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 25,
+      "id": "minecraft:armor_stand"
+    }
+  ]
+}

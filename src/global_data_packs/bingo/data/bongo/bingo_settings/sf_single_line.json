@@ -1,0 +1,17 @@
+{
+  "invulnerable": false,
+  "winCondition": "bongo.default",
+  "friendlyFire": false,
+  "lockTaskOnDeath": true,
+  "teleportsPerTeam": 0,
+  "consumeItems": false,
+  "pvp": true,
+  "maxTime": -1,
+  "startingInventory": [
+    {
+      "id": "minecraft:torch"
+    }
+  ],
+  "backpackInventory": [],
+  "teleporter": "bongo.no_tp"
+}

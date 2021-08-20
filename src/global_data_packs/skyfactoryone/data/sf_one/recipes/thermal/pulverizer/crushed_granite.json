@@ -1,18 +1,7 @@
 {
-  "type": "thermal:pulverizer",
-  "ingredient": {
-    "item": "minecraft:granite"
-  },
-  "result": [
-    {
-      "item": "exnihilosequentia:crushed_granite"
-    }
-  ],
-  "experience": 0.1,
   "conditions": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "exnihilosequentia"
+      "type": "forge:false"
     }
   ]
 }

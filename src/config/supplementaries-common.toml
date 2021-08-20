@@ -32,6 +32,13 @@
 		#Range: 0 ~ 50
 		sack_increment = 2
 
+	[blocks.flag]
+		#Maximum allowed pole length
+		#Range: 0 ~ 256
+		pole_length = 16
+		#Allows right/left clicking on a stick to lower/raise a flag attached to it
+		stick_pole = true
+
 	[blocks.bellows]
 		#velocity increase uses this equation: 
 		#vel = base_vel*((range-entity_distance)/range) with base_vel = base_velocity_scaling/period 
@@ -74,6 +81,10 @@
 		#chanche of finding a globe in a shipwreck treasure chest.
 		#Range: 0.0 ~ 1.0
 		shipwreck_treasure_chance = 0.25
+
+	[blocks.timber_frame]
+		#Replace a timber frame with wattle and daub block when daub is placed in it
+		replace_daub = true
 
 	[blocks.spring_launcher]
 		#fall distance needed to trigger the automatic spring launch
@@ -187,7 +198,7 @@
 		#mod ids of mods that have lantern block that extend the base lantern class but don't look like one
 		mod_blacklist = ["extlights", "betterendforge"]
 		#allow wall lanterns placement
-		enabled = false
+		enabled = true
 
 	[tweaks.zombie_horse]
 		#Amount of rotten flesh needed
@@ -204,12 +215,12 @@
 		#allows you to place hanging flower pots. Works with any modded pot too
 		enabled = true
 
-	[tweaks.enchanting_table]
-		#Allows enchanting table to interact with bokshelf even if they have carpets or other tagged items in the way. You can add more blocks by adding them to 'enchantment_bypass' block tag
-		ignore_carpets = true
-
 	[tweaks.raked_gravel]
 		#allow gravel to be raked with a hoe
+		enabled = true
+
+	[tweaks.placeable_sticks]
+		#allow placeable blaze rods
 		enabled = true
 
 	[tweaks.cake_tweaks]
@@ -270,12 +281,13 @@
 
 	[items.bomb]
 		#Do bombs break blocks like tnt?
-		break_blocks = false
+		#Allowed Values: ALL, WEAK, NONE
+		break_blocks = "WEAK"
 		#Bomb explosion radius (damage depends on this)
 		#Range: 0.1 ~ 10.0
 		explosion_radius = 2.0
 
 	[items.rope_arrow]
-		#If you really don't like my ropes you can specify here the block id ofa rope from another mod which will get deployed by rope arrows instead of mine
+		#If you don't like my ropes you can specify here the block id ofa rope from another mod which will get deployed by rope arrows instead of mine
 		rope_arrow_override = "supplementaries:rope"
 
