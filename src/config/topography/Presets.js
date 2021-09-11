@@ -12,6 +12,46 @@ registerPreset("void", "Void Worlds", "images/Basic_Tree", "Overworld/Nether/End
 	accept: function(event) {
 		if (!Util.Biomes.test(event.getName(), BiomeDictionary.Type.END)) {
 			Util.Features.clearFeatures(event);//Clears all feature generators
+			
+			if (Util.Biomes.test(event.getName(), BiomeDictionary.Type.OVERWORLD)) {
+				
+				/*
+				* Adds a flower generator with all 1 tall flowers for the purpose of making bonemeal on grass function in the overworld
+				*/
+				Util.Features.addFeature(event, GenerationStage.Decoration.VEGETAL_DECORATION, function() {
+				
+					var BlockClusterFeatureConfig = Java.type("net.minecraft.world.gen.feature.BlockClusterFeatureConfig");
+					var WeightedBlockStateProvider = Java.type("net.minecraft.world.gen.blockstateprovider.WeightedBlockStateProvider");
+					var SimpleBlockPlacer = Java.type("net.minecraft.world.gen.blockplacer.SimpleBlockPlacer");
+					
+					/*
+					* Flowers and their weights
+					*/
+					var flowers = {
+						"minecraft:poppy": 10,
+						"minecraft:dandelion": 10,
+						"minecraft:blue_orchid": 10,
+						"minecraft:allium": 10,
+						"minecraft:azure_bluet": 10,
+						"minecraft:red_tulip": 10,
+						"minecraft:red_tulip": 10,
+						"minecraft:white_tulip": 10,
+						"minecraft:pink_tulip": 10,
+						"minecraft:oxeye_daisy": 10,
+						"minecraft:cornflower": 10,
+						"minecraft:wither_rose": 10,
+						"minecraft:lily_of_the_valley": 10
+					}
+					
+					var blockProvider = new WeightedBlockStateProvider();
+						
+					for (var key in flowers) {
+						blockProvider.func_227407_a_(Util.Blocks.getState(key), flowers[key]);
+					}
+					
+					return Util.Features.buildConfiguredFeature("minecraft:flower", new BlockClusterFeatureConfig.Builder(blockProvider, SimpleBlockPlacer.field_236447_c_).func_227315_a_(0).func_227322_d_());
+				});
+			}
 		}
 		//Util.Features.clearStructures(event);//Clears all structure generators
 
