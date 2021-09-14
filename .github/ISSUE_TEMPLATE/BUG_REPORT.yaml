@@ -1,0 +1,134 @@
+name: 🐛 Bug / Crash Report
+description: File a bug / crash report
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+  - type: checkboxes
+    id: general-info
+    attributes:
+      label: General Info
+      description: You may select more than one.
+      options:
+        - label: I can reproduce this issue consistently in single-player
+        - label: I can reproduce this issue consistently in multi-player
+        - label: I have searched for this issue previously and it was either (1) not previously reported, or (2) previously fixed and I am having the same problem.
+          required: true
+        - label: I am crashing and can provide my crash report(s)
+        - label: I am using the latest version of the modpack
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: "## Client Information"
+
+  - type: input
+    id: modpack-info
+    attributes:
+      label: Modpack version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: java-info
+    attributes:
+      label: Java version
+      placeholder: Java 8 update 51
+    validations:
+      required: true
+
+  - type: input
+    id: launcher-info
+    attributes:
+      label: Modpack Launcher Used
+      placeholder: CurseForge Launcher
+    validations:
+      required: true
+
+  - type: input
+    id: memory-info
+    attributes:
+      label: Memory Allocated
+      placeholder: 8 GB
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment-info
+    attributes:
+      label: Minecraft World Environment
+      options:
+        - Server
+        - LAN
+        - Single Player
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: other-client-info
+    attributes:
+      label: Misc Client Info
+      description: Check all that apply
+      options:
+        - label: Optifine Installed
+        - label: Shaders Installed
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## Server Information (if applicable)"
+
+  - type: input
+    id: server-java-info
+    attributes:
+      label: Server Java Version
+      placeholder: Java 8 update 51
+    validations:
+      required: false
+
+  - type: input
+    id: server-os-info
+    attributes:
+      label: Server Operating System
+      placeholder: Linux
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: other-server-info
+    attributes:
+      label: Misc Server Info
+      description: Check all that apply (if known)
+      options:
+        - label: Sponge or Non-Vanilla Forge Server
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: "## Description"
+
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Issue Description
+      description: Describe the behavior, what you expected to happen, and any steps to reproduce.
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Additional Information
+      description: Please post any crash reports, screenshots, etc. here. (use Pastebin or Imgur accordingly)
+      placeholder: Please put crash reports onto pastebin
+    validations:
+      required: false
