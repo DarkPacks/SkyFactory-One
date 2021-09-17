@@ -1,4 +1,5 @@
 {
+  "override": "replace",
   "generator": "simplegens:simple_pink",
   "fuel": {"raw:item": "minecraft:pink_tulip"},
   "energy": 9315

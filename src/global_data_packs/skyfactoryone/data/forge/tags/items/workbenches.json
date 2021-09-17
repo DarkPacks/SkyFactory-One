@@ -1,45 +1,11 @@
 {
-  "replace": false,
-  "values": [
+  "replace": true,
+  "values":
+  [
     "minecraft:crafting_table",
     "tconstruct:crafting_station",
     {
       "id": "#forge:workbench",
-      "required": false
-    },
-    "crumbs:spruce_crafting_table",
-    "crumbs:birch_crafting_table",
-    "crumbs:jungle_crafting_table",
-    "crumbs:acacia_crafting_table",
-    "crumbs:dark_oak_crafting_table",
-    "crumbs:crimson_crafting_table",
-    "crumbs:warped_crafting_table",
-    {
-      "id": "crumbs:spruce_crafting_table",
-      "required": false
-    },
-    {
-      "id": "crumbs:birch_crafting_table",
-      "required": false
-    },
-    {
-      "id": "crumbs:jungle_crafting_table",
-      "required": false
-    },
-    {
-      "id": "crumbs:acacia_crafting_table",
-      "required": false
-    },
-    {
-      "id": "crumbs:dark_oak_crafting_table",
-      "required": false
-    },
-    {
-      "id": "crumbs:crimson_crafting_table",
-      "required": false
-    },
-    {
-      "id": "crumbs:warped_crafting_table",
       "required": false
     },
     {

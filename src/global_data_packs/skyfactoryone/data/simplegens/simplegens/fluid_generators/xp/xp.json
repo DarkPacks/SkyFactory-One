@@ -1,5 +1,11 @@
 {
+  "override": "replace",
   "generator": "simplegens:simple_xp",
-  "fuel": {"raw:fluid_tag": "forge:experience", "selector": "all"},
+  "fuel": {
+    "raw:fluid_tag": "forge:experience",
+    "selector": {
+      "type": "all"
+    }
+  },
   "energy": 10
 }

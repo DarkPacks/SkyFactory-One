@@ -1,7 +1,3 @@
 {
-  "conditions": [
-    {
-      "type": "forge:false"
-    }
-  ]
+  "override": "disable"
 }

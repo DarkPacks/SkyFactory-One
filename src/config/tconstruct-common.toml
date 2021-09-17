@@ -6,7 +6,7 @@
 	#If true, tables such as the part builder and tinker station will show all variants. If false they will show just the first entry in the tag, typically oak.
 	showAllTableVariants = true
 	#Set this to false to disable new players spawning with the Tinkers' Book.
-	shouldSpawnWithTinkersBook = true
+	shouldSpawnWithTinkersBook = false
 	#If non-empty, only this material will be shown on tools in creative and JEI (or the first valid material if this is invalid for the tool).
 	#If empty, all materials will show
 	showOnlyToolMaterial = "tconstruct:manyullyn"

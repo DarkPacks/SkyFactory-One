@@ -13,7 +13,7 @@
       "item": "minecraft:glass"
     },
     "S": {
-      "item": "minecraft:slime_ball"
+      "tag": "forge:slimeballs"
     }
   },
   "result": {

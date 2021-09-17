@@ -177,3 +177,8 @@
 	#Makes tipped arrows show their colors when loaded with a crossbow
 	crossbows_colors = true
 
+#Items
+[items]
+	#Adds an overlay to slingshots in gui displaying currently selected block
+	slingshot_overlay = true
+

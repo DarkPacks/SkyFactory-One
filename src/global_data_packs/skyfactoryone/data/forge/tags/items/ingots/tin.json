@@ -1,6 +1,7 @@
 {
-  "replace": false,
-  "values": [
+  "replace": true,
+  "values":
+  [
     "thermal:tin_ingot"
   ]
 }

@@ -3,5 +3,5 @@
 [general]
 	#Display debug log, useful to find bugs.
 	enableDebugLog = false
-	enableVersionChecker = true
+	enableVersionChecker = false
 

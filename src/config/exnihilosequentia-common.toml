@@ -1,15 +1,9 @@
 
-#Infested Leaves Configs
-[infested_leaves]
-	#Number of seconds to for leaves to become completely infested (Default: 10)
-	#Range: > 1
-	secondsToTransformLeaves = 30
-	#Number of ticks between infested leave spread attempts (Default: 100)
-	#Range: > 1
-	ticksBetweenSpreadAttempt = 200
-	#Percentage of the time that infested leaves will spread (Default: 0.3)
-	#Range: 0.001 ~ 1.0
-	spreadChance = 0.3
+#Pebble Configs
+[pebble]
+	#How much half hearts damage a pebble should do. (Default: 0)
+	#Range: > 0
+	pebbleDamage = 0
 
 #Barrel Configs
 [barrel]
@@ -18,9 +12,9 @@
 	barrelNumberOfBuckets = 1
 	#The max temperature a barrel can accept; water is 300 (Default: 300)
 	#Range: > 0
-	woodBarrelMaxTemp = 400
+	woodBarrelMaxTemp = 300
 	#Should Ex Nihilo show any Patricle?
-	showParticles = false
+	showParticles = true
 	#How much fluid rain will fill per iteration (Default: 2)
 	#Range: > 1
 	rainFillAmount = 2
@@ -35,7 +29,7 @@
 	[barrel.compost]
 		#Number of seconds to compost (Default: 10)
 		#Range: > 1
-		secondsToCompost = 40
+		secondsToCompost = 10
 		#How much solids need to be in barrel before composting starts (Default: 1000)
 		#Range: > 1
 		maxSolidAmount = 1000
@@ -44,20 +38,69 @@
 	[barrel.fluid_transform]
 		#Number of seconds to transform fluids (Default: 10)
 		#Range: > 1
-		secondsToTransformFluid = 30
+		secondsToTransformFluid = 10
 
-#Pebble Configs
-[pebble]
-	#How much half hearts damage a pebble should do. (Default: 0)
+#Crook Configs
+[crook]
+	#Maximum additional string that a crook will drop from infested leaves in addition to the minimum string count (Default: 3)
 	#Range: > 0
-	pebbleDamage = 1
+	maxBonusStringCount = 3
+	#Minimum string that a crook will drop from infested leaves (Default: 2)
+	#Range: > 1
+	minStringCount = 2
+	#Number of times the crook will "break" a leaf block to get drops (Default: 3)
+	#Range: > 1
+	vanillaDropSimulateCount = 3
+
+#Crucible Configs
+[crucible]
+	#Ticks between melting operations (Default: 20)
+	#Range: > 1
+	ticksBetweenMelts = 20
+	#Number of buckets the crucible will hold (Default: 4)
+	#Range: > 1
+	crucibleNumberOfBuckets = 4
+
+	#Wooden Crucible Configs
+	[crucible.wood]
+		#Heat rate the Wood Crucible will use regardless of heat source below (Default: 2)
+		#Range: > 1
+		woodHeatRate = 2
+
+#Infested Leaves Configs
+[infested_leaves]
+	#Number of seconds to for leaves to become completely infested (Default: 10)
+	#Range: > 1
+	secondsToTransformLeaves = 10
+	#Number of ticks between infested leave spread attempts (Default: 100)
+	#Range: > 1
+	ticksBetweenSpreadAttempt = 100
+	#Percentage of the time that infested leaves will spread (Default: 0.3)
+	#Range: 0.001 ~ 1.0
+	spreadChance = 0.3
+
+#Sieve Configs
+[sieve]
+	#Sieve will get results for all mesh tiers below the one in the sieve (Default: true)
+	flattenSieveRecipes = true
+	#The number of sieve clicks required to sieve a block. (Default: 10)
+	#Range: 1 ~ 10
+	maxSieveClicks = 10
+	#Meshes will have durability and can break, but don't stack. (Default: false)
+	enableMeshDurability = false
+	#Meshes will stack, but don't have durability. (Default: 64)
+	#Range: 1 ~ 64
+	meshStackSize = 64
+	#Defines the radius that a sieve will attempt to activate other sieves (Default: 2)
+	#Range: 0 ~ 5
+	sieveRange = 2
 
 #Ore Configs
 [ore]
 	#Enable platinum ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
-	enablePlatinum = false
+	enablePlatinum = true
 	#Enable uranium ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
-	enableUranium = false
+	enableUranium = true
 	#Enable gold ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
 	enableGold = true
 	#Enable silver ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
@@ -69,13 +112,13 @@
 	#Enable iron ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
 	enableIron = true
 	#Allows ores to be enabled or disabled by this config file. (Default: false)
-	enableOreOverride = true
+	enableOreOverride = false
 	#Enable aluminum ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
-	enableAluminum = false
+	enableAluminum = true
 	#Enable lead ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
 	enableLead = true
 	#Enable zinc ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
-	enableZinc = false
+	enableZinc = true
 	#Enable tin ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
 	enableTin = true
 
@@ -83,18 +126,6 @@
 [debug]
 	#Enable extra logging? (Default: false)
 	enableDebugLogging = false
-
-#Crook Configs
-[crook]
-	#Maximum additional string that a crook will drop from infested leaves in addition to the minimum string count (Default: 3)
-	#Range: > 0
-	maxBonusStringCount = 1
-	#Minimum string that a crook will drop from infested leaves (Default: 2)
-	#Range: > 1
-	minStringCount = 1
-	#Number of times the crook will "break" a leaf block to get drops (Default: 3)
-	#Range: > 1
-	vanillaDropSimulateCount = 3
 
 #Durability Configs
 [durability]
@@ -136,7 +167,7 @@
 		crookStoneValue = 256
 		#Durability of Gold Crook (Default: 32)
 		#Range: > 1
-		crookGoldValue = 80
+		crookGoldValue = 64
 		#Durability of Granite Crook (Default: 256)
 		#Range: > 1
 		crookGraniteValue = 256
@@ -170,35 +201,4 @@
 		#Durability of Flint Mesh (Only useful if enableMeshDurability is true) (Default: 131)
 		#Range: > 1
 		meshFlintValue = 131
-
-#Crucible Configs
-[crucible]
-	#Ticks between melting operations (Default: 20)
-	#Range: > 1
-	ticksBetweenMelts = 20
-	#Number of buckets the crucible will hold (Default: 4)
-	#Range: > 1
-	crucibleNumberOfBuckets = 4
-
-	#Wooden Crucible Configs
-	[crucible.wood]
-		#Heat rate the Wood Crucible will use regardless of heat source below (Default: 2)
-		#Range: > 1
-		woodHeatRate = 2
-
-#Sieve Configs
-[sieve]
-	#Sieve will get results for all mesh tiers below the one in the sieve (Default: true)
-	flattenSieveRecipes = false
-	#The number of sieve clicks required to sieve a block. (Default: 10)
-	#Range: 1 ~ 10
-	maxSieveClicks = 10
-	#Meshes will have durability and can break, but don't stack. (Default: false)
-	enableMeshDurability = false
-	#Meshes will stack, but don't have durability. (Default: 64)
-	#Range: 1 ~ 64
-	meshStackSize = 64
-	#Defines the radius that a sieve will attempt to activate other sieves (Default: 2)
-	#Range: 0 ~ 5
-	sieveRange = 1
 
