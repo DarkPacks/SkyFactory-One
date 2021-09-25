@@ -48,5 +48,5 @@
 	#Set the refill items used by the Custom Cake (Only change if you know what you're doing) [modid:itemname]
 	customCakeRefillItem = ["minecraft:cobblestone"]
 	#Defines the dimension bound to the custom cake [default: "minecraft:the_overworld"]
-	customCakeDimension = "topography:infinite_dark"
+	customCakeDimension = "minecraft:the_overworld"
 

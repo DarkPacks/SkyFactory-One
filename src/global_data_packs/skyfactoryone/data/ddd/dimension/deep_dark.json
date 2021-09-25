@@ -1,0 +1,12 @@
+{
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "ddd:deep_dark"
+    },
+    "seed": 0,
+    "settings": "ddd:deep_dark"
+  },
+  "type": "ddd:deep_dark"
+}

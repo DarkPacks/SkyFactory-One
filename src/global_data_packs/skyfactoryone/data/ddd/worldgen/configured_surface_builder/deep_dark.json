@@ -1,0 +1,15 @@
+
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:cobblestone"
+    },
+    "under_material": {
+      "Name": "minecraft:stone"
+    },
+    "underwater_material": {
+      "Name": "minecraft:stone"
+    }
+  },
+  "type": "minecraft:nether"
+}

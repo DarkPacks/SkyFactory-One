@@ -1,0 +1,14 @@
+{
+  "type": "ddd:deep_dark_pillar",
+  "config": {
+    "state": {
+      "Name": "minecraft:stone"
+    },
+    "size": 0,
+    "target": {
+      "predicate_type": "minecraft:random_block_match",
+	  "block": "minecraft:air",
+      "probability": 0.1
+    }
+  }
+}

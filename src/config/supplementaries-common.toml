@@ -137,12 +137,14 @@
 	[blocks.jar]
 		#Dynamically allows all small mobs inside jars depending on their hitbox size. Tinted jars can accept hostile mbos too
 		jar_auto_detect = false
-		#Allow right click to instantly eat or drink food or potions inside a jar.
+		#Allow right click to instantly eat or drink food or potions inside a placed jar.
 		#Disable if you think this ability is op (honey for example). Cookies are excluded
 		drink_from_jar = true
 		#Jar liquid capacity: leave at 12 for pixel accuracy
 		#Range: 0 ~ 1024
 		capacity = 12
+		#Allows the player to directly drink from jar items
+		drink_from_jar_item = false
 
 	[blocks.item_shelf]
 		#Makes item shelves climbable
@@ -292,6 +294,10 @@
 		#Best kept disabled if you are adding custom adventurer maps with its config
 		random_adventurer_maps = true
 
+	[tweaks.placeable_books]
+		#Allow books and enchanted books to be placed on the ground
+		enabled = true
+
 [items]
 
 	[items.flute]
@@ -323,4 +329,15 @@
 	[items.rope_arrow]
 		#If you don't like my ropes you can specify here the block id ofa rope from another mod which will get deployed by rope arrows instead of mine
 		rope_arrow_override = "supplementaries:rope"
+		#Max number of robe items allowed to be stored inside a rope arrow
+		#Range: 1 ~ 256
+		capacity = 24
+
+	[items.blue_bomb]
+		#Bomb explosion radius (damage depends on this)
+		#Range: 0.1 ~ 10.0
+		explosion_radius = 5.15
+		#Do bombs break blocks like tnt?
+		#Allowed Values: ALL, WEAK, NONE
+		break_blocks = "WEAK"
 
