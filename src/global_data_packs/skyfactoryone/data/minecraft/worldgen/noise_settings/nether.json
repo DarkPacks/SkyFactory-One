@@ -1,0 +1,60 @@
+{
+  "noise_caves_enabled": false,
+  "deepslate_enabled": false,
+  "ore_veins_enabled": false,
+  "noodle_caves_enabled": false,
+  "min_surface_level": 0,
+  "disable_mob_generation": false,
+  "aquifers_enabled": false,
+  "default_fluid": {
+    "Properties": {
+      "level": "0"
+    },
+    "Name": "minecraft:lava"
+  },
+  "bedrock_roof_position": 0,
+  "bedrock_floor_position": 0,
+  "sea_level": 32,
+  "structures": {
+    "structures": {
+      "minecraft:bastion_remnant": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 30084232
+      },
+      "minecraft:fortress": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 30084232
+      }
+    }
+  },
+  "noise": {
+    "simplex_surface_noise": false,
+    "size_vertical": 2,
+    "density_factor": 0.0,
+    "density_offset": 0.019921875,
+    "top_slide": {
+      "target": 120,
+      "size": 3,
+      "offset": 0
+    },
+    "bottom_slide": {
+      "target": 320,
+      "size": 4,
+      "offset": -1
+    },
+    "size_horizontal": 1,
+    "min_y": 0,
+    "height": 128,
+    "sampling": {
+      "xz_scale": 1.0,
+      "y_scale": 3.0,
+      "xz_factor": 80.0,
+      "y_factor": 60.0
+    }
+  },
+  "default_block": {
+    "Name": "minecraft:netherrack"
+  }
+}

@@ -3,11 +3,11 @@
   "rolls": [
     {
       "chance": 0.05,
-      "mesh": "iron"
+      "mesh": "string"
     }
   ],
   "input": {
-    "item": "minecraft:sand"
+    "tag": "minecraft:sand"
   },
   "result": {
     "item": "minecraft:seagrass"

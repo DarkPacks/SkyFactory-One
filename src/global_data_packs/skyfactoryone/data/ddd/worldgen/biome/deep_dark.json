@@ -51,7 +51,9 @@
       "thermal:ore_silver",
       "thermal:ore_nickel",
       "forcecraft:ore_force",
-      "minecraft:flower_default"
+      "minecraft:flower_default",
+      "mysticalagriculture:prosperity_ore",
+      "mysticalagriculture:inferium_ore"
     ]
   ],
   "starts": [

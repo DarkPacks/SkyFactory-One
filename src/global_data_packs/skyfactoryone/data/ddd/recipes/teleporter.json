@@ -1,29 +1,7 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "NON",
-    "ESD",
-    "NON"
-  ],
-  "key": {
-    "N": {
-      "item": "minecraft:netherite_ingot"
-    },
-    "E": {
-      "item": "minecraft:emerald_block"
-    },
-    "D": {
-      "item": "minecraft:diamond_block"
-    },
-    "O": {
-      "item": "minecraft:obsidian"
-    },
-    "S": {
-      "item": "minecraft:nether_star"
+  "conditions": [
+    {
+      "type": "forge:false"
     }
-  },
-  "result": {
-    "item": "ddd:teleporter",
-    "count": 1
-  }
+  ]
 }

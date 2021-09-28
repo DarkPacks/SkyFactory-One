@@ -1,16 +1,7 @@
 {
-  "type": "exnihilosequentia:sieve",
-  "rolls": [
+  "conditions": [
     {
-      "chance": 0.05,
-      "mesh": "iron"
+      "type": "forge:false"
     }
-  ],
-  "input": {
-    "tag": "minecraft:sand"
-  },
-  "result": {
-    "item": "minecraft:seagrass"
-  },
-  "waterlogged": true
+  ]
 }
