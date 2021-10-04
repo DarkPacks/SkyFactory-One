@@ -82,7 +82,7 @@
 #Sieve Configs
 [sieve]
 	#Sieve will get results for all mesh tiers below the one in the sieve (Default: true)
-	flattenSieveRecipes = true
+	flattenSieveRecipes = false
 	#The number of sieve clicks required to sieve a block. (Default: 10)
 	#Range: 1 ~ 10
 	maxSieveClicks = 10

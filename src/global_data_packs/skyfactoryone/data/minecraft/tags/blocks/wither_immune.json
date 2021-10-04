@@ -23,7 +23,7 @@
     "cyclic:crate",
     "cyclic:unbreakable_block",
     "cyclic:unbreakable_reactive",
-    "supplementaries:piston_launcher_arm",
+    "supplementaries:spring_launcher_arm",
     "supplementaries:safe",
     "mob_grinding_utils:fan",
     "mob_grinding_utils:saw",
