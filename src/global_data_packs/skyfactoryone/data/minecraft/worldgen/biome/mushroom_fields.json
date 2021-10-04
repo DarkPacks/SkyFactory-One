@@ -218,7 +218,28 @@
     ],
     "misc": []
   },
-  "spawn_costs": {},
+  "spawn_costs": {
+    "minecraft:cod": {
+      "energy_budget": 0.5,
+      "charge": 0.7
+    },
+    "minecraft:salmon": {
+      "energy_budget": 0.5,
+      "charge": 0.7
+    },
+    "minecraft:pufferfish": {
+      "energy_budget": 0.5,
+      "charge": 0.7
+    },
+    "minecraft:tropical_fish": {
+      "energy_budget": 0.5,
+      "charge": 0.7
+    },
+    "minecraft:dolphin": {
+      "energy_budget": 0.1,
+      "charge": 0.7
+    }
+  },
   "player_spawn_friendly": false,
   "precipitation": "rain",
   "temperature": 0.9,

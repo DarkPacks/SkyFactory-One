@@ -10,6 +10,6 @@
   "v": 0,
   "hoverU": 0,
   "hoverV": 20,
-      "anchor": "MIDDLE_RIGHT",
+  "anchor": "MIDDLE_RIGHT",
   "texture": "packmenu:textures/gui/shortbutton.png"
 }

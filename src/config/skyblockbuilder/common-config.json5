@@ -105,18 +105,6 @@
       "whitelist": true,
       "elements": [
         "minecraft:fortress",
-        "minecraft:fortress",
-                "minecraft:fortress",
-                        "minecraft:fortress",
-                                "minecraft:fortress",
-                                        "minecraft:fortress",
-                                                "minecraft:fortress",
-                                                        "minecraft:fortress",
-                                                                "minecraft:fortress",
-                                                                        "minecraft:fortress",
-                                                                                "minecraft:fortress",
-                                                                                        "minecraft:fortress",
-
         "minecraft:bastion_remnant",
         "minecraft:endcity"
       ]
@@ -173,6 +161,12 @@
     // Sea level in world [default: 63]
     // Range: 0 - 256
     "seaHeight": 63,
+    
+    // The modifier for spacing and separation of structures. These values can be defined by a data pack. However, this is a multiplier to change these values.
+    // Minimal spacing is 1
+    // Minimal separation is 0
+    // Range: 0.0 - 1000.0
+    "structureModifier": 0.69,
     
     // Should a surface be generated in overworld? [default: false]
     "surface": false,

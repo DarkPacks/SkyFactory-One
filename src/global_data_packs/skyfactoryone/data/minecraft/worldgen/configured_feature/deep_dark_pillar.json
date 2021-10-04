@@ -1,5 +1,5 @@
 {
-  "type": "ddd:deep_dark_pillar",
+  "type": "minecraft:deep_dark_pillar",
   "config": {
     "state": {
       "Name": "minecraft:stone"

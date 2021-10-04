@@ -12,12 +12,10 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": "ddd:deep_dark",
+  "surface_builder": "minecraft:deep_dark",
   "carvers": {
     "air": [
-      "ddd:deep_dark_cave",
-      "minecraft:canyon",
-      "minecraft:cave"
+      "minecraft:nether_carver"
     ]
   },
   "features": [
@@ -39,27 +37,10 @@
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-      "ddd:deep_dark_pillar",
-      "ddd:spawn_base",
-      "thermal:ore_copper",
-      "thermal:ore_apatite",
-      "thermal:ore_cinnabar",
-      "thermal:ore_niter",
-      "thermal:ore_sulfur",
-      "thermal:ore_tin",
-      "thermal:ore_lead",
-      "thermal:ore_silver",
-      "thermal:ore_nickel",
-      "forcecraft:ore_force",
-      "minecraft:flower_default",
-      "mysticalagriculture:prosperity_ore",
-      "mysticalagriculture:inferium_ore"
+      "minecraft:granite_pile"
     ]
   ],
-  "starts": [
-    "minecraft:mineshaft",
-    "minecraft:ruined_portal"
-  ],
+  "starts": [],
   "spawners": {
     "monster": [
       {

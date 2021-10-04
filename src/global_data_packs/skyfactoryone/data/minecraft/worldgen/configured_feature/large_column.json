@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 2
+      }
+    },
+    "feature": {
+      "type": "minecraft:basalt_columns",
+      "config": {
+        "reach": {
+          "base": 0,
+          "spread": 0
+        },
+        "height": {
+          "base": 1,
+          "spread": 0
+        }
+      }
+    }
+  }
+}
