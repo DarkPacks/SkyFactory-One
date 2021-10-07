@@ -88,6 +88,12 @@
 			#RECIPE IDS HERE.  Block these recipe ids from being reversed, but do not block all recipes for this output item
 			ignore_recipes = ["botania:cobweb", "minecraft:magma_cream", "minecraft:beacon", "minecraft:stick_from_bamboo_item", "minecraft:netherite_ingot_from_netherite_block", "mysticalagriculture:essence*", "mysticalagriculture:farmland_till", "refinedstorage:coloring_recipes*"]
 
+		#Ender shelf settings
+		[cyclic.blocks.sound]
+			#Sound Recorder - how far out does it listen to record sounds
+			#Range: 1 ~ 64
+			radius = 8
+
 		#Ender Trigger settings
 		[cyclic.blocks.eye_redstone]
 			#Maximum distance to activate
@@ -169,6 +175,11 @@
 			#Range: 1 ~ 99
 			leg = 10
 
+		[cyclic.items.prospector]
+			#Ore Prospector radius around player to search for ores
+			#Range: 1 ~ 99
+			range = 32
+
 		#####################################################################################
 		# Edible chorus settings
 		#####################################################################################
@@ -190,6 +201,11 @@
 			#Boost given by item charm_speed
 			#Range: 0.0 ~ 2.0
 			speed = 0.5
+
+			[cyclic.items.charms.charm_torch]
+				#Light level limit for placing torches
+				#Range: 0 ~ 15
+				light_level = 9
 
 			#####################################################################################
 			# Caving Torch Charm settings
@@ -291,6 +307,9 @@
 			#Power per use peat_farm
 			#Range: 0 ~ 64000
 			peat_farm = 500
+			#Power per recipe in the packager
+			#Range: 0 ~ 64000
+			packager = 50
 			#Power per use miner
 			#Range: 0 ~ 64000
 			miner = 10
@@ -324,9 +343,14 @@
 			#Power per recipe solidifier
 			#Range: 0 ~ 64000
 			solidifier = 5000
-			#Power per recipe in the packager
-			#Range: 0 ~ 64000
-			packager = 50
+
+		[cyclic.energy.generator_food]
+			#RF energy per tick generated while burning food in this machine
+			#Range: 1 ~ 6400
+			rf_per_tick = 60
+			#This [factor * (item.food + item.saturation) = ticks] results in the number of ticks food will burn at. IE Bread has (5 + 0.6) with factor 100, will burn for 560 ticks.
+			#Range: 1 ~ 6400
+			ticks_per_food = 100
 
 		#####################################################################################
 		# Fuel gained by consuming items
@@ -343,12 +367,4 @@
 			#RF energy per tick generated while burning furnace fuel in this machine.  Burn time in ticks is the same as furnace values, so 1 coal = 1600 ticks
 			#Range: 1 ~ 6400
 			rf_per_tick = 80
-
-		[cyclic.energy.generator_food]
-			#RF energy per tick generated while burning food in this machine
-			#Range: 1 ~ 6400
-			rf_per_tick = 60
-			#This [factor * (item.food + item.saturation) = ticks] results in the number of ticks food will burn at. IE Bread has (5 + 0.6) with factor 100, will burn for 560 ticks.
-			#Range: 1 ~ 6400
-			ticks_per_food = 100
 

@@ -1,1 +1,0 @@
-execute in minecraft:the_nether run tp @p ~ ~ ~
