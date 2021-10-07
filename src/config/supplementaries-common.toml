@@ -147,8 +147,6 @@
 		#Jar liquid capacity: leave at 12 for pixel accuracy
 		#Range: 0 ~ 1024
 		capacity = 12
-		#Allows the player to directly drink from jar items
-		drink_from_jar_item = false
 
 	[blocks.item_shelf]
 		#Makes item shelves climbable
