@@ -185,13 +185,13 @@
 [items]
 
 	[items.slingshot]
-		#Adds an overlay to slingshots in gui displaying currently selected block
-		overlay = true
-		#Render the block outline for distant blocks that are reachable with a slingshot enchanted with Stasis
-		stasis_block_outline = true
-		#An RGBA color for the block outline in hex format, for example 0x00000066 for vanilla outline colors
-		block_outline_color = "ffffff66"
 		#How big should a slingshot projectile look
 		#Range: 0.0 ~ 1.0
 		projectile_scale = 0.5
+		#Adds an overlay to slingshots in gui displaying currently selected block
+		overlay = true
+		#An RGBA color for the block outline in hex format, for example 0x00000066 for vanilla outline colors
+		block_outline_color = "ffffff66"
+		#Render the block outline for distant blocks that are reachable with a slingshot enchanted with Stasis
+		stasis_block_outline = true
 

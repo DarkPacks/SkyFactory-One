@@ -47,6 +47,12 @@
 	lostCitiesCakeRefillItem = ["minecraft:bed"]
 	#Set the refill items used by the Custom Cake (Only change if you know what you're doing) [modid:itemname]
 	customCakeRefillItem = ["minecraft:cobblestone"]
-	#Defines the dimension bound to the custom cake [default: "minecraft:the_overworld"]
+	#Defines the dimension bound to the custom cake [default: "minecraft:overworld"]
 	customCakeDimension = "topography:infinite_dark"
+	#Set the minimum Y location that the cake can spawn you at [Default: 2]
+	#Range: 1 ~ 256
+	customCakeMinY = 220
+	#Set the maximum Y location that the cake can spawn you at [Default: 2]
+	#Range: 1 ~ 256
+	customCakeMaxY = 250
 

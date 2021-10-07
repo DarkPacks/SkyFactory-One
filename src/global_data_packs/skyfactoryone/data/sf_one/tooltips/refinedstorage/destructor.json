@@ -1,0 +1,11 @@
+{
+  "items": [
+    "refinedstorage:destructor"
+  ],
+  "tooltips": [
+    {
+      "text": "Collects blocks & fluids from the world",
+      "color": "#ecbf00"
+    }
+  ]
+}
