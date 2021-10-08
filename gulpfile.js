@@ -43,7 +43,7 @@ const buildJavaScript = () => {
 };
 
 const buildJson = () => {
-  return src(srcPaths.json).pipe(jsonMinify()).pipe(dest(outputBase));
+  return src(srcPaths.json).pipe(dest(outputBase));
 };
 
 const clean = () => {
