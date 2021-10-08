@@ -4,7 +4,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:true
+enableVsync:false
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -55,7 +55,7 @@ chatScale:1.0
 chatWidth:1.0
 mipmapLevels:4
 useNativeTransport:true
-mainHand:left
+mainHand:right
 attackIndicator:1
 narrator:2
 tutorialStep:none
