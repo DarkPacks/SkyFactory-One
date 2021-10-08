@@ -49,9 +49,6 @@ module.exports = (licenseStyle) =>
       case "js":
         template = jsLicense;
         break;
-      case "json":
-        template = jsonLicense;
-        break;
       default:
         return callback(new Error("Unsupported license style"));
     }
