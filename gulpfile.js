@@ -37,7 +37,6 @@ const buildDefaultConfigs = () => {
 
 const buildJavaScript = () => {
   return src(srcPaths.js)
-    .pipe(uglify())
     .pipe(license("js"))
     .pipe(dest(outputBase));
 };
