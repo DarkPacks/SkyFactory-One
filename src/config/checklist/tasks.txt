@@ -1,5 +1,5 @@
 #§5=§6= §0§nSkyFactory® One§r §6=§5=
-#Hello and thank you for trying out SkyFactory®, a Sky Block modpack! \n \nThe mods in this pack will allow you to get all the resources you need to build yourself an amazing world! Read on for more gameplay tips and a list of goals for you to accomplish!
+#Hello and thank you for trying out SkyFactory, a Sky Block modpack! \n \nThe mods in this pack will allow you to get all the resources you need to build yourself an amazing world! Read on for more gameplay tips and a list of goals for you to accomplish!
 ===
 #§5=§6= §0§nHow To Use This Book§r §6=§5=
 #Use the arrows at the bottom left and right of this book to navigate between pages. This book contains a challenge section. You do not have to complete the challenges, they are provided to give you ideas on what to do. \n \nOnce you complete a challenge, click on the box to check it off. Also, don't forget to craft yourself a Task Table to store this book in!
@@ -74,7 +74,7 @@ Full sets of armor from 8 different materials
 #§4-§1-§4-§2=§5=§6= §c§l§nTier 2§r §6=§5=§2=§4-§1-§4-
 Make an automated bacon farm
 Use a Refined Storage §lCrafter§r to auto-craft a §l64k§r §lStorage§r §lDisk§r
-Go to the §lDeep Dark§r Dimension
+Go to the §lInfinite Dark§r Dimension
 Craft an §lInfinity§r §lConstruction§r §lWand§r
 Open 64 §lChance§r §lCubes§r
 Equip 10 §lHeart§r §lContainers§r from Cyclic
@@ -90,7 +90,7 @@ A §lTreasure§r §lCore§r
 5 unique Mob Heads
 A Player Head
 20 unique §lStatues§r
-A full set of §lManyullyn§r Tinkers Construct Tools
+A full set of §lManyullyn§r Tinkers' Construct Tools
 One each of §lSingle§r(§51x§r), §lDouble§r(§22x§r), §lTriple§r(§83x§r), §lQuadruple§r(§44x§r), §lQuintuple§r(§15x§r), §lSextuple§r(§06x§r), §lSeptuple§r(§c7x§r), and §lOctuple§r(§d8x§r) Compressed Cobblestone
 
 ===
