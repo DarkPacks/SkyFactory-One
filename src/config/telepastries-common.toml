@@ -34,13 +34,19 @@
 #Compat settings
 [Compat]
 	#Defines the name of the cake [default: "Custom"]
-	customCakeName = "Deep Dark"
+	customCakeName = "Infinite Dark"
 	#Defines if the Twilight Forest Cake gets partly consumed when eaten [default: true]
 	consumeTwilightCake = true
 	#Defines if the Lost Cities Cake gets partly consumed when eaten [default: true]
 	consumeLostCitiesCake = true
 	#Set the refill items used by the Twilight Forest Cake (Only change if you know what you're doing) [modid:itemname]
 	TwilightCakeRefillItems = ["minecraft:diamond"]
+	#Set the minimum Y location that the cake can spawn you at [Default: 2]
+	#Range: 1 ~ 256
+	customCakeMinY = 220
+	#Set the maximum Y location that the cake can spawn you at [Default: 2]
+	#Range: 1 ~ 256
+	customCakeMaxY = 250
 	#Defines if the Custom Cake gets partly consumed when eaten [default: true]
 	consumeCustomCake = false
 	#Set the refill items used by the Lost Cities Cake (Only change if you know what you're doing) [modid:itemname]
@@ -49,10 +55,4 @@
 	customCakeRefillItem = ["minecraft:cobblestone"]
 	#Defines the dimension bound to the custom cake [default: "minecraft:overworld"]
 	customCakeDimension = "topography:infinite_dark"
-	#Set the minimum Y location that the cake can spawn you at [Default: 2]
-	#Range: 1 ~ 256
-	customCakeMinY = 220
-	#Set the maximum Y location that the cake can spawn you at [Default: 2]
-	#Range: 1 ~ 256
-	customCakeMaxY = 250
 
