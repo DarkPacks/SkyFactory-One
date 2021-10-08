@@ -35,6 +35,8 @@ function getRandomSpawner(rand) {
 }
 
 //Floor structures
+addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(20, 0, 2, 10, "structures/bentley_fairy_pool")));
+
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 81, "structures/captainq1")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == Util.Blocks.getState("minecraft:red_wool")) {
@@ -48,7 +50,9 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Feature
 		return Util.Blocks.buildBlockInfo(pos, state, Util.Blocks.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
 	}
 	return Util.Blocks.buildBlockInfo(pos, state, nbt);
-}))));
+}))
+.removeBlocks(Util.Blocks.getBlock("minecraft:air"))));
+
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 81, "structures/captainq2")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == Util.Blocks.getState("minecraft:red_wool")) {
@@ -62,7 +66,9 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Feature
 		return Util.Blocks.buildBlockInfo(pos, state, Util.Blocks.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
 	}
 	return Util.Blocks.buildBlockInfo(pos, state, nbt);
-}))));
+}))
+.removeBlocks(Util.Blocks.getBlock("minecraft:air"))));
+
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 81, "structures/captainq3")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == Util.Blocks.getState("minecraft:red_wool")) {
@@ -76,7 +82,9 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Feature
 		return Util.Blocks.buildBlockInfo(pos, state, Util.Blocks.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
 	}
 	return Util.Blocks.buildBlockInfo(pos, state, nbt);
-}))));
+}))
+.removeBlocks(Util.Blocks.getBlock("minecraft:air"))));
+
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 1, 80, "structures/bentley_tower")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == Util.Blocks.getState("minecraft:pink_wool")) {
@@ -103,7 +111,8 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Feature
 		return Util.Blocks.buildBlockInfo(pos, Util.Blocks.getState("minecraft:infested_stone_bricks"), null);
 	}
 	return Util.Blocks.buildBlockInfo(pos, state, nbt);
-}))));
+}))
+.removeBlocks(Util.Blocks.getBlock("minecraft:air"))));
 
 //Columns
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:column_formation", new SpeleothemConfig(COBBLESTONE, 10, 0, 2, 12, 4, 1)));
@@ -148,7 +157,9 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Feature
 		return Util.Blocks.buildBlockInfo(pos, state, Util.Blocks.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
 	}
 	return Util.Blocks.buildBlockInfo(pos, state, nbt);
-}))));
+}))
+.removeBlocks(Util.Blocks.getBlock("minecraft:air"))));
+
 addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Features.buildConfiguredFeature("topography:structure", new StructureFeatureConfig(10, 0, 4, 77, "structures/captainq_chain")
 .addProcessor(new BlockReplacement(function(original, pos, state, nbt, rand, entities, pos2) {
 	if (state == Util.Blocks.getState("minecraft:red_wool")) {
@@ -158,7 +169,8 @@ addRegionFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Util.Feature
 		return Util.Blocks.buildBlockInfo(pos, state, Util.Blocks.setChestLoot(state, nbt, rand, "minecraft:chests/simple_dungeon"));
 	}
 	return Util.Blocks.buildBlockInfo(pos, state, nbt);
-}))));
+}))
+.removeBlocks(Util.Blocks.getBlock("minecraft:air"))));
 
 
 //Stalagmites
