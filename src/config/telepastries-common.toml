@@ -3,6 +3,8 @@
 [General]
 	#Defines if the pastry teleportation point can be reset with a milk bucket [default: false]
 	resetPastry = false
+	#Disable placement of non-overworld cakes in dimensions that aren't the overworld (Meaning you can't go from the nether straight to the end) [default: true]
+	disableHopping = true
 	#Defines the item needed to reset the pastry teleportation point [default: minecraft:milk_bucket]
 	resetItems = ["minecraft:milk_bucket"]
 	#Defines if the pastry usage requires hunger, when set to true it ignores hunger [default: false]
