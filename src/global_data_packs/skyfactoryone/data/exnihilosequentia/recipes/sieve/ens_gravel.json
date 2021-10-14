@@ -1,15 +1,7 @@
 {
-  "type": "exnihilosequentia:sieve",
-  "rolls": [
-	{
-      "chance": 0.4,
-      "mesh": "string"
+  "conditions": [
+    {
+      "type": "forge:false"
     }
-  ],
-  "input": {
-    "item": "minecraft:coarse_dirt"
-  },
-  "result": {
-    "item": "minecraft:gravel"
-  }
+  ]
 }
