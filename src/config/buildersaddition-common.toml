@@ -16,7 +16,7 @@
 	#Range: 0 ~ 200
 	midi_note_limit = 75
 	#Enable server MIDI.
-	midi_enable = true
+	midi_enable = false
 	#Enable MIDI client sound.
 	midi_sound_enable = true
 	#Enable MIDI input.
