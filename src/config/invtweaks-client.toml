@@ -56,6 +56,10 @@
 		containerClass = "appeng.container.implementations.WirelessTermContainer"
 		sortRange = ""
 
+	[[sorting.containerOverrides]]
+		containerClass = "com.mrbysco.forcecraft.container.furnace.ForceFurnaceContainer"
+		sortRange = ""
+
 	#Categor(y/ies) for sorting
 	#
 	#name: the name of the category
