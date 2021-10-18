@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MGM",
+    "MMM"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:obsidian"
+    },
+    "M": {
+      "tag": "forge:glass"
+    }
+  },
+  "result": {
+    "item": "ironchest:diamond_to_crystal_chest_upgrade"
+  }
+}
