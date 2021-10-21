@@ -1,0 +1,17 @@
+{
+  "type": "thermal:bottler",
+  "ingredient": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "fluid": "tconstruct:liquid_soul",
+      "amount": 1000
+    }
+  ],
+  "result": [
+    {
+      "item": "mysticalagriculture:soulstone_cobble"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "minecraft:soul_sand"
+  },
+  "result": [
+    {
+      "fluid": "tconstruct:liquid_soul",
+      "amount": 1000
+    }
+  ],
+  "energy": 64000
+}
