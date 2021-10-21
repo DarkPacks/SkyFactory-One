@@ -300,6 +300,20 @@ registerPreset("void", "Void Worlds", "images/Basic_Tree", "Overworld/Nether/End
 				return Util.Features.Ores.buildVerticalOre(Util.Blocks.getState("thermal:nickel_ore"), Util.Features.Ores.BASE_STONE_OVERWORLD, 12, 10, 40, 50, true, 3);
 			});
 			
+			//Builders Plus	Basalt		
+			Util.Features.Ores.addOre(event, function() {
+			  return Util.Features.Ores.buildOreForOverworldStone(Util.Blocks.getState("buildersplus:basalt"), 55, 4, 75, true);
+			});
+			//Builders Plus Gabbro
+			Util.Features.Ores.addOre(event, function() {
+			  return Util.Features.Ores.buildOreForOverworldStone(Util.Blocks.getState("buildersplus:gabbro"), 55, 4, 75, true);
+			});
+			//Builders Plus Dacite
+			Util.Features.Ores.addOre(event, function() {
+			  return Util.Features.Ores.buildOreForOverworldStone(Util.Blocks.getState("buildersplus:dacite"), 55, 4, 75, true);
+			});
+
+
 			////
 			////
 			//Holes
@@ -312,6 +326,10 @@ registerPreset("void", "Void Worlds", "images/Basic_Tree", "Overworld/Nether/End
                 //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
                 return Util.Features.Ores.buildOre(Util.Blocks.getState("minecraft:air"), new BlockStateMatchRuleTest(Util.Blocks.getState("minecraft:cobblestone")), 20, 16, 78, 81, true, 2);
             });
+
+
+
+
 		}
 	}
 }).class)
