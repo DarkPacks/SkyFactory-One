@@ -122,6 +122,10 @@
 		#Note that they will not be centered vertically this way
 		supported_blocks = true
 
+	[blocks.bamboo_spikes]
+		#Populate the creative inventory with all tipped spikes variations
+		populate_creative_tab = true
+
 #Particle parameters
 [particles]
 
