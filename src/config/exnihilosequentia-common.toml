@@ -18,7 +18,7 @@
 	barrelNumberOfBuckets = 1
 	#The max temperature a barrel can accept; water is 300 (Default: 300)
 	#Range: > 0
-	woodBarrelMaxTemp = 300
+	woodBarrelMaxTemp = 350
 	#Should Ex Nihilo show any Patricle?
 	showParticles = true
 	#How much fluid rain will fill per iteration (Default: 2)
