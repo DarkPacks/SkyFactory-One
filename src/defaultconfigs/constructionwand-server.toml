@@ -66,5 +66,5 @@
 	TEWhitelist = false
 	#White/Blacklist for Tile Entities. Allow/Prevent blocks with TEs from being placed by wand.
 	#You can either add block ids like minecraft:chest or mod ids like minecraft
-	TEList = ["chiselsandbits", "cyclic:fluid_pipe", "cyclic:item_pipe", "cyclic:energy_pipe"]
+	TEList = ["chiselsandbits"]
 
