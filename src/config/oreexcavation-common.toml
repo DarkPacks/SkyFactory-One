@@ -16,7 +16,7 @@
 	"Invert Tool Blacklist" = false
 	#How far from the origin an excavation can travel
 	#Range: > 1
-	Range = 20
+	Range = 32
 	#Temporarily reduces excavation speed if TPS begins to slow down
 	"TPS Guard" = true
 	#Amount of exhaustion per block excavated
