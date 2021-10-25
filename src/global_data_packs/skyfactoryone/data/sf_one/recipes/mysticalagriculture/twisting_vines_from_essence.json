@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "e",
+    "n",
+    "n"
+  ],
+  "key": {
+    "e": {
+      "item": "mysticalagriculture:nether_essence"
+    },
+    "n": {
+      "item": "mysticalagriculture:nature_essence"
+    }
+  },
+  "result": {
+    "item": "minecraft:twisting_vines",
+    "count": 4
+  }
+}
