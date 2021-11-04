@@ -1,0 +1,45 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "type": "mysticalagriculture:crop_component",
+    "component": "seed",
+    "crop": "mysticalagriculture:saltpeter"
+  },
+  "ingredients": [
+    {
+      "item": "thermal:niter"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:saltpeter"
+    },
+    {
+      "item": "thermal:niter"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:saltpeter"
+    },
+    {
+      "item": "thermal:niter"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:saltpeter"
+    },
+    {
+      "item": "thermal:niter"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:saltpeter"
+    }
+  ],
+  "result": {
+    "item": "mysticalagriculture:saltpeter_seeds"
+  }
+}
