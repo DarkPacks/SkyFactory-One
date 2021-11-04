@@ -1,0 +1,9 @@
+{
+  "input": {
+    "item": "minecraft:netherrack"
+  },
+  "output": {
+    "item": "exnihilosequentia:crushed_netherrack"
+  },
+  "type": "industrialforegoing:crusher"
+}
