@@ -94,6 +94,10 @@
 		#Range: 0.0 ~ 10.0
 		intensity_increment = 0.3
 
+	[blocks.bamboo_spikes]
+		#Populate the creative inventory with all tipped spikes variations
+		populate_creative_tab = true
+
 	[blocks.wind_vane]
 		#This should be kept period_1/3 for a symmetric animation
 		#Range: 0.0 ~ 2000.0
@@ -121,10 +125,6 @@
 		#Translate down displayed 3d blocks so that they are touching the shelf.
 		#Note that they will not be centered vertically this way
 		supported_blocks = true
-
-	[blocks.bamboo_spikes]
-		#Populate the creative inventory with all tipped spikes variations
-		populate_creative_tab = true
 
 #Particle parameters
 [particles]
