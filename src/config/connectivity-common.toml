@@ -1,6 +1,6 @@
 
 ["Connectivity settings"]
-	#If enabled all messages exceeding normal limits will be printed to log. default:false
+	#If enabled all packets exceeding normal limits will be printed to log. default:false
 	debugPrintMessages = false
 	#Set the max login timeout in ticks. 20 ticks = 1 sec, default = 120 seconds
 	#Range: 600 ~ 20000
