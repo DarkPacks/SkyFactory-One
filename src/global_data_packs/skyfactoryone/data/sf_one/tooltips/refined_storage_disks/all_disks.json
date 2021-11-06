@@ -1,0 +1,44 @@
+{
+  "items": [
+    "refinedstorage:1k_storage_disk",
+    "refinedstorage:4k_storage_disk",
+    "refinedstorage:16k_storage_disk",
+    "refinedstorage:64k_storage_disk",
+    "refinedstorage:64k_fluid_storage_disk",
+    "refinedstorage:256k_fluid_storage_disk",
+    "refinedstorage:1024k_fluid_storage_disk",
+    "refinedstorage:4096k_fluid_storage_disk"
+  ],
+  "tooltips": [
+    {
+      "text": "While holding, Press ",
+      "color": "#ecbf00",
+      "extra": [
+        {
+          "keybind": "key.sneak",
+          "color": "#ecbf00"
+        },
+        {
+          "text": "-",
+          "color": "#ecbf00"
+        },
+        {
+          "keybind": "key.use",
+          "color": "#ecbf00"
+        },
+        {
+          "text": " ",
+          "color": "#ecbf00"
+        },
+        {
+          "text": "when empty to",
+          "color": "#ecbf00"
+        }
+      ]
+    },
+    {
+      "text": "separate the Housing and Storage Parts",
+      "color": "#ecbf00"
+    }
+  ]
+}
