@@ -1,0 +1,20 @@
+{
+  "type": "cyclic:solidifier",
+  "inputTop": {
+    "item": "buildersplus:burgundy_concrete_powder"
+  },
+  "inputMiddle": {
+    "item": "buildersplus:burgundy_concrete_powder"
+  },
+  "inputBottom": {
+    "item": "buildersplus:burgundy_concrete_powder"
+  },
+  "mix": {
+    "fluid": "minecraft:water",
+    "count": 10
+  },
+  "result": {
+    "item": "buildersplus:burgundy_concrete",
+	  "count": 3
+  }
+}

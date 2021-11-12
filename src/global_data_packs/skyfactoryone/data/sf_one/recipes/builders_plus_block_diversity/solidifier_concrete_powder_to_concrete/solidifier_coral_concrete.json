@@ -1,0 +1,20 @@
+{
+  "type": "cyclic:solidifier",
+  "inputTop": {
+    "item": "buildersplus:coral_concrete_powder"
+  },
+  "inputMiddle": {
+    "item": "buildersplus:coral_concrete_powder"
+  },
+  "inputBottom": {
+    "item": "buildersplus:coral_concrete_powder"
+  },
+  "mix": {
+    "fluid": "minecraft:water",
+    "count": 10
+  },
+  "result": {
+    "item": "buildersplus:coral_concrete",
+	  "count": 3
+  }
+}

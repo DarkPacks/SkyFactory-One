@@ -1,0 +1,20 @@
+{
+  "type": "cyclic:solidifier",
+  "inputTop": {
+    "item": "buildersplus:forest_green_concrete_powder"
+  },
+  "inputMiddle": {
+    "item": "buildersplus:forest_green_concrete_powder"
+  },
+  "inputBottom": {
+    "item": "buildersplus:forest_green_concrete_powder"
+  },
+  "mix": {
+    "fluid": "minecraft:water",
+    "count": 10
+  },
+  "result": {
+    "item": "buildersplus:forest_green_concrete",
+	  "count": 3
+  }
+}

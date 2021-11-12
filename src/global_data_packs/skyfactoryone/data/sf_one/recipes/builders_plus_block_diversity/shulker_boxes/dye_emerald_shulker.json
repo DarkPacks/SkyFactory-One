@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:shulker_box"
+    },
+    {
+      "item": "buildersplus:emerald_dye"
+    }
+  ],
+  "result": {
+    "item": "buildersplus:emerald_shulker",
+    "count": 1
+  }
+}

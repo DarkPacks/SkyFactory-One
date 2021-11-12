@@ -1,0 +1,23 @@
+{
+  "type": "inspirations:cauldron",
+  "input": {
+    "item": {
+      "item": "buildersplus:teal_concrete_powder"
+    },
+    "contents": {
+      "type": "inspirations:fluid",
+      "name": "minecraft:water"
+    },
+    "level": {
+      "min": 4
+    }
+  },
+  "output": {
+    "item": {
+      "item": "buildersplus:teal_concrete"
+    },
+    "level": {
+      "add": -4
+    }
+  }
+}
