@@ -151,7 +151,7 @@ registerPreset("void", "Void Worlds", "images/Basic_Tree", "Overworld/Nether/End
 			event.getSpawns().func_242575_a(EntityClassification.MONSTER, new Spawners(ForgeRegistries.ENTITIES.getValue(new ResourceLocation("tconstruct:earth_slime")), 10, 1, 3));
 			event.getSpawns().func_242575_a(EntityClassification.MONSTER, new Spawners(ForgeRegistries.ENTITIES.getValue(new ResourceLocation("tconstruct:terracube")), 3, 1, 3));
 			event.getSpawns().func_242575_a(EntityClassification.MONSTER, new Spawners(ForgeRegistries.ENTITIES.getValue(new ResourceLocation("tconstruct:sky_slime")), 3, 1, 3));
-			
+			event.getSpawns().func_242575_a(EntityClassification.MONSTER, new Spawners(ForgeRegistries.ENTITIES.getValue(new ResourceLocation("tconstruct:ender_slime")), 3, 1, 3));
 
 			//Forcecraft Entities
 			event.getSpawns().func_242575_a(EntityClassification.MONSTER, new Spawners(ForgeRegistries.ENTITIES.getValue(new ResourceLocation("forcecraft:red_chu_chu")), 40, 1, 3));
