@@ -45,6 +45,14 @@
 		#Amount of Power Consumed per Tick - Default: [400FE]
 		powerPerOperation = 1000
 
+	[MachineResourceProductionConfig.HydroponicBedConfig]
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Operation - Default: [1000FE]
+		powerPerOperation = 1000
+
 	[MachineResourceProductionConfig.FluidCollectorConfig]
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
