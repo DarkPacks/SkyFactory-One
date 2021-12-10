@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "exnihilosequentia:chunk_copper"
+  },
+  "result": "thermal:copper_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}
