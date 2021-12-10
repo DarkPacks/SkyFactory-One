@@ -1,5 +1,32 @@
 # SkyFactory One Changelog
 
+## 1.0.4
+
+### 1.0.4 Features
+
+- Increase DrawerFPS rendering distance
+
+### 1.0.4 Bug Fixes
+
+- Fixed Blast Furnace outputting the wrong ingots
+
+### Mods Updated
+
+- Ex Compressum (4.0.4 - 4.0.5)
+  - Fixes bug with spawned Turtles not laying eggs when using bait
+- CC Tweaked (1.98.2 - 1.99.0)
+  - Fixes dupe bug with turtles
+- CodeChickenLib (4.0.4.435 - 4.0.5.438)
+  - Fixes a Tconstruct related crash
+- Framed Blocks (2.11.1 -hotfix - 2.11.2)
+  - Fixes Framed Chest not dropping contents when broken
+- Global Data & Resource Packs (1.7.4 - 1.10.2)
+- Hats (10.3.1 - 10.3.3)
+- iChunUtil (10.4.1 - 10.5.1)
+- MoreOverlays (1.18.5 - 1.18.17)
+- Pipez (1.2.13 - 1.2.14)
+- ToastControl (4.3.1 - 4.4.0)
+
 ## 1.0.3
 
 ### 1.0.3 Bug Fixes
