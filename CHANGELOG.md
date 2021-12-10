@@ -1,5 +1,71 @@
 # SkyFactory One Changelog
 
+## 1.0.3
+
+### 1.0.3 Bug Fixes
+
+- Added a recipe for Mystical Agriculture Saltpeter Seeds (#98)
+- Removed a duplicate energy generation recipe in JEI for the Thermal Dynamo. The extra recipe was not able to be used and was leftover from testing (#108)
+- Added Soul Recipes for the Blizz, Blitz, and Basalz in Mystical Agriculture (#116)
+- Added a recipe for Jade Wool (#122)
+- Added a way to obtain Greenheart Saplings (#113)
+- Bamboo is now compostable in Barrels (#124)
+- The Industrial Foregoing Stoneworks factory can now create Crushed Netherrack (#125)
+- Added the "Mob Head" tooltip to the remaining Tinkers' Construct mob heads
+- Added tooltips for each Refined Storage drive to alert players on how to separate Storage Parts and Housing
+- Added the Wither Rose to the Coarse Dirt sieving table
+- Sweet Berries are no longer able to be twerked (#139)
+- Ender Slimes are now unable to teleport when using an Ender Inhibitor. This also cancels a number of other teleport events that should have been stopped as well
+- Added a number of other heat sources to the Crucible
+
+### 1.0.3 Mod Updates
+
+- Forge (36.2.8 - 36.2.9)
+- Mob Grinder Utils (0.4.29 - 0.4.30)
+- Pipez (1.2.11 - 1.2.13) - Fixed filter NBT data not applied correctly (#133)
+- Cyclic (1.5.7 - 1.5.11)
+  - Reverts GPS card change
+  - Fixes cable disconnect visual issue
+  - Fixes mob head drops so they now work with existing recipes (#126)
+  - The solidifier slime recipes should not be mixed up any longer (#110)
+- Connectivity (2.3 - 2.4)
+- JEI (7.7.1.129 - 7.7.1.137)
+- Titanium (3.2.8.5-20 - 3.2.8.7-22)
+- Cucumber (4.1.10 - 4.1.12)
+- Mystical Agriculture (4.2.3 - 4.2.5)
+- Pickle Tweaks (5.2.5 - 5.2.6)
+- ValkyrieLib (3.0.9.2 - 3.0.9.5)
+  - Fixes an infinite power glitch when connected to certain energy cells (#97)
+- ForceCraft (1.0.7 - 1.0.8.3)
+  - Vanilla shears should not drop Force Planks when shearing Force Leaves any longer
+- Measurements (1.1 - 1.2)
+  - Fixed a bug on servers where the measurements did not show up unless every player held a tape measure
+- Tesseract (1.0.23 - 1.0.24)
+- Supplementaries (0.17.6 - 0.17.9)
+- Entangled (1.3.6 - 1.3.9)
+  - Adds the ability to transmit redstone with Entangled Blocks
+- Ex Nihilo Sequentia (1.16-20211004011236 - 1.16-20211123-032540)
+  - Fixes block textures showing through the side of a sieve
+  - Crucibles are now 10x more performant
+- Tinkers' Construct (3.1.3.271 - 3.1.3.292)
+- Collective (2.64 - 2.65)
+- Supermartijn642Corelib (1.0.12 - 1.0.14a)
+- Selene (1.8.1 - 1.9.0)
+- Refined Storage (1.9.15 - 1.9.16)
+- Refined Storage Addons (0.7.3 - 0.7.4)
+- Industrial Foregoing (3.2.14.6-14 - 3.2.14.7-16)
+- Item Collectors (1.1.2 - 1.1.3)
+- CodeChickenLib (4.0.3.434 - 4.0.4.435)
+- Cobble For Days (1.3.5 - 1.3.7)
+- Apotheosis (4.8.2 - 4.8.3)
+- FastFurnace (4.4.0 - 4.5.0)
+- FastWorkbench (4.5.1 - 4.6.0)
+- Placebo (4.6.0 - 4.6.1)
+
+### 1.0.3 Mod Removals
+
+- World Stripper (oops!)
+
 ## 1.0.2
 
 - Disabled Builder's Additions Midi feature due to crash issues on Linux (#47)
