@@ -1,5 +1,39 @@
 # SkyFactory One Changelog
 
+## 1.0.5
+
+### 1.0.5 Bug Fixes
+
+- Added back the Blaze Rod to Blaze Powder recipe
+
+### 1.0.5 Mods Updates
+
+- Forge (36.2.20 - 36.2.28)
+- CC: Tweaked (1.99.0 - 1.100.2)
+- Chunk Loaders (1.1.7 - 1.1.10)
+- CodeChicken Lib (4.0.5.438 - 4.0.6.443)
+- COFH Core (1.3.1 - 1.4.2.9)
+- Entangled (1.3.9 - 1.3.10)
+- Fast Workbench (4.6.0 - 4.6.1)
+- Find Me (2.2.0.0 - 2.2.1.0)
+- ForceCraft (1.0.8.3 - 1.0.8.4)
+- Item Collectors (1.1.3 - 1.1.4)
+- JEI (7.7.1.137 - 7.7.1.145)
+- JourneyMap (5.7.3 - 5.8.0beta15)
+- MobGrindingUtils (0.4.30 - 0.4.32)
+- More Overlays (1.18.17 - 1.18.18)
+- Pipez (1.2.14 - 1.2.15)
+- Refined Pipes (0.5 - 0.5.2)
+- Refined Storage (1.9.16 - 1.9.17)
+- SuperMartijn642CoreLib (1.0.14a - 1.0.16)
+- Storage Drawers (8.3.0 - 8.5.1)
+- Supplementaries (0.17.9 - 0.18.2)
+- Tesseract (1.0.24 - 1.0.25)
+- Thermal Cultivation (1.3.0 - 1.4.1.3)
+- Thermal Expansion (1.3.0 - 1.4.2.4)
+- Thermal Foundation (1.3.2 - 1.4.3.10)
+- Thermal Innovation (1.3.0 - 1.4.1.3)
+
 ## 1.0.4
 
 ### 1.0.4 Features
@@ -10,7 +44,7 @@
 
 - Fixed Blast Furnace outputting the wrong ingots
 
-### Mods Updated
+### 1.0.4 Mods Updates
 
 - Ex Compressum (4.0.4 - 4.0.5)
   - Fixes bug with spawned Turtles not laying eggs when using bait
