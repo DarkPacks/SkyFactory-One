@@ -145,6 +145,8 @@
 	#The speed at which the auto compressor will compress stuff.
 	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
 	autoCompressorSpeed = 0.10000000149011612
+	#Set this to true if you want to allow right-clicking Auto Sieves with Food to give them speed boosts
+	allowAutoSieveFoodSpeedBoosts = true
 	#The chance for the upgrade hammers in an auto hammer to lose durability (per operation)
 	#Range: 0.0 ~ 1.0
 	autoHammerDecay = 0.5

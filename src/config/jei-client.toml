@@ -5,6 +5,8 @@
 	GiveMode = "INVENTORY"
 	#Debug mode enabled
 	DebugMode = false
+	#Enable cheating items into the hotbar by using the shift+number keys.
+	CheatToHotbarUsingHotkeysEnabled = false
 	#Display search bar in the center
 	CenterSearch = false
 	#Max. recipe gui height
